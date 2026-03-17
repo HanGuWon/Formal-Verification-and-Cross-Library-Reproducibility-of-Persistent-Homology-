@@ -1,0 +1,139 @@
+{
+  "benchmark_id": "tfim_obc_n4_g0p50__floating",
+  "case_id": "tfim_obc_n4_g0p50__floating__p2__h1__full",
+  "coeff": 2,
+  "discrepancy": {
+    "by_dimension": {
+      "0": {
+        "pairwise": {
+          "gudhi__dionysus": {
+            "bottleneck_distance": 0.0,
+            "bottleneck_distance_hex": "0x0.0p+0",
+            "exact_match": false,
+            "left_signature": [
+              "0x0.0p+0|0x1.3a0d469eb0d96p+0",
+              "0x0.0p+0|0x1.3e26e9b71cfadp+0",
+              "0x0.0p+0|0x1.3e26e9b71cfb8p+0",
+              "0x0.0p+0|inf"
+            ],
+            "right_signature": [
+              "0x0.0p+0|0x1.3a0d460000000p+0",
+              "0x0.0p+0|0x1.3e26ea0000000p+0",
+              "0x0.0p+0|0x1.3e26ea0000000p+0",
+              "0x0.0p+0|inf"
+            ],
+            "wasserstein_distance_q2": 0.0,
+            "wasserstein_distance_q2_hex": "0x0.0p+0"
+          },
+          "gudhi__ripser": {
+            "bottleneck_distance": 0.0,
+            "bottleneck_distance_hex": "0x0.0p+0",
+            "exact_match": false,
+            "left_signature": [
+              "0x0.0p+0|0x1.3a0d469eb0d96p+0",
+              "0x0.0p+0|0x1.3e26e9b71cfadp+0",
+              "0x0.0p+0|0x1.3e26e9b71cfb8p+0",
+              "0x0.0p+0|inf"
+            ],
+            "right_signature": [
+              "0x0.0p+0|0x1.3a0d460000000p+0",
+              "0x0.0p+0|0x1.3e26ea0000000p+0",
+              "0x0.0p+0|0x1.3e26ea0000000p+0",
+              "0x0.0p+0|inf"
+            ],
+            "wasserstein_distance_q2": 0.0,
+            "wasserstein_distance_q2_hex": "0x0.0p+0"
+          },
+          "ripser__dionysus": {
+            "exact_match": true,
+            "left_signature": [
+              "0x0.0p+0|0x1.3a0d460000000p+0",
+              "0x0.0p+0|0x1.3e26ea0000000p+0",
+              "0x0.0p+0|0x1.3e26ea0000000p+0",
+              "0x0.0p+0|inf"
+            ],
+            "right_signature": [
+              "0x0.0p+0|0x1.3a0d460000000p+0",
+              "0x0.0p+0|0x1.3e26ea0000000p+0",
+              "0x0.0p+0|0x1.3e26ea0000000p+0",
+              "0x0.0p+0|inf"
+            ]
+          }
+        },
+        "signatures": {
+          "dionysus": [
+            "0x0.0p+0|0x1.3a0d460000000p+0",
+            "0x0.0p+0|0x1.3e26ea0000000p+0",
+            "0x0.0p+0|0x1.3e26ea0000000p+0",
+            "0x0.0p+0|inf"
+          ],
+          "gudhi": [
+            "0x0.0p+0|0x1.3a0d469eb0d96p+0",
+            "0x0.0p+0|0x1.3e26e9b71cfadp+0",
+            "0x0.0p+0|0x1.3e26e9b71cfb8p+0",
+            "0x0.0p+0|inf"
+          ],
+          "ripser": [
+            "0x0.0p+0|0x1.3a0d460000000p+0",
+            "0x0.0p+0|0x1.3e26ea0000000p+0",
+            "0x0.0p+0|0x1.3e26ea0000000p+0",
+            "0x0.0p+0|inf"
+          ]
+        }
+      },
+      "1": {
+        "pairwise": {
+          "gudhi__dionysus": {
+            "bottleneck_distance": 0.0,
+            "bottleneck_distance_hex": "0x0.0p+0",
+            "exact_match": false,
+            "left_signature": [
+              "0x1.80cda88910f10p+0|0x1.80cda88910f10p+0",
+              "0x1.80cda88910f17p+0|0x1.80cda88910f17p+0",
+              "0x1.c269164655d7ap+0|0x1.c269164655d7ap+0"
+            ],
+            "right_signature": [],
+            "wasserstein_distance_q2": 0.0,
+            "wasserstein_distance_q2_hex": "0x0.0p+0"
+          },
+          "gudhi__ripser": {
+            "bottleneck_distance": 0.0,
+            "bottleneck_distance_hex": "0x0.0p+0",
+            "exact_match": false,
+            "left_signature": [
+              "0x1.80cda88910f10p+0|0x1.80cda88910f10p+0",
+              "0x1.80cda88910f17p+0|0x1.80cda88910f17p+0",
+              "0x1.c269164655d7ap+0|0x1.c269164655d7ap+0"
+            ],
+            "right_signature": [],
+            "wasserstein_distance_q2": 0.0,
+            "wasserstein_distance_q2_hex": "0x0.0p+0"
+          },
+          "ripser__dionysus": {
+            "exact_match": true,
+            "left_signature": [],
+            "right_signature": []
+          }
+        },
+        "signatures": {
+          "dionysus": [],
+          "gudhi": [
+            "0x1.80cda88910f10p+0|0x1.80cda88910f10p+0",
+            "0x1.80cda88910f17p+0|0x1.80cda88910f17p+0",
+            "0x1.c269164655d7ap+0|0x1.c269164655d7ap+0"
+          ],
+          "ripser": []
+        }
+      }
+    },
+    "has_discrepancy": true
+  },
+  "distance_matrix_hash": "38ff65464b09dd1fb2b06956acc00e3de7793446c02e28a0a709a3d9c6ac2b74",
+  "family": "A",
+  "matrix_size": 4,
+  "maxdim": 1,
+  "mismatch_dimensions": "0,1",
+  "mode": "floating",
+  "point_cloud_hash": null,
+  "threshold_label": "full"
+}

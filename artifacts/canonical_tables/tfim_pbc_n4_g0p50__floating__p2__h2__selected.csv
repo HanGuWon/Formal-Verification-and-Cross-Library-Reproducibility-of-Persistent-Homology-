@@ -1,0 +1,15 @@
+case_id,benchmark_id,family,mode,coeff,maxdim,threshold_label,library,dimension,interval_index,birth,death,birth_hex,death_hex
+tfim_pbc_n4_g0p50__floating__p2__h2__selected,tfim_pbc_n4_g0p50__floating,A,floating,2,2,selected,gudhi,0,0,0.0,1.119133843184315,0x0.0p+0,0x1.1e7f8e3852cc0p+0
+tfim_pbc_n4_g0p50__floating__p2__h2__selected,tfim_pbc_n4_g0p50__floating,A,floating,2,2,selected,gudhi,0,1,0.0,1.1191338431843152,0x0.0p+0,0x1.1e7f8e3852cc1p+0
+tfim_pbc_n4_g0p50__floating__p2__h2__selected,tfim_pbc_n4_g0p50__floating,A,floating,2,2,selected,gudhi,0,2,0.0,1.119133843184316,0x0.0p+0,0x1.1e7f8e3852cc5p+0
+tfim_pbc_n4_g0p50__floating__p2__h2__selected,tfim_pbc_n4_g0p50__floating,A,floating,2,2,selected,gudhi,0,3,0.0,inf,0x0.0p+0,inf
+tfim_pbc_n4_g0p50__floating__p2__h2__selected,tfim_pbc_n4_g0p50__floating,A,floating,2,2,selected,ripser,0,0,0.0,1.1191338300704956,0x0.0p+0,0x1.1e7f8e0000000p+0
+tfim_pbc_n4_g0p50__floating__p2__h2__selected,tfim_pbc_n4_g0p50__floating,A,floating,2,2,selected,ripser,0,1,0.0,1.1191338300704956,0x0.0p+0,0x1.1e7f8e0000000p+0
+tfim_pbc_n4_g0p50__floating__p2__h2__selected,tfim_pbc_n4_g0p50__floating,A,floating,2,2,selected,ripser,0,2,0.0,1.1191338300704956,0x0.0p+0,0x1.1e7f8e0000000p+0
+tfim_pbc_n4_g0p50__floating__p2__h2__selected,tfim_pbc_n4_g0p50__floating,A,floating,2,2,selected,ripser,0,3,0.0,inf,0x0.0p+0,inf
+tfim_pbc_n4_g0p50__floating__p2__h2__selected,tfim_pbc_n4_g0p50__floating,A,floating,2,2,selected,ripser,1,0,1.1191338300704956,inf,0x1.1e7f8e0000000p+0,inf
+tfim_pbc_n4_g0p50__floating__p2__h2__selected,tfim_pbc_n4_g0p50__floating,A,floating,2,2,selected,dionysus,0,0,0.0,1.1191338300704956,0x0.0p+0,0x1.1e7f8e0000000p+0
+tfim_pbc_n4_g0p50__floating__p2__h2__selected,tfim_pbc_n4_g0p50__floating,A,floating,2,2,selected,dionysus,0,1,0.0,1.1191338300704956,0x0.0p+0,0x1.1e7f8e0000000p+0
+tfim_pbc_n4_g0p50__floating__p2__h2__selected,tfim_pbc_n4_g0p50__floating,A,floating,2,2,selected,dionysus,0,2,0.0,1.1191338300704956,0x0.0p+0,0x1.1e7f8e0000000p+0
+tfim_pbc_n4_g0p50__floating__p2__h2__selected,tfim_pbc_n4_g0p50__floating,A,floating,2,2,selected,dionysus,0,3,0.0,inf,0x0.0p+0,inf
+tfim_pbc_n4_g0p50__floating__p2__h2__selected,tfim_pbc_n4_g0p50__floating,A,floating,2,2,selected,dionysus,1,0,1.1191338300704956,inf,0x1.1e7f8e0000000p+0,inf

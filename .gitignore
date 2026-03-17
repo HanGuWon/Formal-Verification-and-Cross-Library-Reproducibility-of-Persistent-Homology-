@@ -1,0 +1,7 @@
+.venv/
+.venv311/
+.venv-wsl/
+build_support/
+tools/
+__pycache__/
+*.pyc

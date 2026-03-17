@@ -1,0 +1,14 @@
+{
+  "gudhi__dionysus": {
+    "different": 156,
+    "exact": 36
+  },
+  "gudhi__ripser": {
+    "different": 156,
+    "exact": 36
+  },
+  "ripser__dionysus": {
+    "different": 0,
+    "exact": 192
+  }
+}

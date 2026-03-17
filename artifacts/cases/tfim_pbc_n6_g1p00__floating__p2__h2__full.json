@@ -1,0 +1,1603 @@
+{
+  "benchmark": {
+    "benchmark_id": "tfim_pbc_n6_g1p00__floating",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      6,
+      6
+    ],
+    "family": "A",
+    "full_filtration_feasible": true,
+    "full_threshold": 2.7097514512720444,
+    "has_point_cloud": false,
+    "label": "TFIM PBC N=6, g=1.00",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "benchmark_id": "tfim_pbc_n6_g1p00",
+      "boundary_condition": "pbc",
+      "distance_matrix_hash": "02dc5c8900dfce4c644db7737f84ab021e0abca9b3bac8e95776e378a83cd794",
+      "exchange_coupling": 1.0,
+      "family": "entanglement_distance_matrix",
+      "generator": "tfim_inverse_mutual_information",
+      "has_point_cloud": false,
+      "mode": "floating",
+      "mutual_information_floor": 1e-12,
+      "n_sites": 6,
+      "point_cloud_hash": null,
+      "quantization_step": null,
+      "state_solver": "dense_exact_diagonalization",
+      "threshold_parameter": 0.4,
+      "threshold_strategy": "matrix_quantile",
+      "transverse_field": 1.0
+    },
+    "mode": "floating",
+    "notes": [
+      "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+      "Mutual information uses base-2 von Neumann entropy with a small numerical floor."
+    ],
+    "point_cloud_shape": null,
+    "selected_threshold": 2.497817855094092
+  },
+  "case_parameters": {
+    "case_id": "tfim_pbc_n6_g1p00__floating__p2__h2__full",
+    "coeff": 2,
+    "maxdim": 2,
+    "threshold_label": "full",
+    "threshold_value": 2.7097514512720444
+  },
+  "inputs": {
+    "distance_matrix_hash": "02dc5c8900dfce4c644db7737f84ab021e0abca9b3bac8e95776e378a83cd794",
+    "distance_matrix_shape": [
+      6,
+      6
+    ],
+    "point_cloud_hash": null,
+    "point_cloud_shape": null
+  },
+  "results": {
+    "agreement": {
+      "by_dimension": {
+        "0": {
+          "exact_all_libraries": false,
+          "pairwise": {
+            "gudhi__dionysus": {
+              "exact_match": false,
+              "left_count": 6,
+              "right_count": 6
+            },
+            "gudhi__ripser": {
+              "exact_match": false,
+              "left_count": 6,
+              "right_count": 6
+            },
+            "ripser__dionysus": {
+              "exact_match": true,
+              "left_count": 6,
+              "right_count": 6
+            }
+          },
+          "signatures": {
+            "dionysus": [
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|inf"
+            ],
+            "gudhi": [
+              "0x0.0p+0|0x1.db68f71fb98cfp+0",
+              "0x0.0p+0|0x1.db68f71fb98cfp+0",
+              "0x0.0p+0|0x1.db68f71fb98d2p+0",
+              "0x0.0p+0|0x1.db68f71fb98d6p+0",
+              "0x0.0p+0|0x1.db68f71fb98d9p+0",
+              "0x0.0p+0|inf"
+            ],
+            "ripser": [
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|inf"
+            ]
+          }
+        },
+        "1": {
+          "exact_all_libraries": false,
+          "pairwise": {
+            "gudhi__dionysus": {
+              "exact_match": false,
+              "left_count": 10,
+              "right_count": 1
+            },
+            "gudhi__ripser": {
+              "exact_match": false,
+              "left_count": 10,
+              "right_count": 1
+            },
+            "ripser__dionysus": {
+              "exact_match": true,
+              "left_count": 1,
+              "right_count": 1
+            }
+          },
+          "signatures": {
+            "dionysus": [
+              "0x1.db68f80000000p+0|0x1.3fb87e0000000p+1"
+            ],
+            "gudhi": [
+              "0x1.3fb87ed77f3b2p+1|0x1.3fb87ed77f3b2p+1",
+              "0x1.3fb87ed77f3b4p+1|0x1.3fb87ed77f3b4p+1",
+              "0x1.3fb87ed77f3b4p+1|0x1.3fb87ed77f3b4p+1",
+              "0x1.3fb87ed77f3b4p+1|0x1.3fb87ed77f3b4p+1",
+              "0x1.3fb87ed77f3b6p+1|0x1.3fb87ed77f3b6p+1",
+              "0x1.3fb87ed77f3b7p+1|0x1.3fb87ed77f3b7p+1",
+              "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+              "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+              "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+              "0x1.db68f71fb98dep+0|0x1.3fb87ed77f3b6p+1"
+            ],
+            "ripser": [
+              "0x1.db68f80000000p+0|0x1.3fb87e0000000p+1"
+            ]
+          }
+        },
+        "2": {
+          "exact_all_libraries": false,
+          "pairwise": {
+            "gudhi__dionysus": {
+              "exact_match": false,
+              "left_count": 10,
+              "right_count": 1
+            },
+            "gudhi__ripser": {
+              "exact_match": false,
+              "left_count": 10,
+              "right_count": 1
+            },
+            "ripser__dionysus": {
+              "exact_match": true,
+              "left_count": 1,
+              "right_count": 1
+            }
+          },
+          "signatures": {
+            "dionysus": [
+              "0x1.3fb87e0000000p+1|0x1.5ad9220000000p+1"
+            ],
+            "gudhi": [
+              "0x1.3fb87ed77f3b7p+1|0x1.5ad922b3c0400p+1",
+              "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+              "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+              "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+              "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+              "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+              "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+              "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+              "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+              "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1"
+            ],
+            "ripser": [
+              "0x1.3fb87e0000000p+1|0x1.5ad9220000000p+1"
+            ]
+          }
+        }
+      },
+      "exact_all_libraries": false
+    },
+    "canonicalized": {
+      "dionysus": {
+        "0": {
+          "count": 6,
+          "exact_signature": [
+            "0x0.0p+0|0x1.db68f80000000p+0",
+            "0x0.0p+0|0x1.db68f80000000p+0",
+            "0x0.0p+0|0x1.db68f80000000p+0",
+            "0x0.0p+0|0x1.db68f80000000p+0",
+            "0x0.0p+0|0x1.db68f80000000p+0",
+            "0x0.0p+0|inf"
+          ],
+          "intervals": [
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": "inf",
+              "death_hex": "inf"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              0.0,
+              1.8570704460144043
+            ],
+            [
+              0.0,
+              1.8570704460144043
+            ],
+            [
+              0.0,
+              1.8570704460144043
+            ],
+            [
+              0.0,
+              1.8570704460144043
+            ],
+            [
+              0.0,
+              1.8570704460144043
+            ],
+            [
+              0.0,
+              "inf"
+            ]
+          ]
+        },
+        "1": {
+          "count": 1,
+          "exact_signature": [
+            "0x1.db68f80000000p+0|0x1.3fb87e0000000p+1"
+          ],
+          "intervals": [
+            {
+              "birth": 1.8570704460144043,
+              "birth_hex": "0x1.db68f80000000p+0",
+              "death": 2.4978177547454834,
+              "death_hex": "0x1.3fb87e0000000p+1"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              1.8570704460144043,
+              2.4978177547454834
+            ]
+          ]
+        },
+        "2": {
+          "count": 1,
+          "exact_signature": [
+            "0x1.3fb87e0000000p+1|0x1.5ad9220000000p+1"
+          ],
+          "intervals": [
+            {
+              "birth": 2.4978177547454834,
+              "birth_hex": "0x1.3fb87e0000000p+1",
+              "death": 2.7097513675689697,
+              "death_hex": "0x1.5ad9220000000p+1"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              2.4978177547454834,
+              2.7097513675689697
+            ]
+          ]
+        }
+      },
+      "gudhi": {
+        "0": {
+          "count": 6,
+          "exact_signature": [
+            "0x0.0p+0|0x1.db68f71fb98cfp+0",
+            "0x0.0p+0|0x1.db68f71fb98cfp+0",
+            "0x0.0p+0|0x1.db68f71fb98d2p+0",
+            "0x0.0p+0|0x1.db68f71fb98d6p+0",
+            "0x0.0p+0|0x1.db68f71fb98d9p+0",
+            "0x0.0p+0|inf"
+          ],
+          "intervals": [
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570703937962667,
+              "death_hex": "0x1.db68f71fb98cfp+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570703937962667,
+              "death_hex": "0x1.db68f71fb98cfp+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570703937962674,
+              "death_hex": "0x1.db68f71fb98d2p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570703937962683,
+              "death_hex": "0x1.db68f71fb98d6p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.857070393796269,
+              "death_hex": "0x1.db68f71fb98d9p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": "inf",
+              "death_hex": "inf"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              0.0,
+              1.8570703937962667
+            ],
+            [
+              0.0,
+              1.8570703937962667
+            ],
+            [
+              0.0,
+              1.8570703937962674
+            ],
+            [
+              0.0,
+              1.8570703937962683
+            ],
+            [
+              0.0,
+              1.857070393796269
+            ],
+            [
+              0.0,
+              "inf"
+            ]
+          ]
+        },
+        "1": {
+          "count": 10,
+          "exact_signature": [
+            "0x1.3fb87ed77f3b2p+1|0x1.3fb87ed77f3b2p+1",
+            "0x1.3fb87ed77f3b4p+1|0x1.3fb87ed77f3b4p+1",
+            "0x1.3fb87ed77f3b4p+1|0x1.3fb87ed77f3b4p+1",
+            "0x1.3fb87ed77f3b4p+1|0x1.3fb87ed77f3b4p+1",
+            "0x1.3fb87ed77f3b6p+1|0x1.3fb87ed77f3b6p+1",
+            "0x1.3fb87ed77f3b7p+1|0x1.3fb87ed77f3b7p+1",
+            "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+            "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+            "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+            "0x1.db68f71fb98dep+0|0x1.3fb87ed77f3b6p+1"
+          ],
+          "intervals": [
+            {
+              "birth": 2.497817855094092,
+              "birth_hex": "0x1.3fb87ed77f3b2p+1",
+              "death": 2.497817855094092,
+              "death_hex": "0x1.3fb87ed77f3b2p+1"
+            },
+            {
+              "birth": 2.497817855094093,
+              "birth_hex": "0x1.3fb87ed77f3b4p+1",
+              "death": 2.497817855094093,
+              "death_hex": "0x1.3fb87ed77f3b4p+1"
+            },
+            {
+              "birth": 2.497817855094093,
+              "birth_hex": "0x1.3fb87ed77f3b4p+1",
+              "death": 2.497817855094093,
+              "death_hex": "0x1.3fb87ed77f3b4p+1"
+            },
+            {
+              "birth": 2.497817855094093,
+              "birth_hex": "0x1.3fb87ed77f3b4p+1",
+              "death": 2.497817855094093,
+              "death_hex": "0x1.3fb87ed77f3b4p+1"
+            },
+            {
+              "birth": 2.4978178550940937,
+              "birth_hex": "0x1.3fb87ed77f3b6p+1",
+              "death": 2.4978178550940937,
+              "death_hex": "0x1.3fb87ed77f3b6p+1"
+            },
+            {
+              "birth": 2.497817855094094,
+              "birth_hex": "0x1.3fb87ed77f3b7p+1",
+              "death": 2.497817855094094,
+              "death_hex": "0x1.3fb87ed77f3b7p+1"
+            },
+            {
+              "birth": 2.709751451272041,
+              "birth_hex": "0x1.5ad922b3c0400p+1",
+              "death": 2.709751451272041,
+              "death_hex": "0x1.5ad922b3c0400p+1"
+            },
+            {
+              "birth": 2.7097514512720444,
+              "birth_hex": "0x1.5ad922b3c0408p+1",
+              "death": 2.7097514512720444,
+              "death_hex": "0x1.5ad922b3c0408p+1"
+            },
+            {
+              "birth": 2.7097514512720444,
+              "birth_hex": "0x1.5ad922b3c0408p+1",
+              "death": 2.7097514512720444,
+              "death_hex": "0x1.5ad922b3c0408p+1"
+            },
+            {
+              "birth": 1.85707039379627,
+              "birth_hex": "0x1.db68f71fb98dep+0",
+              "death": 2.4978178550940937,
+              "death_hex": "0x1.3fb87ed77f3b6p+1"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              2.497817855094092,
+              2.497817855094092
+            ],
+            [
+              2.497817855094093,
+              2.497817855094093
+            ],
+            [
+              2.497817855094093,
+              2.497817855094093
+            ],
+            [
+              2.497817855094093,
+              2.497817855094093
+            ],
+            [
+              2.4978178550940937,
+              2.4978178550940937
+            ],
+            [
+              2.497817855094094,
+              2.497817855094094
+            ],
+            [
+              2.709751451272041,
+              2.709751451272041
+            ],
+            [
+              2.7097514512720444,
+              2.7097514512720444
+            ],
+            [
+              2.7097514512720444,
+              2.7097514512720444
+            ],
+            [
+              1.85707039379627,
+              2.4978178550940937
+            ]
+          ]
+        },
+        "2": {
+          "count": 10,
+          "exact_signature": [
+            "0x1.3fb87ed77f3b7p+1|0x1.5ad922b3c0400p+1",
+            "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+            "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+            "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+            "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+            "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+            "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+            "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+            "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+            "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1"
+          ],
+          "intervals": [
+            {
+              "birth": 2.497817855094094,
+              "birth_hex": "0x1.3fb87ed77f3b7p+1",
+              "death": 2.709751451272041,
+              "death_hex": "0x1.5ad922b3c0400p+1"
+            },
+            {
+              "birth": 2.709751451272041,
+              "birth_hex": "0x1.5ad922b3c0400p+1",
+              "death": 2.709751451272041,
+              "death_hex": "0x1.5ad922b3c0400p+1"
+            },
+            {
+              "birth": 2.709751451272041,
+              "birth_hex": "0x1.5ad922b3c0400p+1",
+              "death": 2.709751451272041,
+              "death_hex": "0x1.5ad922b3c0400p+1"
+            },
+            {
+              "birth": 2.709751451272041,
+              "birth_hex": "0x1.5ad922b3c0400p+1",
+              "death": 2.709751451272041,
+              "death_hex": "0x1.5ad922b3c0400p+1"
+            },
+            {
+              "birth": 2.7097514512720444,
+              "birth_hex": "0x1.5ad922b3c0408p+1",
+              "death": 2.7097514512720444,
+              "death_hex": "0x1.5ad922b3c0408p+1"
+            },
+            {
+              "birth": 2.7097514512720444,
+              "birth_hex": "0x1.5ad922b3c0408p+1",
+              "death": 2.7097514512720444,
+              "death_hex": "0x1.5ad922b3c0408p+1"
+            },
+            {
+              "birth": 2.7097514512720444,
+              "birth_hex": "0x1.5ad922b3c0408p+1",
+              "death": 2.7097514512720444,
+              "death_hex": "0x1.5ad922b3c0408p+1"
+            },
+            {
+              "birth": 2.7097514512720444,
+              "birth_hex": "0x1.5ad922b3c0408p+1",
+              "death": 2.7097514512720444,
+              "death_hex": "0x1.5ad922b3c0408p+1"
+            },
+            {
+              "birth": 2.7097514512720444,
+              "birth_hex": "0x1.5ad922b3c0408p+1",
+              "death": 2.7097514512720444,
+              "death_hex": "0x1.5ad922b3c0408p+1"
+            },
+            {
+              "birth": 2.7097514512720444,
+              "birth_hex": "0x1.5ad922b3c0408p+1",
+              "death": 2.7097514512720444,
+              "death_hex": "0x1.5ad922b3c0408p+1"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              2.497817855094094,
+              2.709751451272041
+            ],
+            [
+              2.709751451272041,
+              2.709751451272041
+            ],
+            [
+              2.709751451272041,
+              2.709751451272041
+            ],
+            [
+              2.709751451272041,
+              2.709751451272041
+            ],
+            [
+              2.7097514512720444,
+              2.7097514512720444
+            ],
+            [
+              2.7097514512720444,
+              2.7097514512720444
+            ],
+            [
+              2.7097514512720444,
+              2.7097514512720444
+            ],
+            [
+              2.7097514512720444,
+              2.7097514512720444
+            ],
+            [
+              2.7097514512720444,
+              2.7097514512720444
+            ],
+            [
+              2.7097514512720444,
+              2.7097514512720444
+            ]
+          ]
+        }
+      },
+      "ripser": {
+        "0": {
+          "count": 6,
+          "exact_signature": [
+            "0x0.0p+0|0x1.db68f80000000p+0",
+            "0x0.0p+0|0x1.db68f80000000p+0",
+            "0x0.0p+0|0x1.db68f80000000p+0",
+            "0x0.0p+0|0x1.db68f80000000p+0",
+            "0x0.0p+0|0x1.db68f80000000p+0",
+            "0x0.0p+0|inf"
+          ],
+          "intervals": [
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": "inf",
+              "death_hex": "inf"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              0.0,
+              1.8570704460144043
+            ],
+            [
+              0.0,
+              1.8570704460144043
+            ],
+            [
+              0.0,
+              1.8570704460144043
+            ],
+            [
+              0.0,
+              1.8570704460144043
+            ],
+            [
+              0.0,
+              1.8570704460144043
+            ],
+            [
+              0.0,
+              "inf"
+            ]
+          ]
+        },
+        "1": {
+          "count": 1,
+          "exact_signature": [
+            "0x1.db68f80000000p+0|0x1.3fb87e0000000p+1"
+          ],
+          "intervals": [
+            {
+              "birth": 1.8570704460144043,
+              "birth_hex": "0x1.db68f80000000p+0",
+              "death": 2.4978177547454834,
+              "death_hex": "0x1.3fb87e0000000p+1"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              1.8570704460144043,
+              2.4978177547454834
+            ]
+          ]
+        },
+        "2": {
+          "count": 1,
+          "exact_signature": [
+            "0x1.3fb87e0000000p+1|0x1.5ad9220000000p+1"
+          ],
+          "intervals": [
+            {
+              "birth": 2.4978177547454834,
+              "birth_hex": "0x1.3fb87e0000000p+1",
+              "death": 2.7097513675689697,
+              "death_hex": "0x1.5ad9220000000p+1"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              2.4978177547454834,
+              2.7097513675689697
+            ]
+          ]
+        }
+      }
+    },
+    "case_id": "tfim_pbc_n6_g1p00__floating__p2__h2__full",
+    "coeff": 2,
+    "discrepancy": {
+      "by_dimension": {
+        "0": {
+          "pairwise": {
+            "gudhi__dionysus": {
+              "bottleneck_distance": 0.0,
+              "bottleneck_distance_hex": "0x0.0p+0",
+              "exact_match": false,
+              "left_signature": [
+                "0x0.0p+0|0x1.db68f71fb98cfp+0",
+                "0x0.0p+0|0x1.db68f71fb98cfp+0",
+                "0x0.0p+0|0x1.db68f71fb98d2p+0",
+                "0x0.0p+0|0x1.db68f71fb98d6p+0",
+                "0x0.0p+0|0x1.db68f71fb98d9p+0",
+                "0x0.0p+0|inf"
+              ],
+              "right_signature": [
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|inf"
+              ],
+              "wasserstein_distance_q2": 0.0,
+              "wasserstein_distance_q2_hex": "0x0.0p+0"
+            },
+            "gudhi__ripser": {
+              "bottleneck_distance": 0.0,
+              "bottleneck_distance_hex": "0x0.0p+0",
+              "exact_match": false,
+              "left_signature": [
+                "0x0.0p+0|0x1.db68f71fb98cfp+0",
+                "0x0.0p+0|0x1.db68f71fb98cfp+0",
+                "0x0.0p+0|0x1.db68f71fb98d2p+0",
+                "0x0.0p+0|0x1.db68f71fb98d6p+0",
+                "0x0.0p+0|0x1.db68f71fb98d9p+0",
+                "0x0.0p+0|inf"
+              ],
+              "right_signature": [
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|inf"
+              ],
+              "wasserstein_distance_q2": 0.0,
+              "wasserstein_distance_q2_hex": "0x0.0p+0"
+            },
+            "ripser__dionysus": {
+              "exact_match": true,
+              "left_signature": [
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|inf"
+              ],
+              "right_signature": [
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|0x1.db68f80000000p+0",
+                "0x0.0p+0|inf"
+              ]
+            }
+          },
+          "signatures": {
+            "dionysus": [
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|inf"
+            ],
+            "gudhi": [
+              "0x0.0p+0|0x1.db68f71fb98cfp+0",
+              "0x0.0p+0|0x1.db68f71fb98cfp+0",
+              "0x0.0p+0|0x1.db68f71fb98d2p+0",
+              "0x0.0p+0|0x1.db68f71fb98d6p+0",
+              "0x0.0p+0|0x1.db68f71fb98d9p+0",
+              "0x0.0p+0|inf"
+            ],
+            "ripser": [
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|0x1.db68f80000000p+0",
+              "0x0.0p+0|inf"
+            ]
+          }
+        },
+        "1": {
+          "pairwise": {
+            "gudhi__dionysus": {
+              "bottleneck_distance": 0.0,
+              "bottleneck_distance_hex": "0x0.0p+0",
+              "exact_match": false,
+              "left_signature": [
+                "0x1.3fb87ed77f3b2p+1|0x1.3fb87ed77f3b2p+1",
+                "0x1.3fb87ed77f3b4p+1|0x1.3fb87ed77f3b4p+1",
+                "0x1.3fb87ed77f3b4p+1|0x1.3fb87ed77f3b4p+1",
+                "0x1.3fb87ed77f3b4p+1|0x1.3fb87ed77f3b4p+1",
+                "0x1.3fb87ed77f3b6p+1|0x1.3fb87ed77f3b6p+1",
+                "0x1.3fb87ed77f3b7p+1|0x1.3fb87ed77f3b7p+1",
+                "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+                "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+                "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+                "0x1.db68f71fb98dep+0|0x1.3fb87ed77f3b6p+1"
+              ],
+              "right_signature": [
+                "0x1.db68f80000000p+0|0x1.3fb87e0000000p+1"
+              ],
+              "wasserstein_distance_q2": 0.0,
+              "wasserstein_distance_q2_hex": "0x0.0p+0"
+            },
+            "gudhi__ripser": {
+              "bottleneck_distance": 0.0,
+              "bottleneck_distance_hex": "0x0.0p+0",
+              "exact_match": false,
+              "left_signature": [
+                "0x1.3fb87ed77f3b2p+1|0x1.3fb87ed77f3b2p+1",
+                "0x1.3fb87ed77f3b4p+1|0x1.3fb87ed77f3b4p+1",
+                "0x1.3fb87ed77f3b4p+1|0x1.3fb87ed77f3b4p+1",
+                "0x1.3fb87ed77f3b4p+1|0x1.3fb87ed77f3b4p+1",
+                "0x1.3fb87ed77f3b6p+1|0x1.3fb87ed77f3b6p+1",
+                "0x1.3fb87ed77f3b7p+1|0x1.3fb87ed77f3b7p+1",
+                "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+                "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+                "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+                "0x1.db68f71fb98dep+0|0x1.3fb87ed77f3b6p+1"
+              ],
+              "right_signature": [
+                "0x1.db68f80000000p+0|0x1.3fb87e0000000p+1"
+              ],
+              "wasserstein_distance_q2": 0.0,
+              "wasserstein_distance_q2_hex": "0x0.0p+0"
+            },
+            "ripser__dionysus": {
+              "exact_match": true,
+              "left_signature": [
+                "0x1.db68f80000000p+0|0x1.3fb87e0000000p+1"
+              ],
+              "right_signature": [
+                "0x1.db68f80000000p+0|0x1.3fb87e0000000p+1"
+              ]
+            }
+          },
+          "signatures": {
+            "dionysus": [
+              "0x1.db68f80000000p+0|0x1.3fb87e0000000p+1"
+            ],
+            "gudhi": [
+              "0x1.3fb87ed77f3b2p+1|0x1.3fb87ed77f3b2p+1",
+              "0x1.3fb87ed77f3b4p+1|0x1.3fb87ed77f3b4p+1",
+              "0x1.3fb87ed77f3b4p+1|0x1.3fb87ed77f3b4p+1",
+              "0x1.3fb87ed77f3b4p+1|0x1.3fb87ed77f3b4p+1",
+              "0x1.3fb87ed77f3b6p+1|0x1.3fb87ed77f3b6p+1",
+              "0x1.3fb87ed77f3b7p+1|0x1.3fb87ed77f3b7p+1",
+              "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+              "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+              "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+              "0x1.db68f71fb98dep+0|0x1.3fb87ed77f3b6p+1"
+            ],
+            "ripser": [
+              "0x1.db68f80000000p+0|0x1.3fb87e0000000p+1"
+            ]
+          }
+        },
+        "2": {
+          "pairwise": {
+            "gudhi__dionysus": {
+              "bottleneck_distance": 0.0,
+              "bottleneck_distance_hex": "0x0.0p+0",
+              "exact_match": false,
+              "left_signature": [
+                "0x1.3fb87ed77f3b7p+1|0x1.5ad922b3c0400p+1",
+                "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+                "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+                "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+                "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+                "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+                "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+                "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+                "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+                "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1"
+              ],
+              "right_signature": [
+                "0x1.3fb87e0000000p+1|0x1.5ad9220000000p+1"
+              ],
+              "wasserstein_distance_q2": 0.0,
+              "wasserstein_distance_q2_hex": "0x0.0p+0"
+            },
+            "gudhi__ripser": {
+              "bottleneck_distance": 0.0,
+              "bottleneck_distance_hex": "0x0.0p+0",
+              "exact_match": false,
+              "left_signature": [
+                "0x1.3fb87ed77f3b7p+1|0x1.5ad922b3c0400p+1",
+                "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+                "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+                "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+                "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+                "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+                "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+                "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+                "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+                "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1"
+              ],
+              "right_signature": [
+                "0x1.3fb87e0000000p+1|0x1.5ad9220000000p+1"
+              ],
+              "wasserstein_distance_q2": 0.0,
+              "wasserstein_distance_q2_hex": "0x0.0p+0"
+            },
+            "ripser__dionysus": {
+              "exact_match": true,
+              "left_signature": [
+                "0x1.3fb87e0000000p+1|0x1.5ad9220000000p+1"
+              ],
+              "right_signature": [
+                "0x1.3fb87e0000000p+1|0x1.5ad9220000000p+1"
+              ]
+            }
+          },
+          "signatures": {
+            "dionysus": [
+              "0x1.3fb87e0000000p+1|0x1.5ad9220000000p+1"
+            ],
+            "gudhi": [
+              "0x1.3fb87ed77f3b7p+1|0x1.5ad922b3c0400p+1",
+              "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+              "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+              "0x1.5ad922b3c0400p+1|0x1.5ad922b3c0400p+1",
+              "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+              "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+              "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+              "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+              "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1",
+              "0x1.5ad922b3c0408p+1|0x1.5ad922b3c0408p+1"
+            ],
+            "ripser": [
+              "0x1.3fb87e0000000p+1|0x1.5ad9220000000p+1"
+            ]
+          }
+        }
+      },
+      "has_discrepancy": true
+    },
+    "matrix_size": 6,
+    "maxdim": 2,
+    "raw_outputs": {
+      "dionysus": {
+        "diagram_count": 4,
+        "filtration_size": 56,
+        "intervals_by_dimension": {
+          "0": [
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": "inf",
+              "death_hex": "inf"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            }
+          ],
+          "1": [
+            {
+              "birth": 1.8570704460144043,
+              "birth_hex": "0x1.db68f80000000p+0",
+              "death": 2.4978177547454834,
+              "death_hex": "0x1.3fb87e0000000p+1"
+            }
+          ],
+          "2": [
+            {
+              "birth": 2.4978177547454834,
+              "birth_hex": "0x1.3fb87e0000000p+1",
+              "death": 2.7097513675689697,
+              "death_hex": "0x1.5ad9220000000p+1"
+            }
+          ]
+        },
+        "library": "dionysus",
+        "parameters": {
+          "input_format": "condensed_distance_matrix",
+          "prime": 2,
+          "skeleton_dimension": 3,
+          "threshold": 2.7097514512720444
+        }
+      },
+      "gudhi": {
+        "intervals_by_dimension": {
+          "0": [
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570703937962667,
+              "death_hex": "0x1.db68f71fb98cfp+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570703937962667,
+              "death_hex": "0x1.db68f71fb98cfp+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570703937962674,
+              "death_hex": "0x1.db68f71fb98d2p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570703937962683,
+              "death_hex": "0x1.db68f71fb98d6p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.857070393796269,
+              "death_hex": "0x1.db68f71fb98d9p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": "inf",
+              "death_hex": "inf"
+            }
+          ],
+          "1": [
+            {
+              "birth": 2.497817855094092,
+              "birth_hex": "0x1.3fb87ed77f3b2p+1",
+              "death": 2.497817855094092,
+              "death_hex": "0x1.3fb87ed77f3b2p+1"
+            },
+            {
+              "birth": 2.497817855094093,
+              "birth_hex": "0x1.3fb87ed77f3b4p+1",
+              "death": 2.497817855094093,
+              "death_hex": "0x1.3fb87ed77f3b4p+1"
+            },
+            {
+              "birth": 2.497817855094093,
+              "birth_hex": "0x1.3fb87ed77f3b4p+1",
+              "death": 2.497817855094093,
+              "death_hex": "0x1.3fb87ed77f3b4p+1"
+            },
+            {
+              "birth": 2.497817855094093,
+              "birth_hex": "0x1.3fb87ed77f3b4p+1",
+              "death": 2.497817855094093,
+              "death_hex": "0x1.3fb87ed77f3b4p+1"
+            },
+            {
+              "birth": 2.4978178550940937,
+              "birth_hex": "0x1.3fb87ed77f3b6p+1",
+              "death": 2.4978178550940937,
+              "death_hex": "0x1.3fb87ed77f3b6p+1"
+            },
+            {
+              "birth": 1.85707039379627,
+              "birth_hex": "0x1.db68f71fb98dep+0",
+              "death": 2.4978178550940937,
+              "death_hex": "0x1.3fb87ed77f3b6p+1"
+            },
+            {
+              "birth": 2.497817855094094,
+              "birth_hex": "0x1.3fb87ed77f3b7p+1",
+              "death": 2.497817855094094,
+              "death_hex": "0x1.3fb87ed77f3b7p+1"
+            },
+            {
+              "birth": 2.709751451272041,
+              "birth_hex": "0x1.5ad922b3c0400p+1",
+              "death": 2.709751451272041,
+              "death_hex": "0x1.5ad922b3c0400p+1"
+            },
+            {
+              "birth": 2.7097514512720444,
+              "birth_hex": "0x1.5ad922b3c0408p+1",
+              "death": 2.7097514512720444,
+              "death_hex": "0x1.5ad922b3c0408p+1"
+            },
+            {
+              "birth": 2.7097514512720444,
+              "birth_hex": "0x1.5ad922b3c0408p+1",
+              "death": 2.7097514512720444,
+              "death_hex": "0x1.5ad922b3c0408p+1"
+            }
+          ],
+          "2": [
+            {
+              "birth": 2.709751451272041,
+              "birth_hex": "0x1.5ad922b3c0400p+1",
+              "death": 2.709751451272041,
+              "death_hex": "0x1.5ad922b3c0400p+1"
+            },
+            {
+              "birth": 2.709751451272041,
+              "birth_hex": "0x1.5ad922b3c0400p+1",
+              "death": 2.709751451272041,
+              "death_hex": "0x1.5ad922b3c0400p+1"
+            },
+            {
+              "birth": 2.709751451272041,
+              "birth_hex": "0x1.5ad922b3c0400p+1",
+              "death": 2.709751451272041,
+              "death_hex": "0x1.5ad922b3c0400p+1"
+            },
+            {
+              "birth": 2.497817855094094,
+              "birth_hex": "0x1.3fb87ed77f3b7p+1",
+              "death": 2.709751451272041,
+              "death_hex": "0x1.5ad922b3c0400p+1"
+            },
+            {
+              "birth": 2.7097514512720444,
+              "birth_hex": "0x1.5ad922b3c0408p+1",
+              "death": 2.7097514512720444,
+              "death_hex": "0x1.5ad922b3c0408p+1"
+            },
+            {
+              "birth": 2.7097514512720444,
+              "birth_hex": "0x1.5ad922b3c0408p+1",
+              "death": 2.7097514512720444,
+              "death_hex": "0x1.5ad922b3c0408p+1"
+            },
+            {
+              "birth": 2.7097514512720444,
+              "birth_hex": "0x1.5ad922b3c0408p+1",
+              "death": 2.7097514512720444,
+              "death_hex": "0x1.5ad922b3c0408p+1"
+            },
+            {
+              "birth": 2.7097514512720444,
+              "birth_hex": "0x1.5ad922b3c0408p+1",
+              "death": 2.7097514512720444,
+              "death_hex": "0x1.5ad922b3c0408p+1"
+            },
+            {
+              "birth": 2.7097514512720444,
+              "birth_hex": "0x1.5ad922b3c0408p+1",
+              "death": 2.7097514512720444,
+              "death_hex": "0x1.5ad922b3c0408p+1"
+            },
+            {
+              "birth": 2.7097514512720444,
+              "birth_hex": "0x1.5ad922b3c0408p+1",
+              "death": 2.7097514512720444,
+              "death_hex": "0x1.5ad922b3c0408p+1"
+            }
+          ]
+        },
+        "library": "gudhi",
+        "parameters": {
+          "homology_coeff_field": 2,
+          "max_dimension": 3,
+          "max_edge_length": 2.7097514512720444,
+          "sparse": null
+        },
+        "raw_persistence_pairs": [
+          {
+            "birth": 2.7097514512720444,
+            "birth_hex": "0x1.5ad922b3c0408p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 3
+          },
+          {
+            "birth": 2.7097514512720444,
+            "birth_hex": "0x1.5ad922b3c0408p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 3
+          },
+          {
+            "birth": 2.7097514512720444,
+            "birth_hex": "0x1.5ad922b3c0408p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 3
+          },
+          {
+            "birth": 2.7097514512720444,
+            "birth_hex": "0x1.5ad922b3c0408p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 3
+          },
+          {
+            "birth": 2.7097514512720444,
+            "birth_hex": "0x1.5ad922b3c0408p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 3
+          },
+          {
+            "birth": 2.497817855094094,
+            "birth_hex": "0x1.3fb87ed77f3b7p+1",
+            "death": 2.709751451272041,
+            "death_hex": "0x1.5ad922b3c0400p+1",
+            "dimension": 2
+          },
+          {
+            "birth": 2.709751451272041,
+            "birth_hex": "0x1.5ad922b3c0400p+1",
+            "death": 2.709751451272041,
+            "death_hex": "0x1.5ad922b3c0400p+1",
+            "dimension": 2
+          },
+          {
+            "birth": 2.7097514512720444,
+            "birth_hex": "0x1.5ad922b3c0408p+1",
+            "death": 2.7097514512720444,
+            "death_hex": "0x1.5ad922b3c0408p+1",
+            "dimension": 2
+          },
+          {
+            "birth": 2.7097514512720444,
+            "birth_hex": "0x1.5ad922b3c0408p+1",
+            "death": 2.7097514512720444,
+            "death_hex": "0x1.5ad922b3c0408p+1",
+            "dimension": 2
+          },
+          {
+            "birth": 2.7097514512720444,
+            "birth_hex": "0x1.5ad922b3c0408p+1",
+            "death": 2.7097514512720444,
+            "death_hex": "0x1.5ad922b3c0408p+1",
+            "dimension": 2
+          },
+          {
+            "birth": 2.7097514512720444,
+            "birth_hex": "0x1.5ad922b3c0408p+1",
+            "death": 2.7097514512720444,
+            "death_hex": "0x1.5ad922b3c0408p+1",
+            "dimension": 2
+          },
+          {
+            "birth": 2.7097514512720444,
+            "birth_hex": "0x1.5ad922b3c0408p+1",
+            "death": 2.7097514512720444,
+            "death_hex": "0x1.5ad922b3c0408p+1",
+            "dimension": 2
+          },
+          {
+            "birth": 2.7097514512720444,
+            "birth_hex": "0x1.5ad922b3c0408p+1",
+            "death": 2.7097514512720444,
+            "death_hex": "0x1.5ad922b3c0408p+1",
+            "dimension": 2
+          },
+          {
+            "birth": 2.709751451272041,
+            "birth_hex": "0x1.5ad922b3c0400p+1",
+            "death": 2.709751451272041,
+            "death_hex": "0x1.5ad922b3c0400p+1",
+            "dimension": 2
+          },
+          {
+            "birth": 2.709751451272041,
+            "birth_hex": "0x1.5ad922b3c0400p+1",
+            "death": 2.709751451272041,
+            "death_hex": "0x1.5ad922b3c0400p+1",
+            "dimension": 2
+          },
+          {
+            "birth": 1.85707039379627,
+            "birth_hex": "0x1.db68f71fb98dep+0",
+            "death": 2.4978178550940937,
+            "death_hex": "0x1.3fb87ed77f3b6p+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.709751451272041,
+            "birth_hex": "0x1.5ad922b3c0400p+1",
+            "death": 2.709751451272041,
+            "death_hex": "0x1.5ad922b3c0400p+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.7097514512720444,
+            "birth_hex": "0x1.5ad922b3c0408p+1",
+            "death": 2.7097514512720444,
+            "death_hex": "0x1.5ad922b3c0408p+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.497817855094094,
+            "birth_hex": "0x1.3fb87ed77f3b7p+1",
+            "death": 2.497817855094094,
+            "death_hex": "0x1.3fb87ed77f3b7p+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.7097514512720444,
+            "birth_hex": "0x1.5ad922b3c0408p+1",
+            "death": 2.7097514512720444,
+            "death_hex": "0x1.5ad922b3c0408p+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.4978178550940937,
+            "birth_hex": "0x1.3fb87ed77f3b6p+1",
+            "death": 2.4978178550940937,
+            "death_hex": "0x1.3fb87ed77f3b6p+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.497817855094093,
+            "birth_hex": "0x1.3fb87ed77f3b4p+1",
+            "death": 2.497817855094093,
+            "death_hex": "0x1.3fb87ed77f3b4p+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.497817855094093,
+            "birth_hex": "0x1.3fb87ed77f3b4p+1",
+            "death": 2.497817855094093,
+            "death_hex": "0x1.3fb87ed77f3b4p+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.497817855094093,
+            "birth_hex": "0x1.3fb87ed77f3b4p+1",
+            "death": 2.497817855094093,
+            "death_hex": "0x1.3fb87ed77f3b4p+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.497817855094092,
+            "birth_hex": "0x1.3fb87ed77f3b2p+1",
+            "death": 2.497817855094092,
+            "death_hex": "0x1.3fb87ed77f3b2p+1",
+            "dimension": 1
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 0
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": 1.857070393796269,
+            "death_hex": "0x1.db68f71fb98d9p+0",
+            "dimension": 0
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": 1.8570703937962683,
+            "death_hex": "0x1.db68f71fb98d6p+0",
+            "dimension": 0
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": 1.8570703937962674,
+            "death_hex": "0x1.db68f71fb98d2p+0",
+            "dimension": 0
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": 1.8570703937962667,
+            "death_hex": "0x1.db68f71fb98cfp+0",
+            "dimension": 0
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": 1.8570703937962667,
+            "death_hex": "0x1.db68f71fb98cfp+0",
+            "dimension": 0
+          }
+        ]
+      },
+      "ripser": {
+        "intervals_by_dimension": {
+          "0": [
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.8570704460144043,
+              "death_hex": "0x1.db68f80000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": "inf",
+              "death_hex": "inf"
+            }
+          ],
+          "1": [
+            {
+              "birth": 1.8570704460144043,
+              "birth_hex": "0x1.db68f80000000p+0",
+              "death": 2.4978177547454834,
+              "death_hex": "0x1.3fb87e0000000p+1"
+            }
+          ],
+          "2": [
+            {
+              "birth": 2.4978177547454834,
+              "birth_hex": "0x1.3fb87e0000000p+1",
+              "death": 2.7097513675689697,
+              "death_hex": "0x1.5ad9220000000p+1"
+            }
+          ]
+        },
+        "library": "ripser",
+        "parameters": {
+          "coeff": 2,
+          "distance_matrix": true,
+          "do_cocycles": false,
+          "maxdim": 2,
+          "n_perm": null,
+          "thresh": 2.7097514512720444
+        },
+        "result_metadata": {
+          "cocycles": [
+            [],
+            [],
+            []
+          ],
+          "dperm2all": [
+            [
+              0.0,
+              1.857070393796269,
+              2.497817855094094,
+              2.7097514512720444,
+              2.497817855094093,
+              1.85707039379627
+            ],
+            [
+              1.857070393796269,
+              0.0,
+              1.8570703937962674,
+              2.497817855094093,
+              2.7097514512720444,
+              2.497817855094093
+            ],
+            [
+              2.497817855094094,
+              1.8570703937962674,
+              0.0,
+              1.8570703937962667,
+              2.497817855094092,
+              2.709751451272041
+            ],
+            [
+              2.7097514512720444,
+              2.497817855094093,
+              1.8570703937962667,
+              0.0,
+              1.8570703937962683,
+              2.4978178550940937
+            ],
+            [
+              2.497817855094093,
+              2.7097514512720444,
+              2.497817855094092,
+              1.8570703937962683,
+              0.0,
+              1.8570703937962667
+            ],
+            [
+              1.85707039379627,
+              2.497817855094093,
+              2.709751451272041,
+              2.4978178550940937,
+              1.8570703937962667,
+              0.0
+            ]
+          ],
+          "idx_perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "num_edges": 15,
+          "r_cover": 0.0
+        }
+      }
+    },
+    "threshold": 2.7097514512720444,
+    "threshold_hex": "0x1.5ad922b3c0408p+1"
+  },
+  "task_id": "PH-CONFORMANCE-VR-001"
+}

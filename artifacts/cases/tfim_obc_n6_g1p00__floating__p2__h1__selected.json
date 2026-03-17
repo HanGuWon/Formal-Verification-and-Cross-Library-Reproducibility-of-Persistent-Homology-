@@ -1,0 +1,861 @@
+{
+  "benchmark": {
+    "benchmark_id": "tfim_obc_n6_g1p00__floating",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      6,
+      6
+    ],
+    "family": "A",
+    "full_filtration_feasible": true,
+    "full_threshold": 21.87969489144892,
+    "has_point_cloud": false,
+    "label": "TFIM OBC N=6, g=1.00",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "benchmark_id": "tfim_obc_n6_g1p00",
+      "boundary_condition": "obc",
+      "distance_matrix_hash": "25887e7945644db9eab11e660e71c6fb097358f786c4ac6797650da7a153a049",
+      "exchange_coupling": 1.0,
+      "family": "entanglement_distance_matrix",
+      "generator": "tfim_inverse_mutual_information",
+      "has_point_cloud": false,
+      "mode": "floating",
+      "mutual_information_floor": 1e-12,
+      "n_sites": 6,
+      "point_cloud_hash": null,
+      "quantization_step": null,
+      "state_solver": "dense_exact_diagonalization",
+      "threshold_parameter": 0.4,
+      "threshold_strategy": "matrix_quantile",
+      "transverse_field": 1.0
+    },
+    "mode": "floating",
+    "notes": [
+      "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+      "Mutual information uses base-2 von Neumann entropy with a small numerical floor."
+    ],
+    "point_cloud_shape": null,
+    "selected_threshold": 4.571710545762174
+  },
+  "case_parameters": {
+    "case_id": "tfim_obc_n6_g1p00__floating__p2__h1__selected",
+    "coeff": 2,
+    "maxdim": 1,
+    "threshold_label": "selected",
+    "threshold_value": 4.571710545762174
+  },
+  "inputs": {
+    "distance_matrix_hash": "25887e7945644db9eab11e660e71c6fb097358f786c4ac6797650da7a153a049",
+    "distance_matrix_shape": [
+      6,
+      6
+    ],
+    "point_cloud_hash": null,
+    "point_cloud_shape": null
+  },
+  "results": {
+    "agreement": {
+      "by_dimension": {
+        "0": {
+          "exact_all_libraries": false,
+          "pairwise": {
+            "gudhi__dionysus": {
+              "exact_match": false,
+              "left_count": 6,
+              "right_count": 6
+            },
+            "gudhi__ripser": {
+              "exact_match": false,
+              "left_count": 6,
+              "right_count": 6
+            },
+            "ripser__dionysus": {
+              "exact_match": true,
+              "left_count": 6,
+              "right_count": 6
+            }
+          },
+          "signatures": {
+            "dionysus": [
+              "0x0.0p+0|0x1.0bd3ec0000000p+1",
+              "0x0.0p+0|0x1.0bd3ec0000000p+1",
+              "0x0.0p+0|0x1.1b92340000000p+1",
+              "0x0.0p+0|0x1.1e3ca60000000p+1",
+              "0x0.0p+0|0x1.1e3ca60000000p+1",
+              "0x0.0p+0|inf"
+            ],
+            "gudhi": [
+              "0x0.0p+0|0x1.0bd3ebd5c250fp+1",
+              "0x0.0p+0|0x1.0bd3ebd5c250fp+1",
+              "0x0.0p+0|0x1.1b9234480a623p+1",
+              "0x0.0p+0|0x1.1e3ca6ed5873bp+1",
+              "0x0.0p+0|0x1.1e3ca6ed5874ep+1",
+              "0x0.0p+0|inf"
+            ],
+            "ripser": [
+              "0x0.0p+0|0x1.0bd3ec0000000p+1",
+              "0x0.0p+0|0x1.0bd3ec0000000p+1",
+              "0x0.0p+0|0x1.1b92340000000p+1",
+              "0x0.0p+0|0x1.1e3ca60000000p+1",
+              "0x0.0p+0|0x1.1e3ca60000000p+1",
+              "0x0.0p+0|inf"
+            ]
+          }
+        },
+        "1": {
+          "exact_all_libraries": false,
+          "pairwise": {
+            "gudhi__dionysus": {
+              "exact_match": false,
+              "left_count": 2,
+              "right_count": 0
+            },
+            "gudhi__ripser": {
+              "exact_match": false,
+              "left_count": 2,
+              "right_count": 0
+            },
+            "ripser__dionysus": {
+              "exact_match": true,
+              "left_count": 0,
+              "right_count": 0
+            }
+          },
+          "signatures": {
+            "dionysus": [],
+            "gudhi": [
+              "0x1.2496e7d434eafp+2|0x1.2496e7d434eafp+2",
+              "0x1.2496e7d434eb1p+2|0x1.2496e7d434eb1p+2"
+            ],
+            "ripser": []
+          }
+        }
+      },
+      "exact_all_libraries": false
+    },
+    "canonicalized": {
+      "dionysus": {
+        "0": {
+          "count": 6,
+          "exact_signature": [
+            "0x0.0p+0|0x1.0bd3ec0000000p+1",
+            "0x0.0p+0|0x1.0bd3ec0000000p+1",
+            "0x0.0p+0|0x1.1b92340000000p+1",
+            "0x0.0p+0|0x1.1e3ca60000000p+1",
+            "0x0.0p+0|0x1.1e3ca60000000p+1",
+            "0x0.0p+0|inf"
+          ],
+          "intervals": [
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.092404842376709,
+              "death_hex": "0x1.0bd3ec0000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.092404842376709,
+              "death_hex": "0x1.0bd3ec0000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.2153992652893066,
+              "death_hex": "0x1.1b92340000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.2362258434295654,
+              "death_hex": "0x1.1e3ca60000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.2362258434295654,
+              "death_hex": "0x1.1e3ca60000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": "inf",
+              "death_hex": "inf"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              0.0,
+              2.092404842376709
+            ],
+            [
+              0.0,
+              2.092404842376709
+            ],
+            [
+              0.0,
+              2.2153992652893066
+            ],
+            [
+              0.0,
+              2.2362258434295654
+            ],
+            [
+              0.0,
+              2.2362258434295654
+            ],
+            [
+              0.0,
+              "inf"
+            ]
+          ]
+        },
+        "1": {
+          "count": 0,
+          "exact_signature": [],
+          "intervals": [],
+          "numeric_pairs": []
+        }
+      },
+      "gudhi": {
+        "0": {
+          "count": 6,
+          "exact_signature": [
+            "0x0.0p+0|0x1.0bd3ebd5c250fp+1",
+            "0x0.0p+0|0x1.0bd3ebd5c250fp+1",
+            "0x0.0p+0|0x1.1b9234480a623p+1",
+            "0x0.0p+0|0x1.1e3ca6ed5873bp+1",
+            "0x0.0p+0|0x1.1e3ca6ed5874ep+1",
+            "0x0.0p+0|inf"
+          ],
+          "intervals": [
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.0924048227067327,
+              "death_hex": "0x1.0bd3ebd5c250fp+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.0924048227067327,
+              "death_hex": "0x1.0bd3ebd5c250fp+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.215399298835807,
+              "death_hex": "0x1.1b9234480a623p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.2362259539521836,
+              "death_hex": "0x1.1e3ca6ed5873bp+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.236225953952192,
+              "death_hex": "0x1.1e3ca6ed5874ep+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": "inf",
+              "death_hex": "inf"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              0.0,
+              2.0924048227067327
+            ],
+            [
+              0.0,
+              2.0924048227067327
+            ],
+            [
+              0.0,
+              2.215399298835807
+            ],
+            [
+              0.0,
+              2.2362259539521836
+            ],
+            [
+              0.0,
+              2.236225953952192
+            ],
+            [
+              0.0,
+              "inf"
+            ]
+          ]
+        },
+        "1": {
+          "count": 2,
+          "exact_signature": [
+            "0x1.2496e7d434eafp+2|0x1.2496e7d434eafp+2",
+            "0x1.2496e7d434eb1p+2|0x1.2496e7d434eb1p+2"
+          ],
+          "intervals": [
+            {
+              "birth": 4.571710545762172,
+              "birth_hex": "0x1.2496e7d434eafp+2",
+              "death": 4.571710545762172,
+              "death_hex": "0x1.2496e7d434eafp+2"
+            },
+            {
+              "birth": 4.571710545762174,
+              "birth_hex": "0x1.2496e7d434eb1p+2",
+              "death": 4.571710545762174,
+              "death_hex": "0x1.2496e7d434eb1p+2"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              4.571710545762172,
+              4.571710545762172
+            ],
+            [
+              4.571710545762174,
+              4.571710545762174
+            ]
+          ]
+        }
+      },
+      "ripser": {
+        "0": {
+          "count": 6,
+          "exact_signature": [
+            "0x0.0p+0|0x1.0bd3ec0000000p+1",
+            "0x0.0p+0|0x1.0bd3ec0000000p+1",
+            "0x0.0p+0|0x1.1b92340000000p+1",
+            "0x0.0p+0|0x1.1e3ca60000000p+1",
+            "0x0.0p+0|0x1.1e3ca60000000p+1",
+            "0x0.0p+0|inf"
+          ],
+          "intervals": [
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.092404842376709,
+              "death_hex": "0x1.0bd3ec0000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.092404842376709,
+              "death_hex": "0x1.0bd3ec0000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.2153992652893066,
+              "death_hex": "0x1.1b92340000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.2362258434295654,
+              "death_hex": "0x1.1e3ca60000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.2362258434295654,
+              "death_hex": "0x1.1e3ca60000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": "inf",
+              "death_hex": "inf"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              0.0,
+              2.092404842376709
+            ],
+            [
+              0.0,
+              2.092404842376709
+            ],
+            [
+              0.0,
+              2.2153992652893066
+            ],
+            [
+              0.0,
+              2.2362258434295654
+            ],
+            [
+              0.0,
+              2.2362258434295654
+            ],
+            [
+              0.0,
+              "inf"
+            ]
+          ]
+        },
+        "1": {
+          "count": 0,
+          "exact_signature": [],
+          "intervals": [],
+          "numeric_pairs": []
+        }
+      }
+    },
+    "case_id": "tfim_obc_n6_g1p00__floating__p2__h1__selected",
+    "coeff": 2,
+    "discrepancy": {
+      "by_dimension": {
+        "0": {
+          "pairwise": {
+            "gudhi__dionysus": {
+              "bottleneck_distance": 0.0,
+              "bottleneck_distance_hex": "0x0.0p+0",
+              "exact_match": false,
+              "left_signature": [
+                "0x0.0p+0|0x1.0bd3ebd5c250fp+1",
+                "0x0.0p+0|0x1.0bd3ebd5c250fp+1",
+                "0x0.0p+0|0x1.1b9234480a623p+1",
+                "0x0.0p+0|0x1.1e3ca6ed5873bp+1",
+                "0x0.0p+0|0x1.1e3ca6ed5874ep+1",
+                "0x0.0p+0|inf"
+              ],
+              "right_signature": [
+                "0x0.0p+0|0x1.0bd3ec0000000p+1",
+                "0x0.0p+0|0x1.0bd3ec0000000p+1",
+                "0x0.0p+0|0x1.1b92340000000p+1",
+                "0x0.0p+0|0x1.1e3ca60000000p+1",
+                "0x0.0p+0|0x1.1e3ca60000000p+1",
+                "0x0.0p+0|inf"
+              ],
+              "wasserstein_distance_q2": 0.0,
+              "wasserstein_distance_q2_hex": "0x0.0p+0"
+            },
+            "gudhi__ripser": {
+              "bottleneck_distance": 0.0,
+              "bottleneck_distance_hex": "0x0.0p+0",
+              "exact_match": false,
+              "left_signature": [
+                "0x0.0p+0|0x1.0bd3ebd5c250fp+1",
+                "0x0.0p+0|0x1.0bd3ebd5c250fp+1",
+                "0x0.0p+0|0x1.1b9234480a623p+1",
+                "0x0.0p+0|0x1.1e3ca6ed5873bp+1",
+                "0x0.0p+0|0x1.1e3ca6ed5874ep+1",
+                "0x0.0p+0|inf"
+              ],
+              "right_signature": [
+                "0x0.0p+0|0x1.0bd3ec0000000p+1",
+                "0x0.0p+0|0x1.0bd3ec0000000p+1",
+                "0x0.0p+0|0x1.1b92340000000p+1",
+                "0x0.0p+0|0x1.1e3ca60000000p+1",
+                "0x0.0p+0|0x1.1e3ca60000000p+1",
+                "0x0.0p+0|inf"
+              ],
+              "wasserstein_distance_q2": 0.0,
+              "wasserstein_distance_q2_hex": "0x0.0p+0"
+            },
+            "ripser__dionysus": {
+              "exact_match": true,
+              "left_signature": [
+                "0x0.0p+0|0x1.0bd3ec0000000p+1",
+                "0x0.0p+0|0x1.0bd3ec0000000p+1",
+                "0x0.0p+0|0x1.1b92340000000p+1",
+                "0x0.0p+0|0x1.1e3ca60000000p+1",
+                "0x0.0p+0|0x1.1e3ca60000000p+1",
+                "0x0.0p+0|inf"
+              ],
+              "right_signature": [
+                "0x0.0p+0|0x1.0bd3ec0000000p+1",
+                "0x0.0p+0|0x1.0bd3ec0000000p+1",
+                "0x0.0p+0|0x1.1b92340000000p+1",
+                "0x0.0p+0|0x1.1e3ca60000000p+1",
+                "0x0.0p+0|0x1.1e3ca60000000p+1",
+                "0x0.0p+0|inf"
+              ]
+            }
+          },
+          "signatures": {
+            "dionysus": [
+              "0x0.0p+0|0x1.0bd3ec0000000p+1",
+              "0x0.0p+0|0x1.0bd3ec0000000p+1",
+              "0x0.0p+0|0x1.1b92340000000p+1",
+              "0x0.0p+0|0x1.1e3ca60000000p+1",
+              "0x0.0p+0|0x1.1e3ca60000000p+1",
+              "0x0.0p+0|inf"
+            ],
+            "gudhi": [
+              "0x0.0p+0|0x1.0bd3ebd5c250fp+1",
+              "0x0.0p+0|0x1.0bd3ebd5c250fp+1",
+              "0x0.0p+0|0x1.1b9234480a623p+1",
+              "0x0.0p+0|0x1.1e3ca6ed5873bp+1",
+              "0x0.0p+0|0x1.1e3ca6ed5874ep+1",
+              "0x0.0p+0|inf"
+            ],
+            "ripser": [
+              "0x0.0p+0|0x1.0bd3ec0000000p+1",
+              "0x0.0p+0|0x1.0bd3ec0000000p+1",
+              "0x0.0p+0|0x1.1b92340000000p+1",
+              "0x0.0p+0|0x1.1e3ca60000000p+1",
+              "0x0.0p+0|0x1.1e3ca60000000p+1",
+              "0x0.0p+0|inf"
+            ]
+          }
+        },
+        "1": {
+          "pairwise": {
+            "gudhi__dionysus": {
+              "bottleneck_distance": 0.0,
+              "bottleneck_distance_hex": "0x0.0p+0",
+              "exact_match": false,
+              "left_signature": [
+                "0x1.2496e7d434eafp+2|0x1.2496e7d434eafp+2",
+                "0x1.2496e7d434eb1p+2|0x1.2496e7d434eb1p+2"
+              ],
+              "right_signature": [],
+              "wasserstein_distance_q2": 0.0,
+              "wasserstein_distance_q2_hex": "0x0.0p+0"
+            },
+            "gudhi__ripser": {
+              "bottleneck_distance": 0.0,
+              "bottleneck_distance_hex": "0x0.0p+0",
+              "exact_match": false,
+              "left_signature": [
+                "0x1.2496e7d434eafp+2|0x1.2496e7d434eafp+2",
+                "0x1.2496e7d434eb1p+2|0x1.2496e7d434eb1p+2"
+              ],
+              "right_signature": [],
+              "wasserstein_distance_q2": 0.0,
+              "wasserstein_distance_q2_hex": "0x0.0p+0"
+            },
+            "ripser__dionysus": {
+              "exact_match": true,
+              "left_signature": [],
+              "right_signature": []
+            }
+          },
+          "signatures": {
+            "dionysus": [],
+            "gudhi": [
+              "0x1.2496e7d434eafp+2|0x1.2496e7d434eafp+2",
+              "0x1.2496e7d434eb1p+2|0x1.2496e7d434eb1p+2"
+            ],
+            "ripser": []
+          }
+        }
+      },
+      "has_discrepancy": true
+    },
+    "matrix_size": 6,
+    "maxdim": 1,
+    "raw_outputs": {
+      "dionysus": {
+        "diagram_count": 3,
+        "filtration_size": 15,
+        "intervals_by_dimension": {
+          "0": [
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": "inf",
+              "death_hex": "inf"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.092404842376709,
+              "death_hex": "0x1.0bd3ec0000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.2362258434295654,
+              "death_hex": "0x1.1e3ca60000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.2153992652893066,
+              "death_hex": "0x1.1b92340000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.2362258434295654,
+              "death_hex": "0x1.1e3ca60000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.092404842376709,
+              "death_hex": "0x1.0bd3ec0000000p+1"
+            }
+          ],
+          "1": []
+        },
+        "library": "dionysus",
+        "parameters": {
+          "input_format": "condensed_distance_matrix",
+          "prime": 2,
+          "skeleton_dimension": 2,
+          "threshold": 4.571710545762174
+        }
+      },
+      "gudhi": {
+        "intervals_by_dimension": {
+          "0": [
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.0924048227067327,
+              "death_hex": "0x1.0bd3ebd5c250fp+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.0924048227067327,
+              "death_hex": "0x1.0bd3ebd5c250fp+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.215399298835807,
+              "death_hex": "0x1.1b9234480a623p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.2362259539521836,
+              "death_hex": "0x1.1e3ca6ed5873bp+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.236225953952192,
+              "death_hex": "0x1.1e3ca6ed5874ep+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": "inf",
+              "death_hex": "inf"
+            }
+          ],
+          "1": [
+            {
+              "birth": 4.571710545762172,
+              "birth_hex": "0x1.2496e7d434eafp+2",
+              "death": 4.571710545762172,
+              "death_hex": "0x1.2496e7d434eafp+2"
+            },
+            {
+              "birth": 4.571710545762174,
+              "birth_hex": "0x1.2496e7d434eb1p+2",
+              "death": 4.571710545762174,
+              "death_hex": "0x1.2496e7d434eb1p+2"
+            }
+          ]
+        },
+        "library": "gudhi",
+        "parameters": {
+          "homology_coeff_field": 2,
+          "max_dimension": 2,
+          "max_edge_length": 4.571710545762174,
+          "sparse": null
+        },
+        "raw_persistence_pairs": [
+          {
+            "birth": 4.571710545762172,
+            "birth_hex": "0x1.2496e7d434eafp+2",
+            "death": 4.571710545762172,
+            "death_hex": "0x1.2496e7d434eafp+2",
+            "dimension": 1
+          },
+          {
+            "birth": 4.571710545762174,
+            "birth_hex": "0x1.2496e7d434eb1p+2",
+            "death": 4.571710545762174,
+            "death_hex": "0x1.2496e7d434eb1p+2",
+            "dimension": 1
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 0
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": 2.236225953952192,
+            "death_hex": "0x1.1e3ca6ed5874ep+1",
+            "dimension": 0
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": 2.2362259539521836,
+            "death_hex": "0x1.1e3ca6ed5873bp+1",
+            "dimension": 0
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": 2.215399298835807,
+            "death_hex": "0x1.1b9234480a623p+1",
+            "dimension": 0
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": 2.0924048227067327,
+            "death_hex": "0x1.0bd3ebd5c250fp+1",
+            "dimension": 0
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": 2.0924048227067327,
+            "death_hex": "0x1.0bd3ebd5c250fp+1",
+            "dimension": 0
+          }
+        ]
+      },
+      "ripser": {
+        "intervals_by_dimension": {
+          "0": [
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.092404842376709,
+              "death_hex": "0x1.0bd3ec0000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.092404842376709,
+              "death_hex": "0x1.0bd3ec0000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.2153992652893066,
+              "death_hex": "0x1.1b92340000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.2362258434295654,
+              "death_hex": "0x1.1e3ca60000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 2.2362258434295654,
+              "death_hex": "0x1.1e3ca60000000p+1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": "inf",
+              "death_hex": "inf"
+            }
+          ],
+          "1": []
+        },
+        "library": "ripser",
+        "parameters": {
+          "coeff": 2,
+          "distance_matrix": true,
+          "do_cocycles": false,
+          "maxdim": 1,
+          "n_perm": null,
+          "thresh": 4.571710545762174
+        },
+        "result_metadata": {
+          "cocycles": [
+            [],
+            []
+          ],
+          "dperm2all": [
+            [
+              0.0,
+              2.0924048227067327,
+              4.835882953833781,
+              8.244554454597155,
+              13.342991423656722,
+              21.87969489144892
+            ],
+            [
+              2.0924048227067327,
+              0.0,
+              2.2362259539521836,
+              4.571710545762172,
+              7.788438652632343,
+              13.342991423656683
+            ],
+            [
+              4.835882953833781,
+              2.2362259539521836,
+              0.0,
+              2.215399298835807,
+              4.571710545762174,
+              8.244554454597132
+            ],
+            [
+              8.244554454597155,
+              4.571710545762172,
+              2.215399298835807,
+              0.0,
+              2.236225953952192,
+              4.835882953833796
+            ],
+            [
+              13.342991423656722,
+              7.788438652632343,
+              4.571710545762174,
+              2.236225953952192,
+              0.0,
+              2.0924048227067327
+            ],
+            [
+              21.87969489144892,
+              13.342991423656683,
+              8.244554454597132,
+              4.835882953833796,
+              2.0924048227067327,
+              0.0
+            ]
+          ],
+          "idx_perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "num_edges": 7,
+          "r_cover": 0.0
+        }
+      }
+    },
+    "threshold": 4.571710545762174,
+    "threshold_hex": "0x1.2496e7d434eb1p+2"
+  },
+  "task_id": "PH-CONFORMANCE-VR-001"
+}

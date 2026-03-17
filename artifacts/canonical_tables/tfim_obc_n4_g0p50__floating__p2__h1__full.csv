@@ -1,0 +1,16 @@
+case_id,benchmark_id,family,mode,coeff,maxdim,threshold_label,library,dimension,interval_index,birth,death,birth_hex,death_hex
+tfim_obc_n4_g0p50__floating__p2__h1__full,tfim_obc_n4_g0p50__floating,A,floating,2,1,full,gudhi,0,0,0.0,1.2267650735310318,0x0.0p+0,0x1.3a0d469eb0d96p+0
+tfim_obc_n4_g0p50__floating__p2__h1__full,tfim_obc_n4_g0p50__floating,A,floating,2,1,full,gudhi,0,1,0.0,1.2427812645009724,0x0.0p+0,0x1.3e26e9b71cfadp+0
+tfim_obc_n4_g0p50__floating__p2__h1__full,tfim_obc_n4_g0p50__floating,A,floating,2,1,full,gudhi,0,2,0.0,1.2427812645009748,0x0.0p+0,0x1.3e26e9b71cfb8p+0
+tfim_obc_n4_g0p50__floating__p2__h1__full,tfim_obc_n4_g0p50__floating,A,floating,2,1,full,gudhi,0,3,0.0,inf,0x0.0p+0,inf
+tfim_obc_n4_g0p50__floating__p2__h1__full,tfim_obc_n4_g0p50__floating,A,floating,2,1,full,gudhi,1,0,1.503138097251341,1.503138097251341,0x1.80cda88910f10p+0,0x1.80cda88910f10p+0
+tfim_obc_n4_g0p50__floating__p2__h1__full,tfim_obc_n4_g0p50__floating,A,floating,2,1,full,gudhi,1,1,1.5031380972513426,1.5031380972513426,0x1.80cda88910f17p+0,0x1.80cda88910f17p+0
+tfim_obc_n4_g0p50__floating__p2__h1__full,tfim_obc_n4_g0p50__floating,A,floating,2,1,full,gudhi,1,2,1.7594160005299657,1.7594160005299657,0x1.c269164655d7ap+0,0x1.c269164655d7ap+0
+tfim_obc_n4_g0p50__floating__p2__h1__full,tfim_obc_n4_g0p50__floating,A,floating,2,1,full,ripser,0,0,0.0,1.2267650365829468,0x0.0p+0,0x1.3a0d460000000p+0
+tfim_obc_n4_g0p50__floating__p2__h1__full,tfim_obc_n4_g0p50__floating,A,floating,2,1,full,ripser,0,1,0.0,1.2427812814712524,0x0.0p+0,0x1.3e26ea0000000p+0
+tfim_obc_n4_g0p50__floating__p2__h1__full,tfim_obc_n4_g0p50__floating,A,floating,2,1,full,ripser,0,2,0.0,1.2427812814712524,0x0.0p+0,0x1.3e26ea0000000p+0
+tfim_obc_n4_g0p50__floating__p2__h1__full,tfim_obc_n4_g0p50__floating,A,floating,2,1,full,ripser,0,3,0.0,inf,0x0.0p+0,inf
+tfim_obc_n4_g0p50__floating__p2__h1__full,tfim_obc_n4_g0p50__floating,A,floating,2,1,full,dionysus,0,0,0.0,1.2267650365829468,0x0.0p+0,0x1.3a0d460000000p+0
+tfim_obc_n4_g0p50__floating__p2__h1__full,tfim_obc_n4_g0p50__floating,A,floating,2,1,full,dionysus,0,1,0.0,1.2427812814712524,0x0.0p+0,0x1.3e26ea0000000p+0
+tfim_obc_n4_g0p50__floating__p2__h1__full,tfim_obc_n4_g0p50__floating,A,floating,2,1,full,dionysus,0,2,0.0,1.2427812814712524,0x0.0p+0,0x1.3e26ea0000000p+0
+tfim_obc_n4_g0p50__floating__p2__h1__full,tfim_obc_n4_g0p50__floating,A,floating,2,1,full,dionysus,0,3,0.0,inf,0x0.0p+0,inf

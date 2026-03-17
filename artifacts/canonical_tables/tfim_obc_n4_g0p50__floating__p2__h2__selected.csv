@@ -1,0 +1,13 @@
+case_id,benchmark_id,family,mode,coeff,maxdim,threshold_label,library,dimension,interval_index,birth,death,birth_hex,death_hex
+tfim_obc_n4_g0p50__floating__p2__h2__selected,tfim_obc_n4_g0p50__floating,A,floating,2,2,selected,gudhi,0,0,0.0,1.2267650735310318,0x0.0p+0,0x1.3a0d469eb0d96p+0
+tfim_obc_n4_g0p50__floating__p2__h2__selected,tfim_obc_n4_g0p50__floating,A,floating,2,2,selected,gudhi,0,1,0.0,1.2427812645009724,0x0.0p+0,0x1.3e26e9b71cfadp+0
+tfim_obc_n4_g0p50__floating__p2__h2__selected,tfim_obc_n4_g0p50__floating,A,floating,2,2,selected,gudhi,0,2,0.0,1.2427812645009748,0x0.0p+0,0x1.3e26e9b71cfb8p+0
+tfim_obc_n4_g0p50__floating__p2__h2__selected,tfim_obc_n4_g0p50__floating,A,floating,2,2,selected,gudhi,0,3,0.0,inf,0x0.0p+0,inf
+tfim_obc_n4_g0p50__floating__p2__h2__selected,tfim_obc_n4_g0p50__floating,A,floating,2,2,selected,ripser,0,0,0.0,1.2267650365829468,0x0.0p+0,0x1.3a0d460000000p+0
+tfim_obc_n4_g0p50__floating__p2__h2__selected,tfim_obc_n4_g0p50__floating,A,floating,2,2,selected,ripser,0,1,0.0,1.2427812814712524,0x0.0p+0,0x1.3e26ea0000000p+0
+tfim_obc_n4_g0p50__floating__p2__h2__selected,tfim_obc_n4_g0p50__floating,A,floating,2,2,selected,ripser,0,2,0.0,1.2427812814712524,0x0.0p+0,0x1.3e26ea0000000p+0
+tfim_obc_n4_g0p50__floating__p2__h2__selected,tfim_obc_n4_g0p50__floating,A,floating,2,2,selected,ripser,0,3,0.0,inf,0x0.0p+0,inf
+tfim_obc_n4_g0p50__floating__p2__h2__selected,tfim_obc_n4_g0p50__floating,A,floating,2,2,selected,dionysus,0,0,0.0,1.2267650365829468,0x0.0p+0,0x1.3a0d460000000p+0
+tfim_obc_n4_g0p50__floating__p2__h2__selected,tfim_obc_n4_g0p50__floating,A,floating,2,2,selected,dionysus,0,1,0.0,1.2427812814712524,0x0.0p+0,0x1.3e26ea0000000p+0
+tfim_obc_n4_g0p50__floating__p2__h2__selected,tfim_obc_n4_g0p50__floating,A,floating,2,2,selected,dionysus,0,2,0.0,1.2427812814712524,0x0.0p+0,0x1.3e26ea0000000p+0
+tfim_obc_n4_g0p50__floating__p2__h2__selected,tfim_obc_n4_g0p50__floating,A,floating,2,2,selected,dionysus,0,3,0.0,inf,0x0.0p+0,inf

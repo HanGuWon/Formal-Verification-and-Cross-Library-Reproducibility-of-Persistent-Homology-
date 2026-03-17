@@ -1,0 +1,46 @@
+{
+  "benchmark_id": "tfim_obc_n4_g1p00__quantized",
+  "coeffs": [
+    2,
+    3
+  ],
+  "distance_matrix_shape": [
+    4,
+    4
+  ],
+  "family": "A",
+  "full_filtration_feasible": true,
+  "full_threshold": 9.73828125,
+  "has_point_cloud": false,
+  "label": "TFIM OBC N=4, g=1.00",
+  "maxdims": [
+    1,
+    2
+  ],
+  "metadata": {
+    "benchmark_id": "tfim_obc_n4_g1p00",
+    "boundary_condition": "obc",
+    "distance_matrix_hash": "b17ca8589e683af9da7d924df2e40fd3aded31caa45d06bd8d4142d61792f7aa",
+    "exchange_coupling": 1.0,
+    "family": "entanglement_distance_matrix",
+    "generator": "tfim_inverse_mutual_information",
+    "has_point_cloud": false,
+    "mode": "quantized",
+    "mutual_information_floor": 1e-12,
+    "n_sites": 4,
+    "point_cloud_hash": null,
+    "quantization_step": 0.0009765625,
+    "state_solver": "dense_exact_diagonalization",
+    "threshold_parameter": 0.4,
+    "threshold_strategy": "matrix_quantile",
+    "transverse_field": 1.0
+  },
+  "mode": "quantized",
+  "notes": [
+    "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+    "Mutual information uses base-2 von Neumann entropy with a small numerical floor.",
+    "Distance matrix quantized to a power-of-two step of 0.0009765625."
+  ],
+  "point_cloud_shape": null,
+  "selected_threshold": 2.2587890625
+}

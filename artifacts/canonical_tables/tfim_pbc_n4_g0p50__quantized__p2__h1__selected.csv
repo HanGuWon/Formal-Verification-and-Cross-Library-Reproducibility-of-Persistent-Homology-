@@ -1,0 +1,16 @@
+case_id,benchmark_id,family,mode,coeff,maxdim,threshold_label,library,dimension,interval_index,birth,death,birth_hex,death_hex
+tfim_pbc_n4_g0p50__quantized__p2__h1__selected,tfim_pbc_n4_g0p50__quantized,A,quantized,2,1,selected,gudhi,0,0,0.0,1.119140625,0x0.0p+0,0x1.1e80000000000p+0
+tfim_pbc_n4_g0p50__quantized__p2__h1__selected,tfim_pbc_n4_g0p50__quantized,A,quantized,2,1,selected,gudhi,0,1,0.0,1.119140625,0x0.0p+0,0x1.1e80000000000p+0
+tfim_pbc_n4_g0p50__quantized__p2__h1__selected,tfim_pbc_n4_g0p50__quantized,A,quantized,2,1,selected,gudhi,0,2,0.0,1.119140625,0x0.0p+0,0x1.1e80000000000p+0
+tfim_pbc_n4_g0p50__quantized__p2__h1__selected,tfim_pbc_n4_g0p50__quantized,A,quantized,2,1,selected,gudhi,0,3,0.0,inf,0x0.0p+0,inf
+tfim_pbc_n4_g0p50__quantized__p2__h1__selected,tfim_pbc_n4_g0p50__quantized,A,quantized,2,1,selected,gudhi,1,0,1.119140625,inf,0x1.1e80000000000p+0,inf
+tfim_pbc_n4_g0p50__quantized__p2__h1__selected,tfim_pbc_n4_g0p50__quantized,A,quantized,2,1,selected,ripser,0,0,0.0,1.119140625,0x0.0p+0,0x1.1e80000000000p+0
+tfim_pbc_n4_g0p50__quantized__p2__h1__selected,tfim_pbc_n4_g0p50__quantized,A,quantized,2,1,selected,ripser,0,1,0.0,1.119140625,0x0.0p+0,0x1.1e80000000000p+0
+tfim_pbc_n4_g0p50__quantized__p2__h1__selected,tfim_pbc_n4_g0p50__quantized,A,quantized,2,1,selected,ripser,0,2,0.0,1.119140625,0x0.0p+0,0x1.1e80000000000p+0
+tfim_pbc_n4_g0p50__quantized__p2__h1__selected,tfim_pbc_n4_g0p50__quantized,A,quantized,2,1,selected,ripser,0,3,0.0,inf,0x0.0p+0,inf
+tfim_pbc_n4_g0p50__quantized__p2__h1__selected,tfim_pbc_n4_g0p50__quantized,A,quantized,2,1,selected,ripser,1,0,1.119140625,inf,0x1.1e80000000000p+0,inf
+tfim_pbc_n4_g0p50__quantized__p2__h1__selected,tfim_pbc_n4_g0p50__quantized,A,quantized,2,1,selected,dionysus,0,0,0.0,1.119140625,0x0.0p+0,0x1.1e80000000000p+0
+tfim_pbc_n4_g0p50__quantized__p2__h1__selected,tfim_pbc_n4_g0p50__quantized,A,quantized,2,1,selected,dionysus,0,1,0.0,1.119140625,0x0.0p+0,0x1.1e80000000000p+0
+tfim_pbc_n4_g0p50__quantized__p2__h1__selected,tfim_pbc_n4_g0p50__quantized,A,quantized,2,1,selected,dionysus,0,2,0.0,1.119140625,0x0.0p+0,0x1.1e80000000000p+0
+tfim_pbc_n4_g0p50__quantized__p2__h1__selected,tfim_pbc_n4_g0p50__quantized,A,quantized,2,1,selected,dionysus,0,3,0.0,inf,0x0.0p+0,inf
+tfim_pbc_n4_g0p50__quantized__p2__h1__selected,tfim_pbc_n4_g0p50__quantized,A,quantized,2,1,selected,dionysus,1,0,1.119140625,inf,0x1.1e80000000000p+0,inf

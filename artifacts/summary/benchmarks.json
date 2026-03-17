@@ -1,0 +1,1086 @@
+[
+  {
+    "benchmark_id": "tfim_obc_n4_g0p50__floating",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      4,
+      4
+    ],
+    "family": "A",
+    "full_filtration_feasible": true,
+    "full_threshold": 1.7594160005299657,
+    "has_point_cloud": false,
+    "label": "TFIM OBC N=4, g=0.50",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "benchmark_id": "tfim_obc_n4_g0p50",
+      "boundary_condition": "obc",
+      "distance_matrix_hash": "38ff65464b09dd1fb2b06956acc00e3de7793446c02e28a0a709a3d9c6ac2b74",
+      "exchange_coupling": 1.0,
+      "family": "entanglement_distance_matrix",
+      "generator": "tfim_inverse_mutual_information",
+      "has_point_cloud": false,
+      "mode": "floating",
+      "mutual_information_floor": 1e-12,
+      "n_sites": 4,
+      "point_cloud_hash": null,
+      "quantization_step": null,
+      "state_solver": "dense_exact_diagonalization",
+      "threshold_parameter": 0.4,
+      "threshold_strategy": "matrix_quantile",
+      "transverse_field": 0.5
+    },
+    "mode": "floating",
+    "notes": [
+      "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+      "Mutual information uses base-2 von Neumann entropy with a small numerical floor."
+    ],
+    "point_cloud_shape": null,
+    "selected_threshold": 1.2427812645009748
+  },
+  {
+    "benchmark_id": "tfim_obc_n4_g0p50__quantized",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      4,
+      4
+    ],
+    "family": "A",
+    "full_filtration_feasible": true,
+    "full_threshold": 1.759765625,
+    "has_point_cloud": false,
+    "label": "TFIM OBC N=4, g=0.50",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "benchmark_id": "tfim_obc_n4_g0p50",
+      "boundary_condition": "obc",
+      "distance_matrix_hash": "50b73af87c25e8e2562bab820ebd2e7b35eb9830bcaf222ec9eaef699a80697c",
+      "exchange_coupling": 1.0,
+      "family": "entanglement_distance_matrix",
+      "generator": "tfim_inverse_mutual_information",
+      "has_point_cloud": false,
+      "mode": "quantized",
+      "mutual_information_floor": 1e-12,
+      "n_sites": 4,
+      "point_cloud_hash": null,
+      "quantization_step": 0.0009765625,
+      "state_solver": "dense_exact_diagonalization",
+      "threshold_parameter": 0.4,
+      "threshold_strategy": "matrix_quantile",
+      "transverse_field": 0.5
+    },
+    "mode": "quantized",
+    "notes": [
+      "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+      "Mutual information uses base-2 von Neumann entropy with a small numerical floor.",
+      "Distance matrix quantized to a power-of-two step of 0.0009765625."
+    ],
+    "point_cloud_shape": null,
+    "selected_threshold": 1.2431640625
+  },
+  {
+    "benchmark_id": "tfim_obc_n4_g1p00__floating",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      4,
+      4
+    ],
+    "family": "A",
+    "full_filtration_feasible": true,
+    "full_threshold": 9.73791661636864,
+    "has_point_cloud": false,
+    "label": "TFIM OBC N=4, g=1.00",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "benchmark_id": "tfim_obc_n4_g1p00",
+      "boundary_condition": "obc",
+      "distance_matrix_hash": "8f15607882459d876eaba31fb91593342004b25f34320f84828e13291a03a627",
+      "exchange_coupling": 1.0,
+      "family": "entanglement_distance_matrix",
+      "generator": "tfim_inverse_mutual_information",
+      "has_point_cloud": false,
+      "mode": "floating",
+      "mutual_information_floor": 1e-12,
+      "n_sites": 4,
+      "point_cloud_hash": null,
+      "quantization_step": null,
+      "state_solver": "dense_exact_diagonalization",
+      "threshold_parameter": 0.4,
+      "threshold_strategy": "matrix_quantile",
+      "transverse_field": 1.0
+    },
+    "mode": "floating",
+    "notes": [
+      "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+      "Mutual information uses base-2 von Neumann entropy with a small numerical floor."
+    ],
+    "point_cloud_shape": null,
+    "selected_threshold": 2.2583205186323103
+  },
+  {
+    "benchmark_id": "tfim_obc_n4_g1p00__quantized",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      4,
+      4
+    ],
+    "family": "A",
+    "full_filtration_feasible": true,
+    "full_threshold": 9.73828125,
+    "has_point_cloud": false,
+    "label": "TFIM OBC N=4, g=1.00",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "benchmark_id": "tfim_obc_n4_g1p00",
+      "boundary_condition": "obc",
+      "distance_matrix_hash": "b17ca8589e683af9da7d924df2e40fd3aded31caa45d06bd8d4142d61792f7aa",
+      "exchange_coupling": 1.0,
+      "family": "entanglement_distance_matrix",
+      "generator": "tfim_inverse_mutual_information",
+      "has_point_cloud": false,
+      "mode": "quantized",
+      "mutual_information_floor": 1e-12,
+      "n_sites": 4,
+      "point_cloud_hash": null,
+      "quantization_step": 0.0009765625,
+      "state_solver": "dense_exact_diagonalization",
+      "threshold_parameter": 0.4,
+      "threshold_strategy": "matrix_quantile",
+      "transverse_field": 1.0
+    },
+    "mode": "quantized",
+    "notes": [
+      "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+      "Mutual information uses base-2 von Neumann entropy with a small numerical floor.",
+      "Distance matrix quantized to a power-of-two step of 0.0009765625."
+    ],
+    "point_cloud_shape": null,
+    "selected_threshold": 2.2587890625
+  },
+  {
+    "benchmark_id": "tfim_obc_n6_g0p50__floating",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      6,
+      6
+    ],
+    "family": "A",
+    "full_filtration_feasible": true,
+    "full_threshold": 1.673685643721418,
+    "has_point_cloud": false,
+    "label": "TFIM OBC N=6, g=0.50",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "benchmark_id": "tfim_obc_n6_g0p50",
+      "boundary_condition": "obc",
+      "distance_matrix_hash": "9f3351e65c9d89e3c8272c5e5846005822d2fa40b7ec1cc4531a29f59203b700",
+      "exchange_coupling": 1.0,
+      "family": "entanglement_distance_matrix",
+      "generator": "tfim_inverse_mutual_information",
+      "has_point_cloud": false,
+      "mode": "floating",
+      "mutual_information_floor": 1e-12,
+      "n_sites": 6,
+      "point_cloud_hash": null,
+      "quantization_step": null,
+      "state_solver": "dense_exact_diagonalization",
+      "threshold_parameter": 0.4,
+      "threshold_strategy": "matrix_quantile",
+      "transverse_field": 0.5
+    },
+    "mode": "floating",
+    "notes": [
+      "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+      "Mutual information uses base-2 von Neumann entropy with a small numerical floor."
+    ],
+    "point_cloud_shape": null,
+    "selected_threshold": 1.2525237786025318
+  },
+  {
+    "benchmark_id": "tfim_obc_n6_g0p50__quantized",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      6,
+      6
+    ],
+    "family": "A",
+    "full_filtration_feasible": true,
+    "full_threshold": 1.673828125,
+    "has_point_cloud": false,
+    "label": "TFIM OBC N=6, g=0.50",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "benchmark_id": "tfim_obc_n6_g0p50",
+      "boundary_condition": "obc",
+      "distance_matrix_hash": "9f3380f800feafb15b3bf4868ad2df476c4c818d96e5a4f013eadf7951cdc259",
+      "exchange_coupling": 1.0,
+      "family": "entanglement_distance_matrix",
+      "generator": "tfim_inverse_mutual_information",
+      "has_point_cloud": false,
+      "mode": "quantized",
+      "mutual_information_floor": 1e-12,
+      "n_sites": 6,
+      "point_cloud_hash": null,
+      "quantization_step": 0.0009765625,
+      "state_solver": "dense_exact_diagonalization",
+      "threshold_parameter": 0.4,
+      "threshold_strategy": "matrix_quantile",
+      "transverse_field": 0.5
+    },
+    "mode": "quantized",
+    "notes": [
+      "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+      "Mutual information uses base-2 von Neumann entropy with a small numerical floor.",
+      "Distance matrix quantized to a power-of-two step of 0.0009765625."
+    ],
+    "point_cloud_shape": null,
+    "selected_threshold": 1.2529296875
+  },
+  {
+    "benchmark_id": "tfim_obc_n6_g1p00__floating",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      6,
+      6
+    ],
+    "family": "A",
+    "full_filtration_feasible": true,
+    "full_threshold": 21.87969489144892,
+    "has_point_cloud": false,
+    "label": "TFIM OBC N=6, g=1.00",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "benchmark_id": "tfim_obc_n6_g1p00",
+      "boundary_condition": "obc",
+      "distance_matrix_hash": "25887e7945644db9eab11e660e71c6fb097358f786c4ac6797650da7a153a049",
+      "exchange_coupling": 1.0,
+      "family": "entanglement_distance_matrix",
+      "generator": "tfim_inverse_mutual_information",
+      "has_point_cloud": false,
+      "mode": "floating",
+      "mutual_information_floor": 1e-12,
+      "n_sites": 6,
+      "point_cloud_hash": null,
+      "quantization_step": null,
+      "state_solver": "dense_exact_diagonalization",
+      "threshold_parameter": 0.4,
+      "threshold_strategy": "matrix_quantile",
+      "transverse_field": 1.0
+    },
+    "mode": "floating",
+    "notes": [
+      "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+      "Mutual information uses base-2 von Neumann entropy with a small numerical floor."
+    ],
+    "point_cloud_shape": null,
+    "selected_threshold": 4.571710545762174
+  },
+  {
+    "benchmark_id": "tfim_obc_n6_g1p00__quantized",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      6,
+      6
+    ],
+    "family": "A",
+    "full_filtration_feasible": true,
+    "full_threshold": 21.8798828125,
+    "has_point_cloud": false,
+    "label": "TFIM OBC N=6, g=1.00",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "benchmark_id": "tfim_obc_n6_g1p00",
+      "boundary_condition": "obc",
+      "distance_matrix_hash": "49ff68439dd04efb0cb5af4c502a622209516d419c2677147fc692356a339360",
+      "exchange_coupling": 1.0,
+      "family": "entanglement_distance_matrix",
+      "generator": "tfim_inverse_mutual_information",
+      "has_point_cloud": false,
+      "mode": "quantized",
+      "mutual_information_floor": 1e-12,
+      "n_sites": 6,
+      "point_cloud_hash": null,
+      "quantization_step": 0.0009765625,
+      "state_solver": "dense_exact_diagonalization",
+      "threshold_parameter": 0.4,
+      "threshold_strategy": "matrix_quantile",
+      "transverse_field": 1.0
+    },
+    "mode": "quantized",
+    "notes": [
+      "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+      "Mutual information uses base-2 von Neumann entropy with a small numerical floor.",
+      "Distance matrix quantized to a power-of-two step of 0.0009765625."
+    ],
+    "point_cloud_shape": null,
+    "selected_threshold": 4.5712890625
+  },
+  {
+    "benchmark_id": "tfim_pbc_n4_g0p50__floating",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      4,
+      4
+    ],
+    "family": "A",
+    "full_filtration_feasible": true,
+    "full_threshold": 1.1405648750053994,
+    "has_point_cloud": false,
+    "label": "TFIM PBC N=4, g=0.50",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "benchmark_id": "tfim_pbc_n4_g0p50",
+      "boundary_condition": "pbc",
+      "distance_matrix_hash": "3512251ede57c0736500b2c075279f1e3be4adafd406694b1f21bd0967660530",
+      "exchange_coupling": 1.0,
+      "family": "entanglement_distance_matrix",
+      "generator": "tfim_inverse_mutual_information",
+      "has_point_cloud": false,
+      "mode": "floating",
+      "mutual_information_floor": 1e-12,
+      "n_sites": 4,
+      "point_cloud_hash": null,
+      "quantization_step": null,
+      "state_solver": "dense_exact_diagonalization",
+      "threshold_parameter": 0.4,
+      "threshold_strategy": "matrix_quantile",
+      "transverse_field": 0.5
+    },
+    "mode": "floating",
+    "notes": [
+      "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+      "Mutual information uses base-2 von Neumann entropy with a small numerical floor."
+    ],
+    "point_cloud_shape": null,
+    "selected_threshold": 1.119133843184316
+  },
+  {
+    "benchmark_id": "tfim_pbc_n4_g0p50__quantized",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      4,
+      4
+    ],
+    "family": "A",
+    "full_filtration_feasible": true,
+    "full_threshold": 1.140625,
+    "has_point_cloud": false,
+    "label": "TFIM PBC N=4, g=0.50",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "benchmark_id": "tfim_pbc_n4_g0p50",
+      "boundary_condition": "pbc",
+      "distance_matrix_hash": "499f4a50645bb879c7d11bef88e7c03c1206d892b87b035c08f9450c923610e2",
+      "exchange_coupling": 1.0,
+      "family": "entanglement_distance_matrix",
+      "generator": "tfim_inverse_mutual_information",
+      "has_point_cloud": false,
+      "mode": "quantized",
+      "mutual_information_floor": 1e-12,
+      "n_sites": 4,
+      "point_cloud_hash": null,
+      "quantization_step": 0.0009765625,
+      "state_solver": "dense_exact_diagonalization",
+      "threshold_parameter": 0.4,
+      "threshold_strategy": "matrix_quantile",
+      "transverse_field": 0.5
+    },
+    "mode": "quantized",
+    "notes": [
+      "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+      "Mutual information uses base-2 von Neumann entropy with a small numerical floor.",
+      "Distance matrix quantized to a power-of-two step of 0.0009765625."
+    ],
+    "point_cloud_shape": null,
+    "selected_threshold": 1.119140625
+  },
+  {
+    "benchmark_id": "tfim_pbc_n4_g1p00__floating",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      4,
+      4
+    ],
+    "family": "A",
+    "full_filtration_feasible": true,
+    "full_threshold": 2.0553334879376455,
+    "has_point_cloud": false,
+    "label": "TFIM PBC N=4, g=1.00",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "benchmark_id": "tfim_pbc_n4_g1p00",
+      "boundary_condition": "pbc",
+      "distance_matrix_hash": "4ea00fb970ef00d9e7dd5695a4a2bae52dd8adbba3d4f7c78cdfb2dc94c9028d",
+      "exchange_coupling": 1.0,
+      "family": "entanglement_distance_matrix",
+      "generator": "tfim_inverse_mutual_information",
+      "has_point_cloud": false,
+      "mode": "floating",
+      "mutual_information_floor": 1e-12,
+      "n_sites": 4,
+      "point_cloud_hash": null,
+      "quantization_step": null,
+      "state_solver": "dense_exact_diagonalization",
+      "threshold_parameter": 0.4,
+      "threshold_strategy": "matrix_quantile",
+      "transverse_field": 1.0
+    },
+    "mode": "floating",
+    "notes": [
+      "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+      "Mutual information uses base-2 von Neumann entropy with a small numerical floor."
+    ],
+    "point_cloud_shape": null,
+    "selected_threshold": 1.7308043394454913
+  },
+  {
+    "benchmark_id": "tfim_pbc_n4_g1p00__quantized",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      4,
+      4
+    ],
+    "family": "A",
+    "full_filtration_feasible": true,
+    "full_threshold": 2.0556640625,
+    "has_point_cloud": false,
+    "label": "TFIM PBC N=4, g=1.00",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "benchmark_id": "tfim_pbc_n4_g1p00",
+      "boundary_condition": "pbc",
+      "distance_matrix_hash": "7d7b9bbefb71261881e2ad3115814a3d0c9473e29a4434d5a3e2cac8fc7ec412",
+      "exchange_coupling": 1.0,
+      "family": "entanglement_distance_matrix",
+      "generator": "tfim_inverse_mutual_information",
+      "has_point_cloud": false,
+      "mode": "quantized",
+      "mutual_information_floor": 1e-12,
+      "n_sites": 4,
+      "point_cloud_hash": null,
+      "quantization_step": 0.0009765625,
+      "state_solver": "dense_exact_diagonalization",
+      "threshold_parameter": 0.4,
+      "threshold_strategy": "matrix_quantile",
+      "transverse_field": 1.0
+    },
+    "mode": "quantized",
+    "notes": [
+      "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+      "Mutual information uses base-2 von Neumann entropy with a small numerical floor.",
+      "Distance matrix quantized to a power-of-two step of 0.0009765625."
+    ],
+    "point_cloud_shape": null,
+    "selected_threshold": 1.73046875
+  },
+  {
+    "benchmark_id": "tfim_pbc_n6_g0p50__floating",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      6,
+      6
+    ],
+    "family": "A",
+    "full_filtration_feasible": true,
+    "full_threshold": 1.130663291251138,
+    "has_point_cloud": false,
+    "label": "TFIM PBC N=6, g=0.50",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "benchmark_id": "tfim_pbc_n6_g0p50",
+      "boundary_condition": "pbc",
+      "distance_matrix_hash": "a0d257bb4f737d25c696dc7bdf280458e54c9484cfefd9da0bf7245e8934510e",
+      "exchange_coupling": 1.0,
+      "family": "entanglement_distance_matrix",
+      "generator": "tfim_inverse_mutual_information",
+      "has_point_cloud": false,
+      "mode": "floating",
+      "mutual_information_floor": 1e-12,
+      "n_sites": 6,
+      "point_cloud_hash": null,
+      "quantization_step": null,
+      "state_solver": "dense_exact_diagonalization",
+      "threshold_parameter": 0.4,
+      "threshold_strategy": "matrix_quantile",
+      "transverse_field": 0.5
+    },
+    "mode": "floating",
+    "notes": [
+      "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+      "Mutual information uses base-2 von Neumann entropy with a small numerical floor."
+    ],
+    "point_cloud_shape": null,
+    "selected_threshold": 1.1276651550305354
+  },
+  {
+    "benchmark_id": "tfim_pbc_n6_g0p50__quantized",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      6,
+      6
+    ],
+    "family": "A",
+    "full_filtration_feasible": true,
+    "full_threshold": 1.130859375,
+    "has_point_cloud": false,
+    "label": "TFIM PBC N=6, g=0.50",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "benchmark_id": "tfim_pbc_n6_g0p50",
+      "boundary_condition": "pbc",
+      "distance_matrix_hash": "cadaccc66f23167e9032a740320f9d7ff6b727fd7d13226f7b89f3e7ecae281b",
+      "exchange_coupling": 1.0,
+      "family": "entanglement_distance_matrix",
+      "generator": "tfim_inverse_mutual_information",
+      "has_point_cloud": false,
+      "mode": "quantized",
+      "mutual_information_floor": 1e-12,
+      "n_sites": 6,
+      "point_cloud_hash": null,
+      "quantization_step": 0.0009765625,
+      "state_solver": "dense_exact_diagonalization",
+      "threshold_parameter": 0.4,
+      "threshold_strategy": "matrix_quantile",
+      "transverse_field": 0.5
+    },
+    "mode": "quantized",
+    "notes": [
+      "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+      "Mutual information uses base-2 von Neumann entropy with a small numerical floor.",
+      "Distance matrix quantized to a power-of-two step of 0.0009765625."
+    ],
+    "point_cloud_shape": null,
+    "selected_threshold": 1.1279296875
+  },
+  {
+    "benchmark_id": "tfim_pbc_n6_g1p00__floating",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      6,
+      6
+    ],
+    "family": "A",
+    "full_filtration_feasible": true,
+    "full_threshold": 2.7097514512720444,
+    "has_point_cloud": false,
+    "label": "TFIM PBC N=6, g=1.00",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "benchmark_id": "tfim_pbc_n6_g1p00",
+      "boundary_condition": "pbc",
+      "distance_matrix_hash": "02dc5c8900dfce4c644db7737f84ab021e0abca9b3bac8e95776e378a83cd794",
+      "exchange_coupling": 1.0,
+      "family": "entanglement_distance_matrix",
+      "generator": "tfim_inverse_mutual_information",
+      "has_point_cloud": false,
+      "mode": "floating",
+      "mutual_information_floor": 1e-12,
+      "n_sites": 6,
+      "point_cloud_hash": null,
+      "quantization_step": null,
+      "state_solver": "dense_exact_diagonalization",
+      "threshold_parameter": 0.4,
+      "threshold_strategy": "matrix_quantile",
+      "transverse_field": 1.0
+    },
+    "mode": "floating",
+    "notes": [
+      "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+      "Mutual information uses base-2 von Neumann entropy with a small numerical floor."
+    ],
+    "point_cloud_shape": null,
+    "selected_threshold": 2.497817855094092
+  },
+  {
+    "benchmark_id": "tfim_pbc_n6_g1p00__quantized",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      6,
+      6
+    ],
+    "family": "A",
+    "full_filtration_feasible": true,
+    "full_threshold": 2.7099609375,
+    "has_point_cloud": false,
+    "label": "TFIM PBC N=6, g=1.00",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "benchmark_id": "tfim_pbc_n6_g1p00",
+      "boundary_condition": "pbc",
+      "distance_matrix_hash": "4916ff089142ff497994fcd3b0d5568d4910231ac1393714fee82906519ee77d",
+      "exchange_coupling": 1.0,
+      "family": "entanglement_distance_matrix",
+      "generator": "tfim_inverse_mutual_information",
+      "has_point_cloud": false,
+      "mode": "quantized",
+      "mutual_information_floor": 1e-12,
+      "n_sites": 6,
+      "point_cloud_hash": null,
+      "quantization_step": 0.0009765625,
+      "state_solver": "dense_exact_diagonalization",
+      "threshold_parameter": 0.4,
+      "threshold_strategy": "matrix_quantile",
+      "transverse_field": 1.0
+    },
+    "mode": "quantized",
+    "notes": [
+      "Distance is defined as the inverse pairwise mutual information from the TFIM ground state.",
+      "Mutual information uses base-2 von Neumann entropy with a small numerical floor.",
+      "Distance matrix quantized to a power-of-two step of 0.0009765625."
+    ],
+    "point_cloud_shape": null,
+    "selected_threshold": 2.498046875
+  },
+  {
+    "benchmark_id": "square_patch_3x3__floating",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      9,
+      9
+    ],
+    "family": "B",
+    "full_filtration_feasible": true,
+    "full_threshold": 2.8284271247461903,
+    "has_point_cloud": true,
+    "label": "Square lattice patch 3x3",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "ambient_dimension": 2,
+      "benchmark_id": "square_patch_3x3",
+      "distance_matrix_hash": "0a4a6107ee5a261ba16f1934982550fb46ebde089e6c395f973974574418c15b",
+      "family": "crystalline_point_cloud",
+      "generator": "square_patch_3x3",
+      "has_point_cloud": true,
+      "mode": "floating",
+      "nearest_neighbor_distance": 1.0,
+      "num_points": 9,
+      "point_cloud_hash": "bf551e661b73a098ad05d7fee24dc23a6a17258fd40b3d2da7cfa08ed6c1ce87",
+      "quantization_step": null,
+      "threshold_parameter": 1.0,
+      "threshold_strategy": "nearest_neighbor"
+    },
+    "mode": "floating",
+    "notes": [
+      "Regular square patch with unit nearest-neighbor spacing."
+    ],
+    "point_cloud_shape": [
+      9,
+      2
+    ],
+    "selected_threshold": 1.0
+  },
+  {
+    "benchmark_id": "square_patch_3x3__quantized",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      9,
+      9
+    ],
+    "family": "B",
+    "full_filtration_feasible": true,
+    "full_threshold": 2.828125,
+    "has_point_cloud": true,
+    "label": "Square lattice patch 3x3",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "ambient_dimension": 2,
+      "benchmark_id": "square_patch_3x3",
+      "distance_matrix_hash": "6b119c77f3a9336acae9ac65d34873c74f5413135bd97ce88f619114799122bd",
+      "family": "crystalline_point_cloud",
+      "generator": "square_patch_3x3",
+      "has_point_cloud": true,
+      "mode": "quantized",
+      "nearest_neighbor_distance": 1.0,
+      "num_points": 9,
+      "point_cloud_hash": "bf551e661b73a098ad05d7fee24dc23a6a17258fd40b3d2da7cfa08ed6c1ce87",
+      "quantization_step": 0.0009765625,
+      "threshold_parameter": 1.0,
+      "threshold_strategy": "nearest_neighbor"
+    },
+    "mode": "quantized",
+    "notes": [
+      "Regular square patch with unit nearest-neighbor spacing.",
+      "Distance matrix quantized to a power-of-two step of 0.0009765625."
+    ],
+    "point_cloud_shape": [
+      9,
+      2
+    ],
+    "selected_threshold": 1.0
+  },
+  {
+    "benchmark_id": "triangular_patch_3x3__floating",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      9,
+      9
+    ],
+    "family": "B",
+    "full_filtration_feasible": true,
+    "full_threshold": 2.6457513110645907,
+    "has_point_cloud": true,
+    "label": "Triangular lattice patch 3x3",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "ambient_dimension": 2,
+      "benchmark_id": "triangular_patch_3x3",
+      "distance_matrix_hash": "68a205222b6cf638152e65dea88840d7a0d0088e137dc720e81be2b6f082da8c",
+      "family": "crystalline_point_cloud",
+      "generator": "triangular_patch_3x3",
+      "has_point_cloud": true,
+      "mode": "floating",
+      "nearest_neighbor_distance": 1.0,
+      "num_points": 9,
+      "point_cloud_hash": "18c96164d56b58ad10bdc1916e6ae0cb4de2ebfcb782ea2b2ab7617f454398ad",
+      "quantization_step": null,
+      "threshold_parameter": 1.0,
+      "threshold_strategy": "nearest_neighbor"
+    },
+    "mode": "floating",
+    "notes": [
+      "Triangular lattice patch built from a unit-spacing oblique basis."
+    ],
+    "point_cloud_shape": [
+      9,
+      2
+    ],
+    "selected_threshold": 1.0
+  },
+  {
+    "benchmark_id": "triangular_patch_3x3__quantized",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      9,
+      9
+    ],
+    "family": "B",
+    "full_filtration_feasible": true,
+    "full_threshold": 2.6455078125,
+    "has_point_cloud": true,
+    "label": "Triangular lattice patch 3x3",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "ambient_dimension": 2,
+      "benchmark_id": "triangular_patch_3x3",
+      "distance_matrix_hash": "5879f7278c859f98888eb94312ae9813cab89a5318769dc3be01abf79d7ca6b8",
+      "family": "crystalline_point_cloud",
+      "generator": "triangular_patch_3x3",
+      "has_point_cloud": true,
+      "mode": "quantized",
+      "nearest_neighbor_distance": 1.0,
+      "num_points": 9,
+      "point_cloud_hash": "18c96164d56b58ad10bdc1916e6ae0cb4de2ebfcb782ea2b2ab7617f454398ad",
+      "quantization_step": 0.0009765625,
+      "threshold_parameter": 1.0,
+      "threshold_strategy": "nearest_neighbor"
+    },
+    "mode": "quantized",
+    "notes": [
+      "Triangular lattice patch built from a unit-spacing oblique basis.",
+      "Distance matrix quantized to a power-of-two step of 0.0009765625."
+    ],
+    "point_cloud_shape": [
+      9,
+      2
+    ],
+    "selected_threshold": 1.0
+  },
+  {
+    "benchmark_id": "honeycomb_patch_2x2__floating",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      8,
+      8
+    ],
+    "family": "B",
+    "full_filtration_feasible": true,
+    "full_threshold": 4.0,
+    "has_point_cloud": true,
+    "label": "Honeycomb patch 2x2 cells",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "ambient_dimension": 2,
+      "benchmark_id": "honeycomb_patch_2x2",
+      "distance_matrix_hash": "2b43da87ebce7a96c1f9aab3397c8ed4674fb09fab532690fcf40dc09531841d",
+      "family": "crystalline_point_cloud",
+      "generator": "honeycomb_patch_2x2",
+      "has_point_cloud": true,
+      "mode": "floating",
+      "nearest_neighbor_distance": 1.0,
+      "num_points": 8,
+      "point_cloud_hash": "78a86da9e19a1f925ae1ea9176b460465de8766b416156a969562ea96784a389",
+      "quantization_step": null,
+      "threshold_parameter": 1.0,
+      "threshold_strategy": "nearest_neighbor"
+    },
+    "mode": "floating",
+    "notes": [
+      "Graphene-like honeycomb patch using a two-point basis."
+    ],
+    "point_cloud_shape": [
+      8,
+      2
+    ],
+    "selected_threshold": 1.0
+  },
+  {
+    "benchmark_id": "honeycomb_patch_2x2__quantized",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      8,
+      8
+    ],
+    "family": "B",
+    "full_filtration_feasible": true,
+    "full_threshold": 4.0,
+    "has_point_cloud": true,
+    "label": "Honeycomb patch 2x2 cells",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "ambient_dimension": 2,
+      "benchmark_id": "honeycomb_patch_2x2",
+      "distance_matrix_hash": "905c07d43ffe7f3eca37b40868b5269076dca361b0bfde16bb93c90d04344b98",
+      "family": "crystalline_point_cloud",
+      "generator": "honeycomb_patch_2x2",
+      "has_point_cloud": true,
+      "mode": "quantized",
+      "nearest_neighbor_distance": 1.0,
+      "num_points": 8,
+      "point_cloud_hash": "78a86da9e19a1f925ae1ea9176b460465de8766b416156a969562ea96784a389",
+      "quantization_step": 0.0009765625,
+      "threshold_parameter": 1.0,
+      "threshold_strategy": "nearest_neighbor"
+    },
+    "mode": "quantized",
+    "notes": [
+      "Graphene-like honeycomb patch using a two-point basis.",
+      "Distance matrix quantized to a power-of-two step of 0.0009765625."
+    ],
+    "point_cloud_shape": [
+      8,
+      2
+    ],
+    "selected_threshold": 1.0
+  },
+  {
+    "benchmark_id": "nacl_coordination_shell__floating",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      7,
+      7
+    ],
+    "family": "B",
+    "full_filtration_feasible": true,
+    "full_threshold": 2.0,
+    "has_point_cloud": true,
+    "label": "NaCl-style coordination shell",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "ambient_dimension": 3,
+      "benchmark_id": "nacl_coordination_shell",
+      "distance_matrix_hash": "5a31949863d65f482acbbd24d5b5df04f640b4d56b8a487c78bbb879bc0d6205",
+      "family": "crystalline_point_cloud",
+      "generator": "nacl_coordination_shell",
+      "has_point_cloud": true,
+      "mode": "floating",
+      "nearest_neighbor_distance": 1.0,
+      "num_points": 7,
+      "point_cloud_hash": "a0ad1bb9cf033b438bab5413c132aabc212fb8864bb814c157fd9b67c1797569",
+      "quantization_step": null,
+      "threshold_parameter": 1.0,
+      "threshold_strategy": "nearest_neighbor"
+    },
+    "mode": "floating",
+    "notes": [
+      "Central atom with six axis-aligned nearest neighbors."
+    ],
+    "point_cloud_shape": [
+      7,
+      3
+    ],
+    "selected_threshold": 1.0
+  },
+  {
+    "benchmark_id": "nacl_coordination_shell__quantized",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      7,
+      7
+    ],
+    "family": "B",
+    "full_filtration_feasible": true,
+    "full_threshold": 2.0,
+    "has_point_cloud": true,
+    "label": "NaCl-style coordination shell",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "ambient_dimension": 3,
+      "benchmark_id": "nacl_coordination_shell",
+      "distance_matrix_hash": "4664e10abe61486076e41650bc39203875f5d57e14e39e7f603dd74034bd4b25",
+      "family": "crystalline_point_cloud",
+      "generator": "nacl_coordination_shell",
+      "has_point_cloud": true,
+      "mode": "quantized",
+      "nearest_neighbor_distance": 1.0,
+      "num_points": 7,
+      "point_cloud_hash": "a0ad1bb9cf033b438bab5413c132aabc212fb8864bb814c157fd9b67c1797569",
+      "quantization_step": 0.0009765625,
+      "threshold_parameter": 1.0,
+      "threshold_strategy": "nearest_neighbor"
+    },
+    "mode": "quantized",
+    "notes": [
+      "Central atom with six axis-aligned nearest neighbors.",
+      "Distance matrix quantized to a power-of-two step of 0.0009765625."
+    ],
+    "point_cloud_shape": [
+      7,
+      3
+    ],
+    "selected_threshold": 1.0
+  }
+]

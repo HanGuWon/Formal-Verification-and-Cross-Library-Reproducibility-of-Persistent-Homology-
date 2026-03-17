@@ -1,0 +1,44 @@
+{
+  "benchmark_id": "nacl_coordination_shell__floating",
+  "coeffs": [
+    2,
+    3
+  ],
+  "distance_matrix_shape": [
+    7,
+    7
+  ],
+  "family": "B",
+  "full_filtration_feasible": true,
+  "full_threshold": 2.0,
+  "has_point_cloud": true,
+  "label": "NaCl-style coordination shell",
+  "maxdims": [
+    1,
+    2
+  ],
+  "metadata": {
+    "ambient_dimension": 3,
+    "benchmark_id": "nacl_coordination_shell",
+    "distance_matrix_hash": "5a31949863d65f482acbbd24d5b5df04f640b4d56b8a487c78bbb879bc0d6205",
+    "family": "crystalline_point_cloud",
+    "generator": "nacl_coordination_shell",
+    "has_point_cloud": true,
+    "mode": "floating",
+    "nearest_neighbor_distance": 1.0,
+    "num_points": 7,
+    "point_cloud_hash": "a0ad1bb9cf033b438bab5413c132aabc212fb8864bb814c157fd9b67c1797569",
+    "quantization_step": null,
+    "threshold_parameter": 1.0,
+    "threshold_strategy": "nearest_neighbor"
+  },
+  "mode": "floating",
+  "notes": [
+    "Central atom with six axis-aligned nearest neighbors."
+  ],
+  "point_cloud_shape": [
+    7,
+    3
+  ],
+  "selected_threshold": 1.0
+}

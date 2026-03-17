@@ -1,0 +1,16 @@
+case_id,benchmark_id,family,mode,coeff,maxdim,threshold_label,library,dimension,interval_index,birth,death,birth_hex,death_hex
+tfim_obc_n4_g0p50__quantized__p2__h1__full,tfim_obc_n4_g0p50__quantized,A,quantized,2,1,full,gudhi,0,0,0.0,1.2265625,0x0.0p+0,0x1.3a00000000000p+0
+tfim_obc_n4_g0p50__quantized__p2__h1__full,tfim_obc_n4_g0p50__quantized,A,quantized,2,1,full,gudhi,0,1,0.0,1.2431640625,0x0.0p+0,0x1.3e40000000000p+0
+tfim_obc_n4_g0p50__quantized__p2__h1__full,tfim_obc_n4_g0p50__quantized,A,quantized,2,1,full,gudhi,0,2,0.0,1.2431640625,0x0.0p+0,0x1.3e40000000000p+0
+tfim_obc_n4_g0p50__quantized__p2__h1__full,tfim_obc_n4_g0p50__quantized,A,quantized,2,1,full,gudhi,0,3,0.0,inf,0x0.0p+0,inf
+tfim_obc_n4_g0p50__quantized__p2__h1__full,tfim_obc_n4_g0p50__quantized,A,quantized,2,1,full,gudhi,1,0,1.5029296875,1.5029296875,0x1.80c0000000000p+0,0x1.80c0000000000p+0
+tfim_obc_n4_g0p50__quantized__p2__h1__full,tfim_obc_n4_g0p50__quantized,A,quantized,2,1,full,gudhi,1,1,1.5029296875,1.5029296875,0x1.80c0000000000p+0,0x1.80c0000000000p+0
+tfim_obc_n4_g0p50__quantized__p2__h1__full,tfim_obc_n4_g0p50__quantized,A,quantized,2,1,full,gudhi,1,2,1.759765625,1.759765625,0x1.c280000000000p+0,0x1.c280000000000p+0
+tfim_obc_n4_g0p50__quantized__p2__h1__full,tfim_obc_n4_g0p50__quantized,A,quantized,2,1,full,ripser,0,0,0.0,1.2265625,0x0.0p+0,0x1.3a00000000000p+0
+tfim_obc_n4_g0p50__quantized__p2__h1__full,tfim_obc_n4_g0p50__quantized,A,quantized,2,1,full,ripser,0,1,0.0,1.2431640625,0x0.0p+0,0x1.3e40000000000p+0
+tfim_obc_n4_g0p50__quantized__p2__h1__full,tfim_obc_n4_g0p50__quantized,A,quantized,2,1,full,ripser,0,2,0.0,1.2431640625,0x0.0p+0,0x1.3e40000000000p+0
+tfim_obc_n4_g0p50__quantized__p2__h1__full,tfim_obc_n4_g0p50__quantized,A,quantized,2,1,full,ripser,0,3,0.0,inf,0x0.0p+0,inf
+tfim_obc_n4_g0p50__quantized__p2__h1__full,tfim_obc_n4_g0p50__quantized,A,quantized,2,1,full,dionysus,0,0,0.0,1.2265625,0x0.0p+0,0x1.3a00000000000p+0
+tfim_obc_n4_g0p50__quantized__p2__h1__full,tfim_obc_n4_g0p50__quantized,A,quantized,2,1,full,dionysus,0,1,0.0,1.2431640625,0x0.0p+0,0x1.3e40000000000p+0
+tfim_obc_n4_g0p50__quantized__p2__h1__full,tfim_obc_n4_g0p50__quantized,A,quantized,2,1,full,dionysus,0,2,0.0,1.2431640625,0x0.0p+0,0x1.3e40000000000p+0
+tfim_obc_n4_g0p50__quantized__p2__h1__full,tfim_obc_n4_g0p50__quantized,A,quantized,2,1,full,dionysus,0,3,0.0,inf,0x0.0p+0,inf

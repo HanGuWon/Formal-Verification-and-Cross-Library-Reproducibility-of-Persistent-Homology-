@@ -1,0 +1,45 @@
+{
+  "benchmark_id": "square_patch_3x3__quantized",
+  "coeffs": [
+    2,
+    3
+  ],
+  "distance_matrix_shape": [
+    9,
+    9
+  ],
+  "family": "B",
+  "full_filtration_feasible": true,
+  "full_threshold": 2.828125,
+  "has_point_cloud": true,
+  "label": "Square lattice patch 3x3",
+  "maxdims": [
+    1,
+    2
+  ],
+  "metadata": {
+    "ambient_dimension": 2,
+    "benchmark_id": "square_patch_3x3",
+    "distance_matrix_hash": "6b119c77f3a9336acae9ac65d34873c74f5413135bd97ce88f619114799122bd",
+    "family": "crystalline_point_cloud",
+    "generator": "square_patch_3x3",
+    "has_point_cloud": true,
+    "mode": "quantized",
+    "nearest_neighbor_distance": 1.0,
+    "num_points": 9,
+    "point_cloud_hash": "bf551e661b73a098ad05d7fee24dc23a6a17258fd40b3d2da7cfa08ed6c1ce87",
+    "quantization_step": 0.0009765625,
+    "threshold_parameter": 1.0,
+    "threshold_strategy": "nearest_neighbor"
+  },
+  "mode": "quantized",
+  "notes": [
+    "Regular square patch with unit nearest-neighbor spacing.",
+    "Distance matrix quantized to a power-of-two step of 0.0009765625."
+  ],
+  "point_cloud_shape": [
+    9,
+    2
+  ],
+  "selected_threshold": 1.0
+}
