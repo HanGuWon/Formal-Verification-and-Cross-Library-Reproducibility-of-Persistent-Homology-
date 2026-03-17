@@ -2,9 +2,9 @@ VENV ?= .venv-wsl
 PYTHON ?= $(VENV)/bin/python
 PIP ?= $(PYTHON) -m pip
 
-.PHONY: all setup run report clean
+.PHONY: all setup run audit report clean
 
-all: setup run
+all: setup run audit
 
 setup:
 	python3 -m venv $(VENV)
@@ -13,6 +13,9 @@ setup:
 
 run:
 	PYTHONPATH=src $(PYTHON) scripts/run_conformance.py --include-nacl
+
+audit: run
+	PYTHONPATH=src $(PYTHON) scripts/run_audit_conventions.py --conformance-dir artifacts --output-dir artifacts/audit
 
 report: run
 

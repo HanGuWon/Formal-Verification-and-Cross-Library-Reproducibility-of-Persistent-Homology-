@@ -1,0 +1,35 @@
+{
+  "alpha_vs_2alpha_candidate_count": 0,
+  "alternate_coeff_changed_classification_count": 0,
+  "approximation_flag_failure_count": 0,
+  "boundary_breakdown": {
+    "boundary=none | convention mismatch": 56,
+    "boundary=none | floating-point artifact": 16,
+    "boundary=obc | convention mismatch": 64,
+    "boundary=obc | floating-point artifact": 32,
+    "boundary=pbc | convention mismatch": 76,
+    "boundary=pbc | floating-point artifact": 32
+  },
+  "case_count": 156,
+  "classification_counts": {
+    "convention mismatch": 196,
+    "floating-point artifact": 80
+  },
+  "coefficient_breakdown": {
+    "coeff=2 | convention mismatch": 98,
+    "coeff=2 | floating-point artifact": 40,
+    "coeff=3 | convention mismatch": 98,
+    "coeff=3 | floating-point artifact": 40
+  },
+  "diagonal_nonzero_count": 0,
+  "dimension_record_count": 276,
+  "infinite_bar_mismatch_count": 20,
+  "mechanism_counts": {
+    "convention mismatch | cutoff tie semantics": 4,
+    "convention mismatch | truncated-filtration infinite-bar handling": 12,
+    "convention mismatch | zero-length bar reporting": 180,
+    "floating-point artifact | float64-vs-float32 endpoint rounding": 80
+  },
+  "ripser_dionysus_disagreement_count": 0,
+  "task_id": "PH-AUDIT-CONVENTIONS-001"
+}

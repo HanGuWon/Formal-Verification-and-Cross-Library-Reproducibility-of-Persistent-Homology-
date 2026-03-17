@@ -1,0 +1,23 @@
+{
+  "alpha_vs_2alpha_candidate_count": 0,
+  "alternate_coeff_changed_classification_count": 0,
+  "approximation_flag_failure_count": 0,
+  "boundary_breakdown": {
+    "boundary=pbc | convention mismatch": 1
+  },
+  "case_count": 1,
+  "classification_counts": {
+    "convention mismatch": 1
+  },
+  "coefficient_breakdown": {
+    "coeff=2 | convention mismatch": 1
+  },
+  "diagonal_nonzero_count": 0,
+  "dimension_record_count": 1,
+  "infinite_bar_mismatch_count": 0,
+  "mechanism_counts": {
+    "convention mismatch | zero-length bar reporting": 1
+  },
+  "ripser_dionysus_disagreement_count": 0,
+  "task_id": "PH-AUDIT-CONVENTIONS-001"
+}

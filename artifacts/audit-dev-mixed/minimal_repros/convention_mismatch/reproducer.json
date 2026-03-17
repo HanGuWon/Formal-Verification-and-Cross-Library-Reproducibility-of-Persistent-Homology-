@@ -1,0 +1,25 @@
+{
+  "audit_case_command": "PYTHONPATH=src python scripts/run_audit_conventions.py --conformance-dir artifacts --output-dir artifacts/audit-dev-mixed --case-id triangular_patch_3x3__floating__p2__h2__selected",
+  "audit_case_json": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/audit-dev-mixed/cases/triangular_patch_3x3__floating__p2__h2__selected.json",
+  "benchmark_id": "triangular_patch_3x3__floating",
+  "case_id": "triangular_patch_3x3__floating__p2__h2__selected",
+  "classification": "convention mismatch",
+  "coeff": 2,
+  "dimension": 1,
+  "input_matrix_csv": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/audit-dev-mixed/minimal_repros/convention_mismatch/distance_matrix.csv",
+  "input_matrix_npy": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/audit-dev-mixed/minimal_repros/convention_mismatch/distance_matrix.npy",
+  "make_audit_command": "make audit",
+  "matrix_size": 9,
+  "maxdim": 2,
+  "mechanism": "cutoff tie semantics",
+  "notes": "The disagreement is extra GUDHI bars whose deaths sit at the cutoff and whose lengths are zero or within a few ulps of zero.",
+  "plot_path": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/audit-dev-mixed/minimal_repros/convention_mismatch/convention_mismatch_before_after.png",
+  "point_cloud": {
+    "point_cloud_csv": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/audit-dev-mixed/minimal_repros/convention_mismatch/point_cloud.csv",
+    "point_cloud_npy": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/audit-dev-mixed/minimal_repros/convention_mismatch/point_cloud.npy"
+  },
+  "source_discrepancies_json": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/discrepancies/all_discrepancies.json",
+  "task_id": "PH-AUDIT-CONVENTIONS-001",
+  "threshold_label": "selected",
+  "threshold_value": 1.0
+}

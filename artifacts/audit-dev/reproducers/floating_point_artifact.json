@@ -1,0 +1,22 @@
+{
+  "audit_case_command": "PYTHONPATH=src python scripts/run_audit_conventions.py --conformance-dir artifacts --output-dir artifacts/audit-dev --case-id tfim_obc_n4_g0p50__floating__p2__h1__selected",
+  "audit_case_json": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/audit-dev/cases/tfim_obc_n4_g0p50__floating__p2__h1__selected.json",
+  "benchmark_id": "tfim_obc_n4_g0p50__floating",
+  "case_id": "tfim_obc_n4_g0p50__floating__p2__h1__selected",
+  "classification": "floating-point artifact",
+  "coeff": 2,
+  "dimension": 0,
+  "input_matrix_csv": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/audit-dev/minimal_repros/floating_point_artifact/distance_matrix.csv",
+  "input_matrix_npy": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/audit-dev/minimal_repros/floating_point_artifact/distance_matrix.npy",
+  "make_audit_command": "make audit",
+  "matrix_size": 4,
+  "maxdim": 1,
+  "mechanism": "float64-vs-float32 endpoint rounding",
+  "notes": "GUDHI matches Ripser.py/Dionysus after a float32 round-trip of the interval endpoints.",
+  "plot_path": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/audit-dev/minimal_repros/floating_point_artifact/floating_point_artifact_before_after.png",
+  "point_cloud": null,
+  "source_discrepancies_json": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/discrepancies/all_discrepancies.json",
+  "task_id": "PH-AUDIT-CONVENTIONS-001",
+  "threshold_label": "selected",
+  "threshold_value": 1.2427812645009748
+}

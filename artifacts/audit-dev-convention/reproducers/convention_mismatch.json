@@ -1,0 +1,22 @@
+{
+  "audit_case_command": "PYTHONPATH=src python scripts/run_audit_conventions.py --conformance-dir artifacts --output-dir artifacts/audit-dev-convention --case-id tfim_pbc_n4_g0p50__quantized__p2__h1__full",
+  "audit_case_json": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/audit-dev-convention/cases/tfim_pbc_n4_g0p50__quantized__p2__h1__full.json",
+  "benchmark_id": "tfim_pbc_n4_g0p50__quantized",
+  "case_id": "tfim_pbc_n4_g0p50__quantized__p2__h1__full",
+  "classification": "convention mismatch",
+  "coeff": 2,
+  "dimension": 1,
+  "input_matrix_csv": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/audit-dev-convention/minimal_repros/convention_mismatch/distance_matrix.csv",
+  "input_matrix_npy": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/audit-dev-convention/minimal_repros/convention_mismatch/distance_matrix.npy",
+  "make_audit_command": "make audit",
+  "matrix_size": 4,
+  "maxdim": 1,
+  "mechanism": "zero-length bar reporting",
+  "notes": "The disagreement is entirely extra zero-length bars emitted by GUDHI at the cutoff.",
+  "plot_path": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/audit-dev-convention/minimal_repros/convention_mismatch/convention_mismatch_before_after.png",
+  "point_cloud": null,
+  "source_discrepancies_json": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/discrepancies/all_discrepancies.json",
+  "task_id": "PH-AUDIT-CONVENTIONS-001",
+  "threshold_label": "full",
+  "threshold_value": 1.140625
+}
