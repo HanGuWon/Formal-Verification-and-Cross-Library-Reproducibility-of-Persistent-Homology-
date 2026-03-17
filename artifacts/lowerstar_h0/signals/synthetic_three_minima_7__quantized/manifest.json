@@ -1,0 +1,20 @@
+{
+  "benchmark_id": "synthetic_three_minima_7__quantized",
+  "family": "synthetic",
+  "label": "Synthetic three minima (n=7)",
+  "metadata": {
+    "benchmark_id": "synthetic_three_minima_7",
+    "generator": "handcrafted_signal",
+    "mode": "quantized",
+    "quantization_step": 0.0009765625,
+    "signal_hash": "b64363261d24a99c2de21770936582301b0734dd5baf40b38d56963d1b1b7d75",
+    "signal_kind": "synthetic",
+    "signal_length": 7
+  },
+  "mode": "quantized",
+  "notes": [
+    "Three strict minima with nested merges on a length-7 chain.",
+    "Signal values quantized to a power-of-two step of 0.0009765625."
+  ],
+  "signal_length": 7
+}

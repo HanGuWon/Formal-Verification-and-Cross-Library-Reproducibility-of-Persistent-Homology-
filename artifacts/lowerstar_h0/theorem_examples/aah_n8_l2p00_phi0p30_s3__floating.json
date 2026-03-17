@@ -1,0 +1,237 @@
+{
+  "all_intervals": [
+    {
+      "birth": 0.029146507165416183,
+      "birth_hex": "0x1.dd894fc45b9f4p-6",
+      "birth_index": 6,
+      "death": 0.029146507165416183,
+      "death_edge": [
+        6,
+        7
+      ],
+      "death_hex": "0x1.dd894fc45b9f4p-6",
+      "is_zero_length": true
+    },
+    {
+      "birth": 0.03134604672430729,
+      "birth_hex": "0x1.00c96cb145f0fp-5",
+      "birth_index": 5,
+      "death": 0.03134604672430729,
+      "death_edge": [
+        4,
+        5
+      ],
+      "death_hex": "0x1.00c96cb145f0fp-5",
+      "is_zero_length": true
+    },
+    {
+      "birth": 0.01878398859083121,
+      "birth_hex": "0x1.33c1c22be85c5p-6",
+      "birth_index": 7,
+      "death": 0.03134604672430729,
+      "death_edge": [
+        5,
+        6
+      ],
+      "death_hex": "0x1.00c96cb145f0fp-5",
+      "is_zero_length": false
+    },
+    {
+      "birth": 0.11249983417278343,
+      "birth_hex": "0x1.cccca0493d8e1p-4",
+      "birth_index": 3,
+      "death": 0.11249983417278343,
+      "death_edge": [
+        3,
+        4
+      ],
+      "death_hex": "0x1.cccca0493d8e1p-4",
+      "is_zero_length": true
+    },
+    {
+      "birth": 0.26594879215119677,
+      "birth_hex": "0x1.1054e152cce4dp-2",
+      "birth_index": 1,
+      "death": 0.26594879215119677,
+      "death_edge": [
+        0,
+        1
+      ],
+      "death_hex": "0x1.1054e152cce4dp-2",
+      "is_zero_length": true
+    },
+    {
+      "birth": 0.472688376693654,
+      "birth_hex": "0x1.e4086bfc64f03p-2",
+      "birth_index": 2,
+      "death": 0.472688376693654,
+      "death_edge": [
+        1,
+        2
+      ],
+      "death_hex": "0x1.e4086bfc64f03p-2",
+      "is_zero_length": true
+    },
+    {
+      "birth": 0.06205608111334001,
+      "birth_hex": "0x1.fc5d08dcca7ebp-5",
+      "birth_index": 0,
+      "death": 0.472688376693654,
+      "death_edge": [
+        2,
+        3
+      ],
+      "death_hex": "0x1.e4086bfc64f03p-2",
+      "is_zero_length": false
+    },
+    {
+      "birth": 0.007530373388471043,
+      "birth_hex": "0x1.ed82b36e1e6e3p-8",
+      "birth_index": 4,
+      "death": "inf",
+      "death_edge": null,
+      "death_hex": "inf",
+      "is_zero_length": false
+    }
+  ],
+  "births_match_local_minima": true,
+  "finite_deaths_match_merge_heights": true,
+  "local_minima": [
+    {
+      "index": 0,
+      "value": 0.06205608111334001,
+      "value_hex": "0x1.fc5d08dcca7ebp-5"
+    },
+    {
+      "index": 4,
+      "value": 0.007530373388471043,
+      "value_hex": "0x1.ed82b36e1e6e3p-8"
+    },
+    {
+      "index": 7,
+      "value": 0.01878398859083121,
+      "value_hex": "0x1.33c1c22be85c5p-6"
+    }
+  ],
+  "merge_events": [
+    {
+      "edge": [
+        6,
+        7
+      ],
+      "elder_birth": 0.01878398859083121,
+      "elder_birth_index": 7,
+      "merge_height": 0.029146507165416183,
+      "merge_height_hex": "0x1.dd894fc45b9f4p-6",
+      "younger_birth": 0.029146507165416183,
+      "younger_birth_index": 6
+    },
+    {
+      "edge": [
+        4,
+        5
+      ],
+      "elder_birth": 0.007530373388471043,
+      "elder_birth_index": 4,
+      "merge_height": 0.03134604672430729,
+      "merge_height_hex": "0x1.00c96cb145f0fp-5",
+      "younger_birth": 0.03134604672430729,
+      "younger_birth_index": 5
+    },
+    {
+      "edge": [
+        5,
+        6
+      ],
+      "elder_birth": 0.007530373388471043,
+      "elder_birth_index": 4,
+      "merge_height": 0.03134604672430729,
+      "merge_height_hex": "0x1.00c96cb145f0fp-5",
+      "younger_birth": 0.01878398859083121,
+      "younger_birth_index": 7
+    },
+    {
+      "edge": [
+        3,
+        4
+      ],
+      "elder_birth": 0.007530373388471043,
+      "elder_birth_index": 4,
+      "merge_height": 0.11249983417278343,
+      "merge_height_hex": "0x1.cccca0493d8e1p-4",
+      "younger_birth": 0.11249983417278343,
+      "younger_birth_index": 3
+    },
+    {
+      "edge": [
+        0,
+        1
+      ],
+      "elder_birth": 0.06205608111334001,
+      "elder_birth_index": 0,
+      "merge_height": 0.26594879215119677,
+      "merge_height_hex": "0x1.1054e152cce4dp-2",
+      "younger_birth": 0.26594879215119677,
+      "younger_birth_index": 1
+    },
+    {
+      "edge": [
+        1,
+        2
+      ],
+      "elder_birth": 0.06205608111334001,
+      "elder_birth_index": 0,
+      "merge_height": 0.472688376693654,
+      "merge_height_hex": "0x1.e4086bfc64f03p-2",
+      "younger_birth": 0.472688376693654,
+      "younger_birth_index": 2
+    },
+    {
+      "edge": [
+        2,
+        3
+      ],
+      "elder_birth": 0.007530373388471043,
+      "elder_birth_index": 4,
+      "merge_height": 0.472688376693654,
+      "merge_height_hex": "0x1.e4086bfc64f03p-2",
+      "younger_birth": 0.06205608111334001,
+      "younger_birth_index": 0
+    }
+  ],
+  "nonzero_intervals": [
+    {
+      "birth": 0.01878398859083121,
+      "birth_hex": "0x1.33c1c22be85c5p-6",
+      "birth_index": 7,
+      "death": 0.03134604672430729,
+      "death_edge": [
+        5,
+        6
+      ],
+      "death_hex": "0x1.00c96cb145f0fp-5",
+      "is_zero_length": false
+    },
+    {
+      "birth": 0.06205608111334001,
+      "birth_hex": "0x1.fc5d08dcca7ebp-5",
+      "birth_index": 0,
+      "death": 0.472688376693654,
+      "death_edge": [
+        2,
+        3
+      ],
+      "death_hex": "0x1.e4086bfc64f03p-2",
+      "is_zero_length": false
+    },
+    {
+      "birth": 0.007530373388471043,
+      "birth_hex": "0x1.ed82b36e1e6e3p-8",
+      "birth_index": 4,
+      "death": "inf",
+      "death_edge": null,
+      "death_hex": "inf",
+      "is_zero_length": false
+    }
+  ]
+}

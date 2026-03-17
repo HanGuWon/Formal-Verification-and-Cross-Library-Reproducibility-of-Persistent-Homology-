@@ -1,0 +1,202 @@
+{
+  "all_equal": true,
+  "float32_all_equal": true,
+  "float32_rows": [
+    {
+      "all_equal": true,
+      "dionysus": 0,
+      "gudhi": 0,
+      "label": "below_min",
+      "probe_value": 0.007812499999999999,
+      "probe_value_hex": "0x1.fffffffffffffp-8",
+      "ripser": 0
+    },
+    {
+      "all_equal": true,
+      "critical_value": 0.0078125,
+      "critical_value_hex": "0x1.0000000000000p-7",
+      "dionysus": 1,
+      "gudhi": 1,
+      "label": "after_0x1.0000000000000p-7",
+      "probe_value": 0.007812500000000002,
+      "probe_value_hex": "0x1.0000000000001p-7",
+      "ripser": 1
+    },
+    {
+      "all_equal": true,
+      "critical_value": 0.0185546875,
+      "critical_value_hex": "0x1.3000000000000p-6",
+      "dionysus": 2,
+      "gudhi": 2,
+      "label": "after_0x1.3000000000000p-6",
+      "probe_value": 0.018554687500000003,
+      "probe_value_hex": "0x1.3000000000001p-6",
+      "ripser": 2
+    },
+    {
+      "all_equal": true,
+      "critical_value": 0.029296875,
+      "critical_value_hex": "0x1.e000000000000p-6",
+      "dionysus": 2,
+      "gudhi": 2,
+      "label": "after_0x1.e000000000000p-6",
+      "probe_value": 0.029296875000000003,
+      "probe_value_hex": "0x1.e000000000001p-6",
+      "ripser": 2
+    },
+    {
+      "all_equal": true,
+      "critical_value": 0.03125,
+      "critical_value_hex": "0x1.0000000000000p-5",
+      "dionysus": 1,
+      "gudhi": 1,
+      "label": "after_0x1.0000000000000p-5",
+      "probe_value": 0.03125000000000001,
+      "probe_value_hex": "0x1.0000000000001p-5",
+      "ripser": 1
+    },
+    {
+      "all_equal": true,
+      "critical_value": 0.0625,
+      "critical_value_hex": "0x1.0000000000000p-4",
+      "dionysus": 2,
+      "gudhi": 2,
+      "label": "after_0x1.0000000000000p-4",
+      "probe_value": 0.06250000000000001,
+      "probe_value_hex": "0x1.0000000000001p-4",
+      "ripser": 2
+    },
+    {
+      "all_equal": true,
+      "critical_value": 0.1123046875,
+      "critical_value_hex": "0x1.cc00000000000p-4",
+      "dionysus": 2,
+      "gudhi": 2,
+      "label": "after_0x1.cc00000000000p-4",
+      "probe_value": 0.11230468750000001,
+      "probe_value_hex": "0x1.cc00000000001p-4",
+      "ripser": 2
+    },
+    {
+      "all_equal": true,
+      "critical_value": 0.265625,
+      "critical_value_hex": "0x1.1000000000000p-2",
+      "dionysus": 2,
+      "gudhi": 2,
+      "label": "after_0x1.1000000000000p-2",
+      "probe_value": 0.26562500000000006,
+      "probe_value_hex": "0x1.1000000000001p-2",
+      "ripser": 2
+    },
+    {
+      "all_equal": true,
+      "critical_value": 0.47265625,
+      "critical_value_hex": "0x1.e400000000000p-2",
+      "dionysus": 1,
+      "gudhi": 1,
+      "label": "after_0x1.e400000000000p-2",
+      "probe_value": 0.47265625000000006,
+      "probe_value_hex": "0x1.e400000000001p-2",
+      "ripser": 1
+    }
+  ],
+  "rows": [
+    {
+      "all_equal": true,
+      "dionysus": 0,
+      "gudhi": 0,
+      "label": "below_min",
+      "probe_value": 0.007812499999999999,
+      "probe_value_hex": "0x1.fffffffffffffp-8",
+      "ripser": 0
+    },
+    {
+      "all_equal": true,
+      "critical_value": 0.0078125,
+      "critical_value_hex": "0x1.0000000000000p-7",
+      "dionysus": 1,
+      "gudhi": 1,
+      "label": "after_0x1.0000000000000p-7",
+      "probe_value": 0.007812500000000002,
+      "probe_value_hex": "0x1.0000000000001p-7",
+      "ripser": 1
+    },
+    {
+      "all_equal": true,
+      "critical_value": 0.0185546875,
+      "critical_value_hex": "0x1.3000000000000p-6",
+      "dionysus": 2,
+      "gudhi": 2,
+      "label": "after_0x1.3000000000000p-6",
+      "probe_value": 0.018554687500000003,
+      "probe_value_hex": "0x1.3000000000001p-6",
+      "ripser": 2
+    },
+    {
+      "all_equal": true,
+      "critical_value": 0.029296875,
+      "critical_value_hex": "0x1.e000000000000p-6",
+      "dionysus": 2,
+      "gudhi": 2,
+      "label": "after_0x1.e000000000000p-6",
+      "probe_value": 0.029296875000000003,
+      "probe_value_hex": "0x1.e000000000001p-6",
+      "ripser": 2
+    },
+    {
+      "all_equal": true,
+      "critical_value": 0.03125,
+      "critical_value_hex": "0x1.0000000000000p-5",
+      "dionysus": 1,
+      "gudhi": 1,
+      "label": "after_0x1.0000000000000p-5",
+      "probe_value": 0.03125000000000001,
+      "probe_value_hex": "0x1.0000000000001p-5",
+      "ripser": 1
+    },
+    {
+      "all_equal": true,
+      "critical_value": 0.0625,
+      "critical_value_hex": "0x1.0000000000000p-4",
+      "dionysus": 2,
+      "gudhi": 2,
+      "label": "after_0x1.0000000000000p-4",
+      "probe_value": 0.06250000000000001,
+      "probe_value_hex": "0x1.0000000000001p-4",
+      "ripser": 2
+    },
+    {
+      "all_equal": true,
+      "critical_value": 0.1123046875,
+      "critical_value_hex": "0x1.cc00000000000p-4",
+      "dionysus": 2,
+      "gudhi": 2,
+      "label": "after_0x1.cc00000000000p-4",
+      "probe_value": 0.11230468750000001,
+      "probe_value_hex": "0x1.cc00000000001p-4",
+      "ripser": 2
+    },
+    {
+      "all_equal": true,
+      "critical_value": 0.265625,
+      "critical_value_hex": "0x1.1000000000000p-2",
+      "dionysus": 2,
+      "gudhi": 2,
+      "label": "after_0x1.1000000000000p-2",
+      "probe_value": 0.26562500000000006,
+      "probe_value_hex": "0x1.1000000000001p-2",
+      "ripser": 2
+    },
+    {
+      "all_equal": true,
+      "critical_value": 0.47265625,
+      "critical_value_hex": "0x1.e400000000000p-2",
+      "dionysus": 1,
+      "gudhi": 1,
+      "label": "after_0x1.e400000000000p-2",
+      "probe_value": 0.47265625000000006,
+      "probe_value_hex": "0x1.e400000000001p-2",
+      "ripser": 1
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "all_intervals": [
+    {
+      "birth": 0.029296875,
+      "birth_hex": "0x1.e000000000000p-6",
+      "birth_index": 6,
+      "death": 0.029296875,
+      "death_edge": [
+        6,
+        7
+      ],
+      "death_hex": "0x1.e000000000000p-6",
+      "is_zero_length": true
+    },
+    {
+      "birth": 0.03125,
+      "birth_hex": "0x1.0000000000000p-5",
+      "birth_index": 5,
+      "death": 0.03125,
+      "death_edge": [
+        4,
+        5
+      ],
+      "death_hex": "0x1.0000000000000p-5",
+      "is_zero_length": true
+    },
+    {
+      "birth": 0.0185546875,
+      "birth_hex": "0x1.3000000000000p-6",
+      "birth_index": 7,
+      "death": 0.03125,
+      "death_edge": [
+        5,
+        6
+      ],
+      "death_hex": "0x1.0000000000000p-5",
+      "is_zero_length": false
+    },
+    {
+      "birth": 0.1123046875,
+      "birth_hex": "0x1.cc00000000000p-4",
+      "birth_index": 3,
+      "death": 0.1123046875,
+      "death_edge": [
+        3,
+        4
+      ],
+      "death_hex": "0x1.cc00000000000p-4",
+      "is_zero_length": true
+    },
+    {
+      "birth": 0.265625,
+      "birth_hex": "0x1.1000000000000p-2",
+      "birth_index": 1,
+      "death": 0.265625,
+      "death_edge": [
+        0,
+        1
+      ],
+      "death_hex": "0x1.1000000000000p-2",
+      "is_zero_length": true
+    },
+    {
+      "birth": 0.47265625,
+      "birth_hex": "0x1.e400000000000p-2",
+      "birth_index": 2,
+      "death": 0.47265625,
+      "death_edge": [
+        1,
+        2
+      ],
+      "death_hex": "0x1.e400000000000p-2",
+      "is_zero_length": true
+    },
+    {
+      "birth": 0.0625,
+      "birth_hex": "0x1.0000000000000p-4",
+      "birth_index": 0,
+      "death": 0.47265625,
+      "death_edge": [
+        2,
+        3
+      ],
+      "death_hex": "0x1.e400000000000p-2",
+      "is_zero_length": false
+    },
+    {
+      "birth": 0.0078125,
+      "birth_hex": "0x1.0000000000000p-7",
+      "birth_index": 4,
+      "death": "inf",
+      "death_edge": null,
+      "death_hex": "inf",
+      "is_zero_length": false
+    }
+  ],
+  "births_match_local_minima": true,
+  "finite_deaths_match_merge_heights": true,
+  "local_minima": [
+    {
+      "index": 0,
+      "value": 0.0625,
+      "value_hex": "0x1.0000000000000p-4"
+    },
+    {
+      "index": 4,
+      "value": 0.0078125,
+      "value_hex": "0x1.0000000000000p-7"
+    },
+    {
+      "index": 7,
+      "value": 0.0185546875,
+      "value_hex": "0x1.3000000000000p-6"
+    }
+  ],
+  "merge_events": [
+    {
+      "edge": [
+        6,
+        7
+      ],
+      "elder_birth": 0.0185546875,
+      "elder_birth_index": 7,
+      "merge_height": 0.029296875,
+      "merge_height_hex": "0x1.e000000000000p-6",
+      "younger_birth": 0.029296875,
+      "younger_birth_index": 6
+    },
+    {
+      "edge": [
+        4,
+        5
+      ],
+      "elder_birth": 0.0078125,
+      "elder_birth_index": 4,
+      "merge_height": 0.03125,
+      "merge_height_hex": "0x1.0000000000000p-5",
+      "younger_birth": 0.03125,
+      "younger_birth_index": 5
+    },
+    {
+      "edge": [
+        5,
+        6
+      ],
+      "elder_birth": 0.0078125,
+      "elder_birth_index": 4,
+      "merge_height": 0.03125,
+      "merge_height_hex": "0x1.0000000000000p-5",
+      "younger_birth": 0.0185546875,
+      "younger_birth_index": 7
+    },
+    {
+      "edge": [
+        3,
+        4
+      ],
+      "elder_birth": 0.0078125,
+      "elder_birth_index": 4,
+      "merge_height": 0.1123046875,
+      "merge_height_hex": "0x1.cc00000000000p-4",
+      "younger_birth": 0.1123046875,
+      "younger_birth_index": 3
+    },
+    {
+      "edge": [
+        0,
+        1
+      ],
+      "elder_birth": 0.0625,
+      "elder_birth_index": 0,
+      "merge_height": 0.265625,
+      "merge_height_hex": "0x1.1000000000000p-2",
+      "younger_birth": 0.265625,
+      "younger_birth_index": 1
+    },
+    {
+      "edge": [
+        1,
+        2
+      ],
+      "elder_birth": 0.0625,
+      "elder_birth_index": 0,
+      "merge_height": 0.47265625,
+      "merge_height_hex": "0x1.e400000000000p-2",
+      "younger_birth": 0.47265625,
+      "younger_birth_index": 2
+    },
+    {
+      "edge": [
+        2,
+        3
+      ],
+      "elder_birth": 0.0078125,
+      "elder_birth_index": 4,
+      "merge_height": 0.47265625,
+      "merge_height_hex": "0x1.e400000000000p-2",
+      "younger_birth": 0.0625,
+      "younger_birth_index": 0
+    }
+  ],
+  "nonzero_intervals": [
+    {
+      "birth": 0.0185546875,
+      "birth_hex": "0x1.3000000000000p-6",
+      "birth_index": 7,
+      "death": 0.03125,
+      "death_edge": [
+        5,
+        6
+      ],
+      "death_hex": "0x1.0000000000000p-5",
+      "is_zero_length": false
+    },
+    {
+      "birth": 0.0625,
+      "birth_hex": "0x1.0000000000000p-4",
+      "birth_index": 0,
+      "death": 0.47265625,
+      "death_edge": [
+        2,
+        3
+      ],
+      "death_hex": "0x1.e400000000000p-2",
+      "is_zero_length": false
+    },
+    {
+      "birth": 0.0078125,
+      "birth_hex": "0x1.0000000000000p-7",
+      "birth_index": 4,
+      "death": "inf",
+      "death_edge": null,
+      "death_hex": "inf",
+      "is_zero_length": false
+    }
+  ]
+}

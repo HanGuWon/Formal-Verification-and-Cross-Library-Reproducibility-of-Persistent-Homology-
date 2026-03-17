@@ -1,0 +1,51 @@
+{
+  "intervals": [
+    {
+      "birth": 0.0185546875,
+      "birth_hex": "0x1.3000000000000p-6",
+      "death": 0.03125,
+      "death_hex": "0x1.0000000000000p-5"
+    },
+    {
+      "birth": 0.0625,
+      "birth_hex": "0x1.0000000000000p-4",
+      "death": 0.47265625,
+      "death_hex": "0x1.e400000000000p-2"
+    },
+    {
+      "birth": 0.0078125,
+      "birth_hex": "0x1.0000000000000p-7",
+      "death": "inf",
+      "death_hex": "inf"
+    }
+  ],
+  "library": "gudhi",
+  "parameters": {
+    "constructor": "CubicalComplex(vertices=signal)",
+    "homology_coeff_field": 2,
+    "min_persistence": 0.0
+  },
+  "raw_persistence_pairs": [
+    {
+      "birth": 0.0078125,
+      "birth_hex": "0x1.0000000000000p-7",
+      "death": "inf",
+      "death_hex": "inf",
+      "dimension": 0
+    },
+    {
+      "birth": 0.0625,
+      "birth_hex": "0x1.0000000000000p-4",
+      "death": 0.47265625,
+      "death_hex": "0x1.e400000000000p-2",
+      "dimension": 0
+    },
+    {
+      "birth": 0.0185546875,
+      "birth_hex": "0x1.3000000000000p-6",
+      "death": 0.03125,
+      "death_hex": "0x1.0000000000000p-5",
+      "dimension": 0
+    }
+  ]
+}

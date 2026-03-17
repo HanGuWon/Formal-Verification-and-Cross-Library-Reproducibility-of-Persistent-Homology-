@@ -1,0 +1,182 @@
+{
+  "intervals": [
+    {
+      "birth": 0.0224609375,
+      "birth_hex": "0x1.7000000000000p-6",
+      "death": 0.615234375,
+      "death_hex": "0x1.3b00000000000p-1"
+    },
+    {
+      "birth": 0.0048828125,
+      "birth_hex": "0x1.4000000000000p-8",
+      "death": "inf",
+      "death_hex": "inf"
+    }
+  ],
+  "library": "ripser",
+  "parameters": {
+    "coeff": 2,
+    "distance_matrix": true,
+    "encoding": "sparse_distance_matrix_with_diagonal_vertex_births",
+    "maxdim": 0,
+    "n_perm": null
+  },
+  "result_metadata": {
+    "cocycles": [
+      []
+    ],
+    "dperm2all": {
+      "entries": [
+        {
+          "col": 0,
+          "row": 0,
+          "value": 0.0048828125,
+          "value_hex": "0x1.4000000000000p-8"
+        },
+        {
+          "col": 1,
+          "row": 0,
+          "value": 0.0625,
+          "value_hex": "0x1.0000000000000p-4"
+        },
+        {
+          "col": 0,
+          "row": 1,
+          "value": 0.0625,
+          "value_hex": "0x1.0000000000000p-4"
+        },
+        {
+          "col": 1,
+          "row": 1,
+          "value": 0.0625,
+          "value_hex": "0x1.0000000000000p-4"
+        },
+        {
+          "col": 2,
+          "row": 1,
+          "value": 0.0634765625,
+          "value_hex": "0x1.0400000000000p-4"
+        },
+        {
+          "col": 1,
+          "row": 2,
+          "value": 0.0634765625,
+          "value_hex": "0x1.0400000000000p-4"
+        },
+        {
+          "col": 2,
+          "row": 2,
+          "value": 0.0634765625,
+          "value_hex": "0x1.0400000000000p-4"
+        },
+        {
+          "col": 3,
+          "row": 2,
+          "value": 0.0986328125,
+          "value_hex": "0x1.9400000000000p-4"
+        },
+        {
+          "col": 2,
+          "row": 3,
+          "value": 0.0986328125,
+          "value_hex": "0x1.9400000000000p-4"
+        },
+        {
+          "col": 3,
+          "row": 3,
+          "value": 0.0986328125,
+          "value_hex": "0x1.9400000000000p-4"
+        },
+        {
+          "col": 4,
+          "row": 3,
+          "value": 0.615234375,
+          "value_hex": "0x1.3b00000000000p-1"
+        },
+        {
+          "col": 3,
+          "row": 4,
+          "value": 0.615234375,
+          "value_hex": "0x1.3b00000000000p-1"
+        },
+        {
+          "col": 4,
+          "row": 4,
+          "value": 0.615234375,
+          "value_hex": "0x1.3b00000000000p-1"
+        },
+        {
+          "col": 5,
+          "row": 4,
+          "value": 0.615234375,
+          "value_hex": "0x1.3b00000000000p-1"
+        },
+        {
+          "col": 4,
+          "row": 5,
+          "value": 0.615234375,
+          "value_hex": "0x1.3b00000000000p-1"
+        },
+        {
+          "col": 5,
+          "row": 5,
+          "value": 0.0849609375,
+          "value_hex": "0x1.5c00000000000p-4"
+        },
+        {
+          "col": 6,
+          "row": 5,
+          "value": 0.0849609375,
+          "value_hex": "0x1.5c00000000000p-4"
+        },
+        {
+          "col": 5,
+          "row": 6,
+          "value": 0.0849609375,
+          "value_hex": "0x1.5c00000000000p-4"
+        },
+        {
+          "col": 6,
+          "row": 6,
+          "value": 0.0478515625,
+          "value_hex": "0x1.8800000000000p-5"
+        },
+        {
+          "col": 7,
+          "row": 6,
+          "value": 0.0478515625,
+          "value_hex": "0x1.8800000000000p-5"
+        },
+        {
+          "col": 6,
+          "row": 7,
+          "value": 0.0478515625,
+          "value_hex": "0x1.8800000000000p-5"
+        },
+        {
+          "col": 7,
+          "row": 7,
+          "value": 0.0224609375,
+          "value_hex": "0x1.7000000000000p-6"
+        }
+      ],
+      "format": "csr",
+      "shape": [
+        8,
+        8
+      ]
+    },
+    "idx_perm": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "num_edges": 7,
+    "r_cover": 0.0
+  }
+}

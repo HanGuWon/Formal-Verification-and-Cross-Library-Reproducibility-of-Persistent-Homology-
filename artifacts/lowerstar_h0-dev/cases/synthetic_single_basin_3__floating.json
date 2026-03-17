@@ -1,0 +1,354 @@
+{
+  "benchmark": {
+    "benchmark_id": "synthetic_single_basin_3__floating",
+    "family": "synthetic",
+    "label": "Synthetic single basin (n=3)",
+    "metadata": {
+      "benchmark_id": "synthetic_single_basin_3",
+      "generator": "handcrafted_signal",
+      "mode": "floating",
+      "quantization_step": null,
+      "signal_hash": "b7065db7d75dbf715c17c18108b47a2690881096ab36d86363059fe74c03db66",
+      "signal_kind": "synthetic",
+      "signal_length": 3
+    },
+    "mode": "floating",
+    "notes": [
+      "Distinct dyadic heights with one strict interior minimum."
+    ],
+    "signal_length": 3
+  },
+  "results": {
+    "agreement": {
+      "exact_all_libraries": true,
+      "float32_stable_all_libraries": true,
+      "pairwise": {
+        "gudhi__dionysus": {
+          "exact_match": true,
+          "float32_match": true,
+          "max_abs_finite_endpoint_diff": 0.0
+        },
+        "gudhi__ripser": {
+          "exact_match": true,
+          "float32_match": true,
+          "max_abs_finite_endpoint_diff": 0.0
+        },
+        "ripser__dionysus": {
+          "exact_match": true,
+          "float32_match": true,
+          "max_abs_finite_endpoint_diff": 0.0
+        }
+      }
+    },
+    "betti_summary": {
+      "all_equal": true,
+      "rows": [
+        {
+          "all_equal": true,
+          "dionysus": 0,
+          "gudhi": 0,
+          "label": "below_min",
+          "probe_value": 0.12499999999999999,
+          "probe_value_hex": "0x1.fffffffffffffp-4",
+          "ripser": 0
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.125,
+          "critical_value_hex": "0x1.0000000000000p-3",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x1.0000000000000p-3",
+          "probe_value": 0.12500000000000003,
+          "probe_value_hex": "0x1.0000000000001p-3",
+          "ripser": 1
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.75,
+          "critical_value_hex": "0x1.8000000000000p-1",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x1.8000000000000p-1",
+          "probe_value": 0.7500000000000001,
+          "probe_value_hex": "0x1.8000000000001p-1",
+          "ripser": 1
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.875,
+          "critical_value_hex": "0x1.c000000000000p-1",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x1.c000000000000p-1",
+          "probe_value": 0.8750000000000001,
+          "probe_value_hex": "0x1.c000000000001p-1",
+          "ripser": 1
+        }
+      ]
+    },
+    "canonicalized": {
+      "dionysus": {
+        "count": 1,
+        "exact_signature": [
+          "0x1.0000000000000p-3|inf"
+        ],
+        "float32_signature": [
+          "0x1.0000000000000p-3|inf"
+        ],
+        "intervals": [
+          {
+            "birth": 0.125,
+            "birth_hex": "0x1.0000000000000p-3",
+            "death": "inf",
+            "death_hex": "inf"
+          }
+        ]
+      },
+      "gudhi": {
+        "count": 1,
+        "exact_signature": [
+          "0x1.0000000000000p-3|inf"
+        ],
+        "float32_signature": [
+          "0x1.0000000000000p-3|inf"
+        ],
+        "intervals": [
+          {
+            "birth": 0.125,
+            "birth_hex": "0x1.0000000000000p-3",
+            "death": "inf",
+            "death_hex": "inf"
+          }
+        ]
+      },
+      "ripser": {
+        "count": 1,
+        "exact_signature": [
+          "0x1.0000000000000p-3|inf"
+        ],
+        "float32_signature": [
+          "0x1.0000000000000p-3|inf"
+        ],
+        "intervals": [
+          {
+            "birth": 0.125,
+            "birth_hex": "0x1.0000000000000p-3",
+            "death": "inf",
+            "death_hex": "inf"
+          }
+        ]
+      }
+    },
+    "raw_outputs": {
+      "dionysus": {
+        "diagram_count": 2,
+        "filtration_size": 5,
+        "intervals": [
+          {
+            "birth": 0.125,
+            "birth_hex": "0x1.0000000000000p-3",
+            "death": "inf",
+            "death_hex": "inf"
+          }
+        ],
+        "library": "dionysus",
+        "parameters": {
+          "constructor": "fill_freudenthal(signal)",
+          "prime": 2
+        }
+      },
+      "gudhi": {
+        "intervals": [
+          {
+            "birth": 0.125,
+            "birth_hex": "0x1.0000000000000p-3",
+            "death": "inf",
+            "death_hex": "inf"
+          }
+        ],
+        "library": "gudhi",
+        "parameters": {
+          "constructor": "CubicalComplex(vertices=signal)",
+          "homology_coeff_field": 2,
+          "min_persistence": 0.0
+        },
+        "raw_persistence_pairs": [
+          {
+            "birth": 0.125,
+            "birth_hex": "0x1.0000000000000p-3",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 0
+          }
+        ]
+      },
+      "ripser": {
+        "intervals": [
+          {
+            "birth": 0.125,
+            "birth_hex": "0x1.0000000000000p-3",
+            "death": "inf",
+            "death_hex": "inf"
+          }
+        ],
+        "library": "ripser",
+        "parameters": {
+          "coeff": 2,
+          "distance_matrix": true,
+          "encoding": "sparse_distance_matrix_with_diagonal_vertex_births",
+          "maxdim": 0,
+          "n_perm": null
+        },
+        "result_metadata": {
+          "cocycles": [
+            []
+          ],
+          "dperm2all": {
+            "entries": [
+              {
+                "col": 0,
+                "row": 0,
+                "value": 0.75,
+                "value_hex": "0x1.8000000000000p-1"
+              },
+              {
+                "col": 1,
+                "row": 0,
+                "value": 0.75,
+                "value_hex": "0x1.8000000000000p-1"
+              },
+              {
+                "col": 0,
+                "row": 1,
+                "value": 0.75,
+                "value_hex": "0x1.8000000000000p-1"
+              },
+              {
+                "col": 1,
+                "row": 1,
+                "value": 0.125,
+                "value_hex": "0x1.0000000000000p-3"
+              },
+              {
+                "col": 2,
+                "row": 1,
+                "value": 0.875,
+                "value_hex": "0x1.c000000000000p-1"
+              },
+              {
+                "col": 1,
+                "row": 2,
+                "value": 0.875,
+                "value_hex": "0x1.c000000000000p-1"
+              },
+              {
+                "col": 2,
+                "row": 2,
+                "value": 0.875,
+                "value_hex": "0x1.c000000000000p-1"
+              }
+            ],
+            "format": "csr",
+            "shape": [
+              3,
+              3
+            ]
+          },
+          "idx_perm": [
+            0,
+            1,
+            2
+          ],
+          "num_edges": 2,
+          "r_cover": 0.0
+        }
+      }
+    },
+    "signal_length": 3,
+    "theorem_events": {
+      "all_intervals": [
+        {
+          "birth": 0.75,
+          "birth_hex": "0x1.8000000000000p-1",
+          "birth_index": 0,
+          "death": 0.75,
+          "death_edge": [
+            0,
+            1
+          ],
+          "death_hex": "0x1.8000000000000p-1",
+          "is_zero_length": true
+        },
+        {
+          "birth": 0.875,
+          "birth_hex": "0x1.c000000000000p-1",
+          "birth_index": 2,
+          "death": 0.875,
+          "death_edge": [
+            1,
+            2
+          ],
+          "death_hex": "0x1.c000000000000p-1",
+          "is_zero_length": true
+        },
+        {
+          "birth": 0.125,
+          "birth_hex": "0x1.0000000000000p-3",
+          "birth_index": 1,
+          "death": "inf",
+          "death_edge": null,
+          "death_hex": "inf",
+          "is_zero_length": false
+        }
+      ],
+      "births_match_local_minima": true,
+      "finite_deaths_match_merge_heights": true,
+      "local_minima": [
+        {
+          "index": 1,
+          "value": 0.125,
+          "value_hex": "0x1.0000000000000p-3"
+        }
+      ],
+      "merge_events": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "elder_birth": 0.125,
+          "elder_birth_index": 1,
+          "merge_height": 0.75,
+          "merge_height_hex": "0x1.8000000000000p-1",
+          "younger_birth": 0.75,
+          "younger_birth_index": 0
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "elder_birth": 0.125,
+          "elder_birth_index": 1,
+          "merge_height": 0.875,
+          "merge_height_hex": "0x1.c000000000000p-1",
+          "younger_birth": 0.875,
+          "younger_birth_index": 2
+        }
+      ],
+      "nonzero_intervals": [
+        {
+          "birth": 0.125,
+          "birth_hex": "0x1.0000000000000p-3",
+          "birth_index": 1,
+          "death": "inf",
+          "death_edge": null,
+          "death_hex": "inf",
+          "is_zero_length": false
+        }
+      ]
+    }
+  },
+  "task_id": "PH-LOWERSTAR-H0-001"
+}

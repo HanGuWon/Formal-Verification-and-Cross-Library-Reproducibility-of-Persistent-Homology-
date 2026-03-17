@@ -1,0 +1,129 @@
+[
+  {
+    "dimension": 0,
+    "filtration": 0.004451301880180836,
+    "filtration_hex": "0x1.23b8740000000p-8",
+    "vertices": [
+      0
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.0227537639439106,
+    "filtration_hex": "0x1.74cc340000000p-6",
+    "vertices": [
+      7
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.04761886969208717,
+    "filtration_hex": "0x1.8618020000000p-5",
+    "vertices": [
+      6
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.04761886969208717,
+    "filtration_hex": "0x1.8618020000000p-5",
+    "vertices": [
+      6,
+      7
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.06292927265167236,
+    "filtration_hex": "0x1.01c2200000000p-4",
+    "vertices": [
+      1
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.06292927265167236,
+    "filtration_hex": "0x1.01c2200000000p-4",
+    "vertices": [
+      0,
+      1
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.06319598853588104,
+    "filtration_hex": "0x1.02d9cc0000000p-4",
+    "vertices": [
+      2
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.06319598853588104,
+    "filtration_hex": "0x1.02d9cc0000000p-4",
+    "vertices": [
+      1,
+      2
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.0846581682562828,
+    "filtration_hex": "0x1.5ac2860000000p-4",
+    "vertices": [
+      5
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.0846581682562828,
+    "filtration_hex": "0x1.5ac2860000000p-4",
+    "vertices": [
+      5,
+      6
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.09888114780187607,
+    "filtration_hex": "0x1.9504660000000p-4",
+    "vertices": [
+      3
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.09888114780187607,
+    "filtration_hex": "0x1.9504660000000p-4",
+    "vertices": [
+      2,
+      3
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.6155114769935608,
+    "filtration_hex": "0x1.3b24520000000p-1",
+    "vertices": [
+      4
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.6155114769935608,
+    "filtration_hex": "0x1.3b24520000000p-1",
+    "vertices": [
+      3,
+      4
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.6155114769935608,
+    "filtration_hex": "0x1.3b24520000000p-1",
+    "vertices": [
+      4,
+      5
+    ]
+  }
+]

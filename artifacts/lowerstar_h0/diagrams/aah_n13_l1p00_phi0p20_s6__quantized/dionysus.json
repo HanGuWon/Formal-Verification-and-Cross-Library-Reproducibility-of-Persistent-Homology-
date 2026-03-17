@@ -1,0 +1,47 @@
+{
+  "diagram_count": 2,
+  "filtration_size": 25,
+  "intervals": [
+    {
+      "birth": 0.00390625,
+      "birth_hex": "0x1.0000000000000p-8",
+      "death": "inf",
+      "death_hex": "inf"
+    },
+    {
+      "birth": 0.0068359375,
+      "birth_hex": "0x1.c000000000000p-8",
+      "death": 0.1005859375,
+      "death_hex": "0x1.9c00000000000p-4"
+    },
+    {
+      "birth": 0.03125,
+      "birth_hex": "0x1.0000000000000p-5",
+      "death": 0.0703125,
+      "death_hex": "0x1.2000000000000p-4"
+    },
+    {
+      "birth": 0.046875,
+      "birth_hex": "0x1.8000000000000p-5",
+      "death": 0.0751953125,
+      "death_hex": "0x1.3400000000000p-4"
+    },
+    {
+      "birth": 0.072265625,
+      "birth_hex": "0x1.2800000000000p-4",
+      "death": 0.1904296875,
+      "death_hex": "0x1.8600000000000p-3"
+    },
+    {
+      "birth": 0.07421875,
+      "birth_hex": "0x1.3000000000000p-4",
+      "death": 0.1708984375,
+      "death_hex": "0x1.5e00000000000p-3"
+    }
+  ],
+  "library": "dionysus",
+  "parameters": {
+    "constructor": "fill_freudenthal(signal)",
+    "prime": 2
+  }
+}

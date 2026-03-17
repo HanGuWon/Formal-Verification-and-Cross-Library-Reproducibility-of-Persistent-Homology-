@@ -1,0 +1,19 @@
+{
+  "benchmark_id": "synthetic_single_basin_3__floating",
+  "family": "synthetic",
+  "label": "Synthetic single basin (n=3)",
+  "metadata": {
+    "benchmark_id": "synthetic_single_basin_3",
+    "generator": "handcrafted_signal",
+    "mode": "floating",
+    "quantization_step": null,
+    "signal_hash": "b7065db7d75dbf715c17c18108b47a2690881096ab36d86363059fe74c03db66",
+    "signal_kind": "synthetic",
+    "signal_length": 3
+  },
+  "mode": "floating",
+  "notes": [
+    "Distinct dyadic heights with one strict interior minimum."
+  ],
+  "signal_length": 3
+}

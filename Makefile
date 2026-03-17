@@ -2,7 +2,7 @@ VENV ?= .venv-wsl
 PYTHON ?= $(VENV)/bin/python
 PIP ?= $(PYTHON) -m pip
 
-.PHONY: all setup run audit report clean
+.PHONY: all setup run audit lowerstar-h0 report clean
 
 all: setup run audit
 
@@ -16,6 +16,9 @@ run:
 
 audit: run
 	PYTHONPATH=src $(PYTHON) scripts/run_audit_conventions.py --conformance-dir artifacts --output-dir artifacts/audit
+
+lowerstar-h0: setup
+	PYTHONPATH=src $(PYTHON) scripts/run_lowerstar_h0.py --output-dir artifacts/lowerstar_h0
 
 report: run
 

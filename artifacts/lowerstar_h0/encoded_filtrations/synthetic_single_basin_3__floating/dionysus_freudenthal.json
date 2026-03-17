@@ -1,0 +1,44 @@
+[
+  {
+    "dimension": 0,
+    "filtration": 0.125,
+    "filtration_hex": "0x1.0000000000000p-3",
+    "vertices": [
+      1
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.75,
+    "filtration_hex": "0x1.8000000000000p-1",
+    "vertices": [
+      0
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.75,
+    "filtration_hex": "0x1.8000000000000p-1",
+    "vertices": [
+      0,
+      1
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.875,
+    "filtration_hex": "0x1.c000000000000p-1",
+    "vertices": [
+      2
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.875,
+    "filtration_hex": "0x1.c000000000000p-1",
+    "vertices": [
+      1,
+      2
+    ]
+  }
+]

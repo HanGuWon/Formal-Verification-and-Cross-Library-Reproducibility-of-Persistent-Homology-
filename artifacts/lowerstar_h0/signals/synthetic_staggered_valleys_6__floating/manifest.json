@@ -1,0 +1,19 @@
+{
+  "benchmark_id": "synthetic_staggered_valleys_6__floating",
+  "family": "synthetic",
+  "label": "Synthetic staggered valleys (n=6)",
+  "metadata": {
+    "benchmark_id": "synthetic_staggered_valleys_6",
+    "generator": "handcrafted_signal",
+    "mode": "floating",
+    "quantization_step": null,
+    "signal_hash": "46eedd958b658040f749ac8aedaf90f9510d05e1e92e247f6884ec3e7b54cbfa",
+    "signal_kind": "synthetic",
+    "signal_length": 6
+  },
+  "mode": "floating",
+  "notes": [
+    "Endpoint-adjacent minimum plus two interior minima."
+  ],
+  "signal_length": 6
+}

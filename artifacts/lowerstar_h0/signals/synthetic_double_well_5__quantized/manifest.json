@@ -1,0 +1,20 @@
+{
+  "benchmark_id": "synthetic_double_well_5__quantized",
+  "family": "synthetic",
+  "label": "Synthetic double well (n=5)",
+  "metadata": {
+    "benchmark_id": "synthetic_double_well_5",
+    "generator": "handcrafted_signal",
+    "mode": "quantized",
+    "quantization_step": 0.0009765625,
+    "signal_hash": "6acd80cf66b09bcb871e77b629d4ab745eff7fc84d6d4827e23303b16c87f661",
+    "signal_kind": "synthetic",
+    "signal_length": 5
+  },
+  "mode": "quantized",
+  "notes": [
+    "Two strict local minima with a single finite merge height.",
+    "Signal values quantized to a power-of-two step of 0.0009765625."
+  ],
+  "signal_length": 5
+}

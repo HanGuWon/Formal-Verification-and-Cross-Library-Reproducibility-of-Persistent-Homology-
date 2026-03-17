@@ -1,0 +1,27 @@
+{
+  "benchmark_id": "aah_n13_l1p00_phi0p20_s6__floating",
+  "family": "aah",
+  "label": "AAH profile n=13, lambda=1.00, phase=0.20, state=6",
+  "metadata": {
+    "benchmark_id": "aah_n13_l1p00_phi0p20_s6",
+    "boundary_condition": "open",
+    "generator": "generalized_aah_intensity_profile",
+    "hopping": 1.0,
+    "irrational_frequency": 0.6180339887498948,
+    "lambda_strength": 1.0,
+    "mode": "floating",
+    "n_sites": 13,
+    "phase": 0.2,
+    "quantization_step": null,
+    "signal_hash": "d19815a5ad02f459ef2111eb2f8683e28d8ac8e82a1fbddd3dcfee0ed503bd8c",
+    "signal_kind": "aah",
+    "signal_length": 13,
+    "state_index": 6
+  },
+  "mode": "floating",
+  "notes": [
+    "Intensity profile from an Aubry-Andre-Harper tight-binding eigenstate.",
+    "The profile is normalized to sum to 1."
+  ],
+  "signal_length": 13
+}

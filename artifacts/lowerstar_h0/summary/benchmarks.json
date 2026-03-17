@@ -1,0 +1,323 @@
+[
+  {
+    "benchmark_id": "synthetic_single_basin_3__floating",
+    "family": "synthetic",
+    "label": "Synthetic single basin (n=3)",
+    "metadata": {
+      "benchmark_id": "synthetic_single_basin_3",
+      "generator": "handcrafted_signal",
+      "mode": "floating",
+      "quantization_step": null,
+      "signal_hash": "b7065db7d75dbf715c17c18108b47a2690881096ab36d86363059fe74c03db66",
+      "signal_kind": "synthetic",
+      "signal_length": 3
+    },
+    "mode": "floating",
+    "notes": [
+      "Distinct dyadic heights with one strict interior minimum."
+    ],
+    "signal_length": 3
+  },
+  {
+    "benchmark_id": "synthetic_single_basin_3__quantized",
+    "family": "synthetic",
+    "label": "Synthetic single basin (n=3)",
+    "metadata": {
+      "benchmark_id": "synthetic_single_basin_3",
+      "generator": "handcrafted_signal",
+      "mode": "quantized",
+      "quantization_step": 0.0009765625,
+      "signal_hash": "b7065db7d75dbf715c17c18108b47a2690881096ab36d86363059fe74c03db66",
+      "signal_kind": "synthetic",
+      "signal_length": 3
+    },
+    "mode": "quantized",
+    "notes": [
+      "Distinct dyadic heights with one strict interior minimum.",
+      "Signal values quantized to a power-of-two step of 0.0009765625."
+    ],
+    "signal_length": 3
+  },
+  {
+    "benchmark_id": "synthetic_double_well_5__floating",
+    "family": "synthetic",
+    "label": "Synthetic double well (n=5)",
+    "metadata": {
+      "benchmark_id": "synthetic_double_well_5",
+      "generator": "handcrafted_signal",
+      "mode": "floating",
+      "quantization_step": null,
+      "signal_hash": "6acd80cf66b09bcb871e77b629d4ab745eff7fc84d6d4827e23303b16c87f661",
+      "signal_kind": "synthetic",
+      "signal_length": 5
+    },
+    "mode": "floating",
+    "notes": [
+      "Two strict local minima with a single finite merge height."
+    ],
+    "signal_length": 5
+  },
+  {
+    "benchmark_id": "synthetic_double_well_5__quantized",
+    "family": "synthetic",
+    "label": "Synthetic double well (n=5)",
+    "metadata": {
+      "benchmark_id": "synthetic_double_well_5",
+      "generator": "handcrafted_signal",
+      "mode": "quantized",
+      "quantization_step": 0.0009765625,
+      "signal_hash": "6acd80cf66b09bcb871e77b629d4ab745eff7fc84d6d4827e23303b16c87f661",
+      "signal_kind": "synthetic",
+      "signal_length": 5
+    },
+    "mode": "quantized",
+    "notes": [
+      "Two strict local minima with a single finite merge height.",
+      "Signal values quantized to a power-of-two step of 0.0009765625."
+    ],
+    "signal_length": 5
+  },
+  {
+    "benchmark_id": "synthetic_three_minima_7__floating",
+    "family": "synthetic",
+    "label": "Synthetic three minima (n=7)",
+    "metadata": {
+      "benchmark_id": "synthetic_three_minima_7",
+      "generator": "handcrafted_signal",
+      "mode": "floating",
+      "quantization_step": null,
+      "signal_hash": "b64363261d24a99c2de21770936582301b0734dd5baf40b38d56963d1b1b7d75",
+      "signal_kind": "synthetic",
+      "signal_length": 7
+    },
+    "mode": "floating",
+    "notes": [
+      "Three strict minima with nested merges on a length-7 chain."
+    ],
+    "signal_length": 7
+  },
+  {
+    "benchmark_id": "synthetic_three_minima_7__quantized",
+    "family": "synthetic",
+    "label": "Synthetic three minima (n=7)",
+    "metadata": {
+      "benchmark_id": "synthetic_three_minima_7",
+      "generator": "handcrafted_signal",
+      "mode": "quantized",
+      "quantization_step": 0.0009765625,
+      "signal_hash": "b64363261d24a99c2de21770936582301b0734dd5baf40b38d56963d1b1b7d75",
+      "signal_kind": "synthetic",
+      "signal_length": 7
+    },
+    "mode": "quantized",
+    "notes": [
+      "Three strict minima with nested merges on a length-7 chain.",
+      "Signal values quantized to a power-of-two step of 0.0009765625."
+    ],
+    "signal_length": 7
+  },
+  {
+    "benchmark_id": "synthetic_staggered_valleys_6__floating",
+    "family": "synthetic",
+    "label": "Synthetic staggered valleys (n=6)",
+    "metadata": {
+      "benchmark_id": "synthetic_staggered_valleys_6",
+      "generator": "handcrafted_signal",
+      "mode": "floating",
+      "quantization_step": null,
+      "signal_hash": "46eedd958b658040f749ac8aedaf90f9510d05e1e92e247f6884ec3e7b54cbfa",
+      "signal_kind": "synthetic",
+      "signal_length": 6
+    },
+    "mode": "floating",
+    "notes": [
+      "Endpoint-adjacent minimum plus two interior minima."
+    ],
+    "signal_length": 6
+  },
+  {
+    "benchmark_id": "synthetic_staggered_valleys_6__quantized",
+    "family": "synthetic",
+    "label": "Synthetic staggered valleys (n=6)",
+    "metadata": {
+      "benchmark_id": "synthetic_staggered_valleys_6",
+      "generator": "handcrafted_signal",
+      "mode": "quantized",
+      "quantization_step": 0.0009765625,
+      "signal_hash": "46eedd958b658040f749ac8aedaf90f9510d05e1e92e247f6884ec3e7b54cbfa",
+      "signal_kind": "synthetic",
+      "signal_length": 6
+    },
+    "mode": "quantized",
+    "notes": [
+      "Endpoint-adjacent minimum plus two interior minima.",
+      "Signal values quantized to a power-of-two step of 0.0009765625."
+    ],
+    "signal_length": 6
+  },
+  {
+    "benchmark_id": "aah_n8_l1p50_phi0p10_s0__floating",
+    "family": "aah",
+    "label": "AAH profile n=8, lambda=1.50, phase=0.10, state=0",
+    "metadata": {
+      "benchmark_id": "aah_n8_l1p50_phi0p10_s0",
+      "boundary_condition": "open",
+      "generator": "generalized_aah_intensity_profile",
+      "hopping": 1.0,
+      "irrational_frequency": 0.6180339887498948,
+      "lambda_strength": 1.5,
+      "mode": "floating",
+      "n_sites": 8,
+      "phase": 0.1,
+      "quantization_step": null,
+      "signal_hash": "006f84e7ef1dea8e35039751fdac5319340069400ef23e04ab72b20524b7b99f",
+      "signal_kind": "aah",
+      "signal_length": 8,
+      "state_index": 0
+    },
+    "mode": "floating",
+    "notes": [
+      "Intensity profile from an Aubry-Andre-Harper tight-binding eigenstate.",
+      "The profile is normalized to sum to 1."
+    ],
+    "signal_length": 8
+  },
+  {
+    "benchmark_id": "aah_n8_l1p50_phi0p10_s0__quantized",
+    "family": "aah",
+    "label": "AAH profile n=8, lambda=1.50, phase=0.10, state=0",
+    "metadata": {
+      "benchmark_id": "aah_n8_l1p50_phi0p10_s0",
+      "boundary_condition": "open",
+      "generator": "generalized_aah_intensity_profile",
+      "hopping": 1.0,
+      "irrational_frequency": 0.6180339887498948,
+      "lambda_strength": 1.5,
+      "mode": "quantized",
+      "n_sites": 8,
+      "phase": 0.1,
+      "quantization_step": 0.0009765625,
+      "signal_hash": "4cdf771e2abcd285a4bbe5bc8a36e4d4ff75ba8b8382b5a0a6b44198c7555ab7",
+      "signal_kind": "aah",
+      "signal_length": 8,
+      "state_index": 0
+    },
+    "mode": "quantized",
+    "notes": [
+      "Intensity profile from an Aubry-Andre-Harper tight-binding eigenstate.",
+      "The profile is normalized to sum to 1.",
+      "Signal values quantized to a power-of-two step of 0.0009765625."
+    ],
+    "signal_length": 8
+  },
+  {
+    "benchmark_id": "aah_n8_l2p00_phi0p30_s3__floating",
+    "family": "aah",
+    "label": "AAH profile n=8, lambda=2.00, phase=0.30, state=3",
+    "metadata": {
+      "benchmark_id": "aah_n8_l2p00_phi0p30_s3",
+      "boundary_condition": "open",
+      "generator": "generalized_aah_intensity_profile",
+      "hopping": 1.0,
+      "irrational_frequency": 0.6180339887498948,
+      "lambda_strength": 2.0,
+      "mode": "floating",
+      "n_sites": 8,
+      "phase": 0.3,
+      "quantization_step": null,
+      "signal_hash": "b00f99ddb448b629766610724ec32dfabd44469f3483dff22b25ee1d7b79881a",
+      "signal_kind": "aah",
+      "signal_length": 8,
+      "state_index": 3
+    },
+    "mode": "floating",
+    "notes": [
+      "Intensity profile from an Aubry-Andre-Harper tight-binding eigenstate.",
+      "The profile is normalized to sum to 1."
+    ],
+    "signal_length": 8
+  },
+  {
+    "benchmark_id": "aah_n8_l2p00_phi0p30_s3__quantized",
+    "family": "aah",
+    "label": "AAH profile n=8, lambda=2.00, phase=0.30, state=3",
+    "metadata": {
+      "benchmark_id": "aah_n8_l2p00_phi0p30_s3",
+      "boundary_condition": "open",
+      "generator": "generalized_aah_intensity_profile",
+      "hopping": 1.0,
+      "irrational_frequency": 0.6180339887498948,
+      "lambda_strength": 2.0,
+      "mode": "quantized",
+      "n_sites": 8,
+      "phase": 0.3,
+      "quantization_step": 0.0009765625,
+      "signal_hash": "6a95186f10c9a3bdbf7bef43f1305b6652cc8fb5cb38b5e473a4fc1a24d0d424",
+      "signal_kind": "aah",
+      "signal_length": 8,
+      "state_index": 3
+    },
+    "mode": "quantized",
+    "notes": [
+      "Intensity profile from an Aubry-Andre-Harper tight-binding eigenstate.",
+      "The profile is normalized to sum to 1.",
+      "Signal values quantized to a power-of-two step of 0.0009765625."
+    ],
+    "signal_length": 8
+  },
+  {
+    "benchmark_id": "aah_n13_l1p00_phi0p20_s6__floating",
+    "family": "aah",
+    "label": "AAH profile n=13, lambda=1.00, phase=0.20, state=6",
+    "metadata": {
+      "benchmark_id": "aah_n13_l1p00_phi0p20_s6",
+      "boundary_condition": "open",
+      "generator": "generalized_aah_intensity_profile",
+      "hopping": 1.0,
+      "irrational_frequency": 0.6180339887498948,
+      "lambda_strength": 1.0,
+      "mode": "floating",
+      "n_sites": 13,
+      "phase": 0.2,
+      "quantization_step": null,
+      "signal_hash": "d19815a5ad02f459ef2111eb2f8683e28d8ac8e82a1fbddd3dcfee0ed503bd8c",
+      "signal_kind": "aah",
+      "signal_length": 13,
+      "state_index": 6
+    },
+    "mode": "floating",
+    "notes": [
+      "Intensity profile from an Aubry-Andre-Harper tight-binding eigenstate.",
+      "The profile is normalized to sum to 1."
+    ],
+    "signal_length": 13
+  },
+  {
+    "benchmark_id": "aah_n13_l1p00_phi0p20_s6__quantized",
+    "family": "aah",
+    "label": "AAH profile n=13, lambda=1.00, phase=0.20, state=6",
+    "metadata": {
+      "benchmark_id": "aah_n13_l1p00_phi0p20_s6",
+      "boundary_condition": "open",
+      "generator": "generalized_aah_intensity_profile",
+      "hopping": 1.0,
+      "irrational_frequency": 0.6180339887498948,
+      "lambda_strength": 1.0,
+      "mode": "quantized",
+      "n_sites": 13,
+      "phase": 0.2,
+      "quantization_step": 0.0009765625,
+      "signal_hash": "01d5b07e63e871b6036b86fa1f227bbaced9949d75d5cab03deeba9545fe1e72",
+      "signal_kind": "aah",
+      "signal_length": 13,
+      "state_index": 6
+    },
+    "mode": "quantized",
+    "notes": [
+      "Intensity profile from an Aubry-Andre-Harper tight-binding eigenstate.",
+      "The profile is normalized to sum to 1.",
+      "Signal values quantized to a power-of-two step of 0.0009765625."
+    ],
+    "signal_length": 13
+  }
+]

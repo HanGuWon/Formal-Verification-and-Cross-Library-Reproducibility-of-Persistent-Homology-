@@ -1,0 +1,29 @@
+{
+  "diagram_count": 2,
+  "filtration_size": 11,
+  "intervals": [
+    {
+      "birth": 0.0,
+      "birth_hex": "0x0.0p+0",
+      "death": "inf",
+      "death_hex": "inf"
+    },
+    {
+      "birth": 0.125,
+      "birth_hex": "0x1.0000000000000p-3",
+      "death": 0.75,
+      "death_hex": "0x1.8000000000000p-1"
+    },
+    {
+      "birth": 0.25,
+      "birth_hex": "0x1.0000000000000p-2",
+      "death": 0.625,
+      "death_hex": "0x1.4000000000000p-1"
+    }
+  ],
+  "library": "dionysus",
+  "parameters": {
+    "constructor": "fill_freudenthal(signal)",
+    "prime": 2
+  }
+}

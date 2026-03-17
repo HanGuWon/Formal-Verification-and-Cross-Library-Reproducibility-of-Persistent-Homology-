@@ -1,0 +1,28 @@
+{
+  "benchmark_id": "aah_n8_l1p50_phi0p10_s0__quantized",
+  "family": "aah",
+  "label": "AAH profile n=8, lambda=1.50, phase=0.10, state=0",
+  "metadata": {
+    "benchmark_id": "aah_n8_l1p50_phi0p10_s0",
+    "boundary_condition": "open",
+    "generator": "generalized_aah_intensity_profile",
+    "hopping": 1.0,
+    "irrational_frequency": 0.6180339887498948,
+    "lambda_strength": 1.5,
+    "mode": "quantized",
+    "n_sites": 8,
+    "phase": 0.1,
+    "quantization_step": 0.0009765625,
+    "signal_hash": "4cdf771e2abcd285a4bbe5bc8a36e4d4ff75ba8b8382b5a0a6b44198c7555ab7",
+    "signal_kind": "aah",
+    "signal_length": 8,
+    "state_index": 0
+  },
+  "mode": "quantized",
+  "notes": [
+    "Intensity profile from an Aubry-Andre-Harper tight-binding eigenstate.",
+    "The profile is normalized to sum to 1.",
+    "Signal values quantized to a power-of-two step of 0.0009765625."
+  ],
+  "signal_length": 8
+}

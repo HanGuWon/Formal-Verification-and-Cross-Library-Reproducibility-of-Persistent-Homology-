@@ -1,0 +1,213 @@
+{
+  "all_intervals": [
+    {
+      "birth": 0.625,
+      "birth_hex": "0x1.4000000000000p-1",
+      "birth_index": 4,
+      "death": 0.625,
+      "death_edge": [
+        3,
+        4
+      ],
+      "death_hex": "0x1.4000000000000p-1",
+      "is_zero_length": true
+    },
+    {
+      "birth": 0.375,
+      "birth_hex": "0x1.8000000000000p-2",
+      "birth_index": 5,
+      "death": 0.625,
+      "death_edge": [
+        4,
+        5
+      ],
+      "death_hex": "0x1.4000000000000p-1",
+      "is_zero_length": false
+    },
+    {
+      "birth": 0.75,
+      "birth_hex": "0x1.8000000000000p-1",
+      "birth_index": 2,
+      "death": 0.75,
+      "death_edge": [
+        1,
+        2
+      ],
+      "death_hex": "0x1.8000000000000p-1",
+      "is_zero_length": true
+    },
+    {
+      "birth": 0.25,
+      "birth_hex": "0x1.0000000000000p-2",
+      "birth_index": 1,
+      "death": 0.75,
+      "death_edge": [
+        2,
+        3
+      ],
+      "death_hex": "0x1.8000000000000p-1",
+      "is_zero_length": false
+    },
+    {
+      "birth": 0.875,
+      "birth_hex": "0x1.c000000000000p-1",
+      "birth_index": 0,
+      "death": 0.875,
+      "death_edge": [
+        0,
+        1
+      ],
+      "death_hex": "0x1.c000000000000p-1",
+      "is_zero_length": true
+    },
+    {
+      "birth": 1.0,
+      "birth_hex": "0x1.0000000000000p+0",
+      "birth_index": 6,
+      "death": 1.0,
+      "death_edge": [
+        5,
+        6
+      ],
+      "death_hex": "0x1.0000000000000p+0",
+      "is_zero_length": true
+    },
+    {
+      "birth": 0.125,
+      "birth_hex": "0x1.0000000000000p-3",
+      "birth_index": 3,
+      "death": "inf",
+      "death_edge": null,
+      "death_hex": "inf",
+      "is_zero_length": false
+    }
+  ],
+  "births_match_local_minima": true,
+  "finite_deaths_match_merge_heights": true,
+  "local_minima": [
+    {
+      "index": 1,
+      "value": 0.25,
+      "value_hex": "0x1.0000000000000p-2"
+    },
+    {
+      "index": 3,
+      "value": 0.125,
+      "value_hex": "0x1.0000000000000p-3"
+    },
+    {
+      "index": 5,
+      "value": 0.375,
+      "value_hex": "0x1.8000000000000p-2"
+    }
+  ],
+  "merge_events": [
+    {
+      "edge": [
+        3,
+        4
+      ],
+      "elder_birth": 0.125,
+      "elder_birth_index": 3,
+      "merge_height": 0.625,
+      "merge_height_hex": "0x1.4000000000000p-1",
+      "younger_birth": 0.625,
+      "younger_birth_index": 4
+    },
+    {
+      "edge": [
+        4,
+        5
+      ],
+      "elder_birth": 0.125,
+      "elder_birth_index": 3,
+      "merge_height": 0.625,
+      "merge_height_hex": "0x1.4000000000000p-1",
+      "younger_birth": 0.375,
+      "younger_birth_index": 5
+    },
+    {
+      "edge": [
+        1,
+        2
+      ],
+      "elder_birth": 0.25,
+      "elder_birth_index": 1,
+      "merge_height": 0.75,
+      "merge_height_hex": "0x1.8000000000000p-1",
+      "younger_birth": 0.75,
+      "younger_birth_index": 2
+    },
+    {
+      "edge": [
+        2,
+        3
+      ],
+      "elder_birth": 0.125,
+      "elder_birth_index": 3,
+      "merge_height": 0.75,
+      "merge_height_hex": "0x1.8000000000000p-1",
+      "younger_birth": 0.25,
+      "younger_birth_index": 1
+    },
+    {
+      "edge": [
+        0,
+        1
+      ],
+      "elder_birth": 0.125,
+      "elder_birth_index": 3,
+      "merge_height": 0.875,
+      "merge_height_hex": "0x1.c000000000000p-1",
+      "younger_birth": 0.875,
+      "younger_birth_index": 0
+    },
+    {
+      "edge": [
+        5,
+        6
+      ],
+      "elder_birth": 0.125,
+      "elder_birth_index": 3,
+      "merge_height": 1.0,
+      "merge_height_hex": "0x1.0000000000000p+0",
+      "younger_birth": 1.0,
+      "younger_birth_index": 6
+    }
+  ],
+  "nonzero_intervals": [
+    {
+      "birth": 0.375,
+      "birth_hex": "0x1.8000000000000p-2",
+      "birth_index": 5,
+      "death": 0.625,
+      "death_edge": [
+        4,
+        5
+      ],
+      "death_hex": "0x1.4000000000000p-1",
+      "is_zero_length": false
+    },
+    {
+      "birth": 0.25,
+      "birth_hex": "0x1.0000000000000p-2",
+      "birth_index": 1,
+      "death": 0.75,
+      "death_edge": [
+        2,
+        3
+      ],
+      "death_hex": "0x1.8000000000000p-1",
+      "is_zero_length": false
+    },
+    {
+      "birth": 0.125,
+      "birth_hex": "0x1.0000000000000p-3",
+      "birth_index": 3,
+      "death": "inf",
+      "death_edge": null,
+      "death_hex": "inf",
+      "is_zero_length": false
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "intervals": [
+    {
+      "birth": 0.0227537639439106,
+      "birth_hex": "0x1.74cc340000000p-6",
+      "death": 0.6155114769935608,
+      "death_hex": "0x1.3b24520000000p-1"
+    },
+    {
+      "birth": 0.004451301880180836,
+      "birth_hex": "0x1.23b8740000000p-8",
+      "death": "inf",
+      "death_hex": "inf"
+    }
+  ],
+  "library": "ripser",
+  "parameters": {
+    "coeff": 2,
+    "distance_matrix": true,
+    "encoding": "sparse_distance_matrix_with_diagonal_vertex_births",
+    "maxdim": 0,
+    "n_perm": null
+  },
+  "result_metadata": {
+    "cocycles": [
+      []
+    ],
+    "dperm2all": {
+      "entries": [
+        {
+          "col": 0,
+          "row": 0,
+          "value": 0.004451302085757266,
+          "value_hex": "0x1.23b874e2089efp-8"
+        },
+        {
+          "col": 1,
+          "row": 0,
+          "value": 0.06292927498995216,
+          "value_hex": "0x1.01c220a0af740p-4"
+        },
+        {
+          "col": 0,
+          "row": 1,
+          "value": 0.06292927498995216,
+          "value_hex": "0x1.01c220a0af740p-4"
+        },
+        {
+          "col": 1,
+          "row": 1,
+          "value": 0.06292927498995216,
+          "value_hex": "0x1.01c220a0af740p-4"
+        },
+        {
+          "col": 2,
+          "row": 1,
+          "value": 0.0631959887100773,
+          "value_hex": "0x1.02d9cc0bf87e3p-4"
+        },
+        {
+          "col": 1,
+          "row": 2,
+          "value": 0.0631959887100773,
+          "value_hex": "0x1.02d9cc0bf87e3p-4"
+        },
+        {
+          "col": 2,
+          "row": 2,
+          "value": 0.0631959887100773,
+          "value_hex": "0x1.02d9cc0bf87e3p-4"
+        },
+        {
+          "col": 3,
+          "row": 2,
+          "value": 0.09888114894054817,
+          "value_hex": "0x1.9504664e3fbb4p-4"
+        },
+        {
+          "col": 2,
+          "row": 3,
+          "value": 0.09888114894054817,
+          "value_hex": "0x1.9504664e3fbb4p-4"
+        },
+        {
+          "col": 3,
+          "row": 3,
+          "value": 0.09888114894054817,
+          "value_hex": "0x1.9504664e3fbb4p-4"
+        },
+        {
+          "col": 4,
+          "row": 3,
+          "value": 0.6155114860691003,
+          "value_hex": "0x1.3b24524df5529p-1"
+        },
+        {
+          "col": 3,
+          "row": 4,
+          "value": 0.6155114860691003,
+          "value_hex": "0x1.3b24524df5529p-1"
+        },
+        {
+          "col": 4,
+          "row": 4,
+          "value": 0.6155114860691003,
+          "value_hex": "0x1.3b24524df5529p-1"
+        },
+        {
+          "col": 5,
+          "row": 4,
+          "value": 0.6155114860691003,
+          "value_hex": "0x1.3b24524df5529p-1"
+        },
+        {
+          "col": 4,
+          "row": 5,
+          "value": 0.6155114860691003,
+          "value_hex": "0x1.3b24524df5529p-1"
+        },
+        {
+          "col": 5,
+          "row": 5,
+          "value": 0.08465816459599482,
+          "value_hex": "0x1.5ac2850477886p-4"
+        },
+        {
+          "col": 6,
+          "row": 5,
+          "value": 0.08465816459599482,
+          "value_hex": "0x1.5ac2850477886p-4"
+        },
+        {
+          "col": 5,
+          "row": 6,
+          "value": 0.08465816459599482,
+          "value_hex": "0x1.5ac2850477886p-4"
+        },
+        {
+          "col": 6,
+          "row": 6,
+          "value": 0.04761887146376113,
+          "value_hex": "0x1.861802f37f3c5p-5"
+        },
+        {
+          "col": 7,
+          "row": 6,
+          "value": 0.04761887146376113,
+          "value_hex": "0x1.861802f37f3c5p-5"
+        },
+        {
+          "col": 6,
+          "row": 7,
+          "value": 0.04761887146376113,
+          "value_hex": "0x1.861802f37f3c5p-5"
+        },
+        {
+          "col": 7,
+          "row": 7,
+          "value": 0.022753763144808897,
+          "value_hex": "0x1.74cc332458378p-6"
+        }
+      ],
+      "format": "csr",
+      "shape": [
+        8,
+        8
+      ]
+    },
+    "idx_perm": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "num_edges": 7,
+    "r_cover": 0.0
+  }
+}

@@ -1,0 +1,214 @@
+[
+  {
+    "dimension": 0,
+    "filtration": 0.0036452319473028183,
+    "filtration_hex": "0x1.ddc9b00000000p-9",
+    "vertices": [
+      5
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.006830262020230293,
+    "filtration_hex": "0x1.bfa0c80000000p-8",
+    "vertices": [
+      7
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.031513940542936325,
+    "filtration_hex": "0x1.0229860000000p-5",
+    "vertices": [
+      9
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.046762365847826004,
+    "filtration_hex": "0x1.7f13ca0000000p-5",
+    "vertices": [
+      3
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.07030298560857773,
+    "filtration_hex": "0x1.1ff6060000000p-4",
+    "vertices": [
+      8
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.07030298560857773,
+    "filtration_hex": "0x1.1ff6060000000p-4",
+    "vertices": [
+      7,
+      8
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.07030298560857773,
+    "filtration_hex": "0x1.1ff6060000000p-4",
+    "vertices": [
+      8,
+      9
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.07207421213388443,
+    "filtration_hex": "0x1.27374a0000000p-4",
+    "vertices": [
+      1
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.07390124350786209,
+    "filtration_hex": "0x1.2eb3120000000p-4",
+    "vertices": [
+      11
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.07542651146650314,
+    "filtration_hex": "0x1.34f26e0000000p-4",
+    "vertices": [
+      4
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.07542651146650314,
+    "filtration_hex": "0x1.34f26e0000000p-4",
+    "vertices": [
+      3,
+      4
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.07542651146650314,
+    "filtration_hex": "0x1.34f26e0000000p-4",
+    "vertices": [
+      4,
+      5
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.07620242238044739,
+    "filtration_hex": "0x1.3820080000000p-4",
+    "vertices": [
+      0
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.07620242238044739,
+    "filtration_hex": "0x1.3820080000000p-4",
+    "vertices": [
+      0,
+      1
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.08101122081279755,
+    "filtration_hex": "0x1.4bd26c0000000p-4",
+    "vertices": [
+      12
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.08101122081279755,
+    "filtration_hex": "0x1.4bd26c0000000p-4",
+    "vertices": [
+      11,
+      12
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.10091622918844223,
+    "filtration_hex": "0x1.9d5a560000000p-4",
+    "vertices": [
+      6
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.10091622918844223,
+    "filtration_hex": "0x1.9d5a560000000p-4",
+    "vertices": [
+      5,
+      6
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.10091622918844223,
+    "filtration_hex": "0x1.9d5a560000000p-4",
+    "vertices": [
+      6,
+      7
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.17126990854740143,
+    "filtration_hex": "0x1.5ec2c20000000p-3",
+    "vertices": [
+      10
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.17126990854740143,
+    "filtration_hex": "0x1.5ec2c20000000p-3",
+    "vertices": [
+      9,
+      10
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.17126990854740143,
+    "filtration_hex": "0x1.5ec2c20000000p-3",
+    "vertices": [
+      10,
+      11
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.19014346599578857,
+    "filtration_hex": "0x1.8569f00000000p-3",
+    "vertices": [
+      2
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.19014346599578857,
+    "filtration_hex": "0x1.8569f00000000p-3",
+    "vertices": [
+      1,
+      2
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.19014346599578857,
+    "filtration_hex": "0x1.8569f00000000p-3",
+    "vertices": [
+      2,
+      3
+    ]
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "critical_values": [
+    {
+      "value": 0.125,
+      "value_hex": "0x1.0000000000000p-3"
+    },
+    {
+      "value": 0.25,
+      "value_hex": "0x1.0000000000000p-2"
+    },
+    {
+      "value": 0.375,
+      "value_hex": "0x1.8000000000000p-2"
+    },
+    {
+      "value": 0.625,
+      "value_hex": "0x1.4000000000000p-1"
+    },
+    {
+      "value": 0.75,
+      "value_hex": "0x1.8000000000000p-1"
+    },
+    {
+      "value": 0.875,
+      "value_hex": "0x1.c000000000000p-1"
+    },
+    {
+      "value": 1.0,
+      "value_hex": "0x1.0000000000000p+0"
+    }
+  ],
+  "edges": [
+    {
+      "filtration": 0.875,
+      "filtration_hex": "0x1.c000000000000p-1",
+      "vertices": [
+        0,
+        1
+      ]
+    },
+    {
+      "filtration": 0.75,
+      "filtration_hex": "0x1.8000000000000p-1",
+      "vertices": [
+        1,
+        2
+      ]
+    },
+    {
+      "filtration": 0.75,
+      "filtration_hex": "0x1.8000000000000p-1",
+      "vertices": [
+        2,
+        3
+      ]
+    },
+    {
+      "filtration": 0.625,
+      "filtration_hex": "0x1.4000000000000p-1",
+      "vertices": [
+        3,
+        4
+      ]
+    },
+    {
+      "filtration": 0.625,
+      "filtration_hex": "0x1.4000000000000p-1",
+      "vertices": [
+        4,
+        5
+      ]
+    },
+    {
+      "filtration": 1.0,
+      "filtration_hex": "0x1.0000000000000p+0",
+      "vertices": [
+        5,
+        6
+      ]
+    }
+  ],
+  "signal": [
+    0.875,
+    0.25,
+    0.75,
+    0.125,
+    0.625,
+    0.375,
+    1.0
+  ],
+  "vertices": [
+    {
+      "filtration": 0.875,
+      "filtration_hex": "0x1.c000000000000p-1",
+      "index": 0
+    },
+    {
+      "filtration": 0.25,
+      "filtration_hex": "0x1.0000000000000p-2",
+      "index": 1
+    },
+    {
+      "filtration": 0.75,
+      "filtration_hex": "0x1.8000000000000p-1",
+      "index": 2
+    },
+    {
+      "filtration": 0.125,
+      "filtration_hex": "0x1.0000000000000p-3",
+      "index": 3
+    },
+    {
+      "filtration": 0.625,
+      "filtration_hex": "0x1.4000000000000p-1",
+      "index": 4
+    },
+    {
+      "filtration": 0.375,
+      "filtration_hex": "0x1.8000000000000p-2",
+      "index": 5
+    },
+    {
+      "filtration": 1.0,
+      "filtration_hex": "0x1.0000000000000p+0",
+      "index": 6
+    }
+  ]
+}

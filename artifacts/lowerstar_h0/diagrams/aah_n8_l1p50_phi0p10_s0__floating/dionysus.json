@@ -1,0 +1,23 @@
+{
+  "diagram_count": 2,
+  "filtration_size": 15,
+  "intervals": [
+    {
+      "birth": 0.004451301880180836,
+      "birth_hex": "0x1.23b8740000000p-8",
+      "death": "inf",
+      "death_hex": "inf"
+    },
+    {
+      "birth": 0.0227537639439106,
+      "birth_hex": "0x1.74cc340000000p-6",
+      "death": 0.6155114769935608,
+      "death_hex": "0x1.3b24520000000p-1"
+    }
+  ],
+  "library": "dionysus",
+  "parameters": {
+    "constructor": "fill_freudenthal(signal)",
+    "prime": 2
+  }
+}

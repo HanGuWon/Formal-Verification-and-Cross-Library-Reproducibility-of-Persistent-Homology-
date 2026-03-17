@@ -1,0 +1,637 @@
+{
+  "benchmark": {
+    "benchmark_id": "synthetic_double_well_5__floating",
+    "family": "synthetic",
+    "label": "Synthetic double well (n=5)",
+    "metadata": {
+      "benchmark_id": "synthetic_double_well_5",
+      "generator": "handcrafted_signal",
+      "mode": "floating",
+      "quantization_step": null,
+      "signal_hash": "6acd80cf66b09bcb871e77b629d4ab745eff7fc84d6d4827e23303b16c87f661",
+      "signal_kind": "synthetic",
+      "signal_length": 5
+    },
+    "mode": "floating",
+    "notes": [
+      "Two strict local minima with a single finite merge height."
+    ],
+    "signal_length": 5
+  },
+  "results": {
+    "agreement": {
+      "exact_all_libraries": true,
+      "float32_stable_all_libraries": true,
+      "pairwise": {
+        "gudhi__dionysus": {
+          "exact_match": true,
+          "float32_match": true,
+          "max_abs_finite_endpoint_diff": 0.0
+        },
+        "gudhi__ripser": {
+          "exact_match": true,
+          "float32_match": true,
+          "max_abs_finite_endpoint_diff": 0.0
+        },
+        "ripser__dionysus": {
+          "exact_match": true,
+          "float32_match": true,
+          "max_abs_finite_endpoint_diff": 0.0
+        }
+      }
+    },
+    "betti_summary": {
+      "all_equal": true,
+      "float32_all_equal": true,
+      "float32_rows": [
+        {
+          "all_equal": true,
+          "dionysus": 0,
+          "gudhi": 0,
+          "label": "below_min",
+          "probe_value": 0.12499999999999999,
+          "probe_value_hex": "0x1.fffffffffffffp-4",
+          "ripser": 0
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.125,
+          "critical_value_hex": "0x1.0000000000000p-3",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x1.0000000000000p-3",
+          "probe_value": 0.12500000000000003,
+          "probe_value_hex": "0x1.0000000000001p-3",
+          "ripser": 1
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.25,
+          "critical_value_hex": "0x1.0000000000000p-2",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.0000000000000p-2",
+          "probe_value": 0.25000000000000006,
+          "probe_value_hex": "0x1.0000000000001p-2",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.5,
+          "critical_value_hex": "0x1.0000000000000p-1",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.0000000000000p-1",
+          "probe_value": 0.5000000000000001,
+          "probe_value_hex": "0x1.0000000000001p-1",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.625,
+          "critical_value_hex": "0x1.4000000000000p-1",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.4000000000000p-1",
+          "probe_value": 0.6250000000000001,
+          "probe_value_hex": "0x1.4000000000001p-1",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.75,
+          "critical_value_hex": "0x1.8000000000000p-1",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x1.8000000000000p-1",
+          "probe_value": 0.7500000000000001,
+          "probe_value_hex": "0x1.8000000000001p-1",
+          "ripser": 1
+        }
+      ],
+      "rows": [
+        {
+          "all_equal": true,
+          "dionysus": 0,
+          "gudhi": 0,
+          "label": "below_min",
+          "probe_value": 0.12499999999999999,
+          "probe_value_hex": "0x1.fffffffffffffp-4",
+          "ripser": 0
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.125,
+          "critical_value_hex": "0x1.0000000000000p-3",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x1.0000000000000p-3",
+          "probe_value": 0.12500000000000003,
+          "probe_value_hex": "0x1.0000000000001p-3",
+          "ripser": 1
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.25,
+          "critical_value_hex": "0x1.0000000000000p-2",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.0000000000000p-2",
+          "probe_value": 0.25000000000000006,
+          "probe_value_hex": "0x1.0000000000001p-2",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.5,
+          "critical_value_hex": "0x1.0000000000000p-1",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.0000000000000p-1",
+          "probe_value": 0.5000000000000001,
+          "probe_value_hex": "0x1.0000000000001p-1",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.625,
+          "critical_value_hex": "0x1.4000000000000p-1",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.4000000000000p-1",
+          "probe_value": 0.6250000000000001,
+          "probe_value_hex": "0x1.4000000000001p-1",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.75,
+          "critical_value_hex": "0x1.8000000000000p-1",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x1.8000000000000p-1",
+          "probe_value": 0.7500000000000001,
+          "probe_value_hex": "0x1.8000000000001p-1",
+          "ripser": 1
+        }
+      ]
+    },
+    "canonicalized": {
+      "dionysus": {
+        "count": 2,
+        "exact_signature": [
+          "0x1.0000000000000p-2|0x1.8000000000000p-1",
+          "0x1.0000000000000p-3|inf"
+        ],
+        "float32_intervals": [
+          {
+            "birth": 0.25,
+            "birth_hex": "0x1.0000000000000p-2",
+            "death": 0.75,
+            "death_hex": "0x1.8000000000000p-1"
+          },
+          {
+            "birth": 0.125,
+            "birth_hex": "0x1.0000000000000p-3",
+            "death": "inf",
+            "death_hex": "inf"
+          }
+        ],
+        "float32_signature": [
+          "0x1.0000000000000p-2|0x1.8000000000000p-1",
+          "0x1.0000000000000p-3|inf"
+        ],
+        "intervals": [
+          {
+            "birth": 0.25,
+            "birth_hex": "0x1.0000000000000p-2",
+            "death": 0.75,
+            "death_hex": "0x1.8000000000000p-1"
+          },
+          {
+            "birth": 0.125,
+            "birth_hex": "0x1.0000000000000p-3",
+            "death": "inf",
+            "death_hex": "inf"
+          }
+        ]
+      },
+      "gudhi": {
+        "count": 2,
+        "exact_signature": [
+          "0x1.0000000000000p-2|0x1.8000000000000p-1",
+          "0x1.0000000000000p-3|inf"
+        ],
+        "float32_intervals": [
+          {
+            "birth": 0.25,
+            "birth_hex": "0x1.0000000000000p-2",
+            "death": 0.75,
+            "death_hex": "0x1.8000000000000p-1"
+          },
+          {
+            "birth": 0.125,
+            "birth_hex": "0x1.0000000000000p-3",
+            "death": "inf",
+            "death_hex": "inf"
+          }
+        ],
+        "float32_signature": [
+          "0x1.0000000000000p-2|0x1.8000000000000p-1",
+          "0x1.0000000000000p-3|inf"
+        ],
+        "intervals": [
+          {
+            "birth": 0.25,
+            "birth_hex": "0x1.0000000000000p-2",
+            "death": 0.75,
+            "death_hex": "0x1.8000000000000p-1"
+          },
+          {
+            "birth": 0.125,
+            "birth_hex": "0x1.0000000000000p-3",
+            "death": "inf",
+            "death_hex": "inf"
+          }
+        ]
+      },
+      "ripser": {
+        "count": 2,
+        "exact_signature": [
+          "0x1.0000000000000p-2|0x1.8000000000000p-1",
+          "0x1.0000000000000p-3|inf"
+        ],
+        "float32_intervals": [
+          {
+            "birth": 0.25,
+            "birth_hex": "0x1.0000000000000p-2",
+            "death": 0.75,
+            "death_hex": "0x1.8000000000000p-1"
+          },
+          {
+            "birth": 0.125,
+            "birth_hex": "0x1.0000000000000p-3",
+            "death": "inf",
+            "death_hex": "inf"
+          }
+        ],
+        "float32_signature": [
+          "0x1.0000000000000p-2|0x1.8000000000000p-1",
+          "0x1.0000000000000p-3|inf"
+        ],
+        "intervals": [
+          {
+            "birth": 0.25,
+            "birth_hex": "0x1.0000000000000p-2",
+            "death": 0.75,
+            "death_hex": "0x1.8000000000000p-1"
+          },
+          {
+            "birth": 0.125,
+            "birth_hex": "0x1.0000000000000p-3",
+            "death": "inf",
+            "death_hex": "inf"
+          }
+        ]
+      }
+    },
+    "raw_outputs": {
+      "dionysus": {
+        "diagram_count": 2,
+        "filtration_size": 9,
+        "intervals": [
+          {
+            "birth": 0.125,
+            "birth_hex": "0x1.0000000000000p-3",
+            "death": "inf",
+            "death_hex": "inf"
+          },
+          {
+            "birth": 0.25,
+            "birth_hex": "0x1.0000000000000p-2",
+            "death": 0.75,
+            "death_hex": "0x1.8000000000000p-1"
+          }
+        ],
+        "library": "dionysus",
+        "parameters": {
+          "constructor": "fill_freudenthal(signal)",
+          "prime": 2
+        }
+      },
+      "gudhi": {
+        "intervals": [
+          {
+            "birth": 0.25,
+            "birth_hex": "0x1.0000000000000p-2",
+            "death": 0.75,
+            "death_hex": "0x1.8000000000000p-1"
+          },
+          {
+            "birth": 0.125,
+            "birth_hex": "0x1.0000000000000p-3",
+            "death": "inf",
+            "death_hex": "inf"
+          }
+        ],
+        "library": "gudhi",
+        "parameters": {
+          "constructor": "CubicalComplex(vertices=signal)",
+          "homology_coeff_field": 2,
+          "min_persistence": 0.0
+        },
+        "raw_persistence_pairs": [
+          {
+            "birth": 0.125,
+            "birth_hex": "0x1.0000000000000p-3",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 0
+          },
+          {
+            "birth": 0.25,
+            "birth_hex": "0x1.0000000000000p-2",
+            "death": 0.75,
+            "death_hex": "0x1.8000000000000p-1",
+            "dimension": 0
+          }
+        ]
+      },
+      "ripser": {
+        "intervals": [
+          {
+            "birth": 0.25,
+            "birth_hex": "0x1.0000000000000p-2",
+            "death": 0.75,
+            "death_hex": "0x1.8000000000000p-1"
+          },
+          {
+            "birth": 0.125,
+            "birth_hex": "0x1.0000000000000p-3",
+            "death": "inf",
+            "death_hex": "inf"
+          }
+        ],
+        "library": "ripser",
+        "parameters": {
+          "coeff": 2,
+          "distance_matrix": true,
+          "encoding": "sparse_distance_matrix_with_diagonal_vertex_births",
+          "maxdim": 0,
+          "n_perm": null
+        },
+        "result_metadata": {
+          "cocycles": [
+            []
+          ],
+          "dperm2all": {
+            "entries": [
+              {
+                "col": 0,
+                "row": 0,
+                "value": 0.625,
+                "value_hex": "0x1.4000000000000p-1"
+              },
+              {
+                "col": 1,
+                "row": 0,
+                "value": 0.625,
+                "value_hex": "0x1.4000000000000p-1"
+              },
+              {
+                "col": 0,
+                "row": 1,
+                "value": 0.625,
+                "value_hex": "0x1.4000000000000p-1"
+              },
+              {
+                "col": 1,
+                "row": 1,
+                "value": 0.125,
+                "value_hex": "0x1.0000000000000p-3"
+              },
+              {
+                "col": 2,
+                "row": 1,
+                "value": 0.75,
+                "value_hex": "0x1.8000000000000p-1"
+              },
+              {
+                "col": 1,
+                "row": 2,
+                "value": 0.75,
+                "value_hex": "0x1.8000000000000p-1"
+              },
+              {
+                "col": 2,
+                "row": 2,
+                "value": 0.75,
+                "value_hex": "0x1.8000000000000p-1"
+              },
+              {
+                "col": 3,
+                "row": 2,
+                "value": 0.75,
+                "value_hex": "0x1.8000000000000p-1"
+              },
+              {
+                "col": 2,
+                "row": 3,
+                "value": 0.75,
+                "value_hex": "0x1.8000000000000p-1"
+              },
+              {
+                "col": 3,
+                "row": 3,
+                "value": 0.25,
+                "value_hex": "0x1.0000000000000p-2"
+              },
+              {
+                "col": 4,
+                "row": 3,
+                "value": 0.5,
+                "value_hex": "0x1.0000000000000p-1"
+              },
+              {
+                "col": 3,
+                "row": 4,
+                "value": 0.5,
+                "value_hex": "0x1.0000000000000p-1"
+              },
+              {
+                "col": 4,
+                "row": 4,
+                "value": 0.5,
+                "value_hex": "0x1.0000000000000p-1"
+              }
+            ],
+            "format": "csr",
+            "shape": [
+              5,
+              5
+            ]
+          },
+          "idx_perm": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "num_edges": 4,
+          "r_cover": 0.0
+        }
+      }
+    },
+    "signal_length": 5,
+    "theorem_events": {
+      "all_intervals": [
+        {
+          "birth": 0.5,
+          "birth_hex": "0x1.0000000000000p-1",
+          "birth_index": 4,
+          "death": 0.5,
+          "death_edge": [
+            3,
+            4
+          ],
+          "death_hex": "0x1.0000000000000p-1",
+          "is_zero_length": true
+        },
+        {
+          "birth": 0.625,
+          "birth_hex": "0x1.4000000000000p-1",
+          "birth_index": 0,
+          "death": 0.625,
+          "death_edge": [
+            0,
+            1
+          ],
+          "death_hex": "0x1.4000000000000p-1",
+          "is_zero_length": true
+        },
+        {
+          "birth": 0.75,
+          "birth_hex": "0x1.8000000000000p-1",
+          "birth_index": 2,
+          "death": 0.75,
+          "death_edge": [
+            1,
+            2
+          ],
+          "death_hex": "0x1.8000000000000p-1",
+          "is_zero_length": true
+        },
+        {
+          "birth": 0.25,
+          "birth_hex": "0x1.0000000000000p-2",
+          "birth_index": 3,
+          "death": 0.75,
+          "death_edge": [
+            2,
+            3
+          ],
+          "death_hex": "0x1.8000000000000p-1",
+          "is_zero_length": false
+        },
+        {
+          "birth": 0.125,
+          "birth_hex": "0x1.0000000000000p-3",
+          "birth_index": 1,
+          "death": "inf",
+          "death_edge": null,
+          "death_hex": "inf",
+          "is_zero_length": false
+        }
+      ],
+      "births_match_local_minima": true,
+      "finite_deaths_match_merge_heights": true,
+      "local_minima": [
+        {
+          "index": 1,
+          "value": 0.125,
+          "value_hex": "0x1.0000000000000p-3"
+        },
+        {
+          "index": 3,
+          "value": 0.25,
+          "value_hex": "0x1.0000000000000p-2"
+        }
+      ],
+      "merge_events": [
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "elder_birth": 0.25,
+          "elder_birth_index": 3,
+          "merge_height": 0.5,
+          "merge_height_hex": "0x1.0000000000000p-1",
+          "younger_birth": 0.5,
+          "younger_birth_index": 4
+        },
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "elder_birth": 0.125,
+          "elder_birth_index": 1,
+          "merge_height": 0.625,
+          "merge_height_hex": "0x1.4000000000000p-1",
+          "younger_birth": 0.625,
+          "younger_birth_index": 0
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "elder_birth": 0.125,
+          "elder_birth_index": 1,
+          "merge_height": 0.75,
+          "merge_height_hex": "0x1.8000000000000p-1",
+          "younger_birth": 0.75,
+          "younger_birth_index": 2
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "elder_birth": 0.125,
+          "elder_birth_index": 1,
+          "merge_height": 0.75,
+          "merge_height_hex": "0x1.8000000000000p-1",
+          "younger_birth": 0.25,
+          "younger_birth_index": 3
+        }
+      ],
+      "nonzero_intervals": [
+        {
+          "birth": 0.25,
+          "birth_hex": "0x1.0000000000000p-2",
+          "birth_index": 3,
+          "death": 0.75,
+          "death_edge": [
+            2,
+            3
+          ],
+          "death_hex": "0x1.8000000000000p-1",
+          "is_zero_length": false
+        },
+        {
+          "birth": 0.125,
+          "birth_hex": "0x1.0000000000000p-3",
+          "birth_index": 1,
+          "death": "inf",
+          "death_edge": null,
+          "death_hex": "inf",
+          "is_zero_length": false
+        }
+      ]
+    }
+  },
+  "task_id": "PH-LOWERSTAR-H0-001"
+}

@@ -1,0 +1,146 @@
+{
+  "critical_values": [
+    {
+      "value": 0.0078125,
+      "value_hex": "0x1.0000000000000p-7"
+    },
+    {
+      "value": 0.0185546875,
+      "value_hex": "0x1.3000000000000p-6"
+    },
+    {
+      "value": 0.029296875,
+      "value_hex": "0x1.e000000000000p-6"
+    },
+    {
+      "value": 0.03125,
+      "value_hex": "0x1.0000000000000p-5"
+    },
+    {
+      "value": 0.0625,
+      "value_hex": "0x1.0000000000000p-4"
+    },
+    {
+      "value": 0.1123046875,
+      "value_hex": "0x1.cc00000000000p-4"
+    },
+    {
+      "value": 0.265625,
+      "value_hex": "0x1.1000000000000p-2"
+    },
+    {
+      "value": 0.47265625,
+      "value_hex": "0x1.e400000000000p-2"
+    }
+  ],
+  "edges": [
+    {
+      "filtration": 0.265625,
+      "filtration_hex": "0x1.1000000000000p-2",
+      "vertices": [
+        0,
+        1
+      ]
+    },
+    {
+      "filtration": 0.47265625,
+      "filtration_hex": "0x1.e400000000000p-2",
+      "vertices": [
+        1,
+        2
+      ]
+    },
+    {
+      "filtration": 0.47265625,
+      "filtration_hex": "0x1.e400000000000p-2",
+      "vertices": [
+        2,
+        3
+      ]
+    },
+    {
+      "filtration": 0.1123046875,
+      "filtration_hex": "0x1.cc00000000000p-4",
+      "vertices": [
+        3,
+        4
+      ]
+    },
+    {
+      "filtration": 0.03125,
+      "filtration_hex": "0x1.0000000000000p-5",
+      "vertices": [
+        4,
+        5
+      ]
+    },
+    {
+      "filtration": 0.03125,
+      "filtration_hex": "0x1.0000000000000p-5",
+      "vertices": [
+        5,
+        6
+      ]
+    },
+    {
+      "filtration": 0.029296875,
+      "filtration_hex": "0x1.e000000000000p-6",
+      "vertices": [
+        6,
+        7
+      ]
+    }
+  ],
+  "signal": [
+    0.0625,
+    0.265625,
+    0.47265625,
+    0.1123046875,
+    0.0078125,
+    0.03125,
+    0.029296875,
+    0.0185546875
+  ],
+  "vertices": [
+    {
+      "filtration": 0.0625,
+      "filtration_hex": "0x1.0000000000000p-4",
+      "index": 0
+    },
+    {
+      "filtration": 0.265625,
+      "filtration_hex": "0x1.1000000000000p-2",
+      "index": 1
+    },
+    {
+      "filtration": 0.47265625,
+      "filtration_hex": "0x1.e400000000000p-2",
+      "index": 2
+    },
+    {
+      "filtration": 0.1123046875,
+      "filtration_hex": "0x1.cc00000000000p-4",
+      "index": 3
+    },
+    {
+      "filtration": 0.0078125,
+      "filtration_hex": "0x1.0000000000000p-7",
+      "index": 4
+    },
+    {
+      "filtration": 0.03125,
+      "filtration_hex": "0x1.0000000000000p-5",
+      "index": 5
+    },
+    {
+      "filtration": 0.029296875,
+      "filtration_hex": "0x1.e000000000000p-6",
+      "index": 6
+    },
+    {
+      "filtration": 0.0185546875,
+      "filtration_hex": "0x1.3000000000000p-6",
+      "index": 7
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "intervals": [
+    {
+      "birth": 0.01878398859083121,
+      "birth_hex": "0x1.33c1c22be85c5p-6",
+      "death": 0.03134604672430729,
+      "death_hex": "0x1.00c96cb145f0fp-5"
+    },
+    {
+      "birth": 0.06205608111334001,
+      "birth_hex": "0x1.fc5d08dcca7ebp-5",
+      "death": 0.472688376693654,
+      "death_hex": "0x1.e4086bfc64f03p-2"
+    },
+    {
+      "birth": 0.007530373388471043,
+      "birth_hex": "0x1.ed82b36e1e6e3p-8",
+      "death": "inf",
+      "death_hex": "inf"
+    }
+  ],
+  "library": "gudhi",
+  "parameters": {
+    "constructor": "CubicalComplex(vertices=signal)",
+    "homology_coeff_field": 2,
+    "min_persistence": 0.0
+  },
+  "raw_persistence_pairs": [
+    {
+      "birth": 0.007530373388471043,
+      "birth_hex": "0x1.ed82b36e1e6e3p-8",
+      "death": "inf",
+      "death_hex": "inf",
+      "dimension": 0
+    },
+    {
+      "birth": 0.06205608111334001,
+      "birth_hex": "0x1.fc5d08dcca7ebp-5",
+      "death": 0.472688376693654,
+      "death_hex": "0x1.e4086bfc64f03p-2",
+      "dimension": 0
+    },
+    {
+      "birth": 0.01878398859083121,
+      "birth_hex": "0x1.33c1c22be85c5p-6",
+      "death": 0.03134604672430729,
+      "death_hex": "0x1.00c96cb145f0fp-5",
+      "dimension": 0
+    }
+  ]
+}

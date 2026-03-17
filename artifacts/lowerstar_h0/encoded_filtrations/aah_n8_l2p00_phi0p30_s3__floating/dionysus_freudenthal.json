@@ -1,0 +1,129 @@
+[
+  {
+    "dimension": 0,
+    "filtration": 0.0075303735211491585,
+    "filtration_hex": "0x1.ed82b40000000p-8",
+    "vertices": [
+      4
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.018783988431096077,
+    "filtration_hex": "0x1.33c1c20000000p-6",
+    "vertices": [
+      7
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.029146507382392883,
+    "filtration_hex": "0x1.dd89500000000p-6",
+    "vertices": [
+      6
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.029146507382392883,
+    "filtration_hex": "0x1.dd89500000000p-6",
+    "vertices": [
+      6,
+      7
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.031346045434474945,
+    "filtration_hex": "0x1.00c96c0000000p-5",
+    "vertices": [
+      5
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.031346045434474945,
+    "filtration_hex": "0x1.00c96c0000000p-5",
+    "vertices": [
+      4,
+      5
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.031346045434474945,
+    "filtration_hex": "0x1.00c96c0000000p-5",
+    "vertices": [
+      5,
+      6
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.062056079506874084,
+    "filtration_hex": "0x1.fc5d080000000p-5",
+    "vertices": [
+      0
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.11249983310699463,
+    "filtration_hex": "0x1.cccca00000000p-4",
+    "vertices": [
+      3
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.11249983310699463,
+    "filtration_hex": "0x1.cccca00000000p-4",
+    "vertices": [
+      3,
+      4
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.2659488022327423,
+    "filtration_hex": "0x1.1054e20000000p-2",
+    "vertices": [
+      1
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.2659488022327423,
+    "filtration_hex": "0x1.1054e20000000p-2",
+    "vertices": [
+      0,
+      1
+    ]
+  },
+  {
+    "dimension": 0,
+    "filtration": 0.47268837690353394,
+    "filtration_hex": "0x1.e4086c0000000p-2",
+    "vertices": [
+      2
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.47268837690353394,
+    "filtration_hex": "0x1.e4086c0000000p-2",
+    "vertices": [
+      1,
+      2
+    ]
+  },
+  {
+    "dimension": 1,
+    "filtration": 0.47268837690353394,
+    "filtration_hex": "0x1.e4086c0000000p-2",
+    "vertices": [
+      2,
+      3
+    ]
+  }
+]

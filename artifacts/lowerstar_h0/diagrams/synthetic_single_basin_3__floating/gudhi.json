@@ -1,0 +1,25 @@
+{
+  "intervals": [
+    {
+      "birth": 0.125,
+      "birth_hex": "0x1.0000000000000p-3",
+      "death": "inf",
+      "death_hex": "inf"
+    }
+  ],
+  "library": "gudhi",
+  "parameters": {
+    "constructor": "CubicalComplex(vertices=signal)",
+    "homology_coeff_field": 2,
+    "min_persistence": 0.0
+  },
+  "raw_persistence_pairs": [
+    {
+      "birth": 0.125,
+      "birth_hex": "0x1.0000000000000p-3",
+      "death": "inf",
+      "death_hex": "inf",
+      "dimension": 0
+    }
+  ]
+}

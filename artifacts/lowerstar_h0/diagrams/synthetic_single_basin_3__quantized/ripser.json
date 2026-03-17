@@ -1,0 +1,81 @@
+{
+  "intervals": [
+    {
+      "birth": 0.125,
+      "birth_hex": "0x1.0000000000000p-3",
+      "death": "inf",
+      "death_hex": "inf"
+    }
+  ],
+  "library": "ripser",
+  "parameters": {
+    "coeff": 2,
+    "distance_matrix": true,
+    "encoding": "sparse_distance_matrix_with_diagonal_vertex_births",
+    "maxdim": 0,
+    "n_perm": null
+  },
+  "result_metadata": {
+    "cocycles": [
+      []
+    ],
+    "dperm2all": {
+      "entries": [
+        {
+          "col": 0,
+          "row": 0,
+          "value": 0.75,
+          "value_hex": "0x1.8000000000000p-1"
+        },
+        {
+          "col": 1,
+          "row": 0,
+          "value": 0.75,
+          "value_hex": "0x1.8000000000000p-1"
+        },
+        {
+          "col": 0,
+          "row": 1,
+          "value": 0.75,
+          "value_hex": "0x1.8000000000000p-1"
+        },
+        {
+          "col": 1,
+          "row": 1,
+          "value": 0.125,
+          "value_hex": "0x1.0000000000000p-3"
+        },
+        {
+          "col": 2,
+          "row": 1,
+          "value": 0.875,
+          "value_hex": "0x1.c000000000000p-1"
+        },
+        {
+          "col": 1,
+          "row": 2,
+          "value": 0.875,
+          "value_hex": "0x1.c000000000000p-1"
+        },
+        {
+          "col": 2,
+          "row": 2,
+          "value": 0.875,
+          "value_hex": "0x1.c000000000000p-1"
+        }
+      ],
+      "format": "csr",
+      "shape": [
+        3,
+        3
+      ]
+    },
+    "idx_perm": [
+      0,
+      1,
+      2
+    ],
+    "num_edges": 2,
+    "r_cover": 0.0
+  }
+}
