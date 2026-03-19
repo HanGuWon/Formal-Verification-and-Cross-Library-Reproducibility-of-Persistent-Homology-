@@ -1,0 +1,32 @@
+{
+  "benchmark_filters": [
+    "square_patch_3x3__floating"
+  ],
+  "conformance_dir": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts",
+  "coordinate_jitter_magnitudes": [
+    0.01,
+    0.05
+  ],
+  "generated_at_utc": "2026-03-18T17:09:37.075580+00:00",
+  "include_persistence_images": false,
+  "matrix_entry_noise_magnitudes": [
+    0.0001,
+    0.01
+  ],
+  "output_dir": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/perturb_stability-dev4",
+  "perturbation_family_filters": [
+    "coordinate_jitter"
+  ],
+  "quantization_magnitudes": [
+    0.001,
+    0.02
+  ],
+  "random_seeds": [
+    0
+  ],
+  "task_id": "PH-PERTURB-STABILITY-001",
+  "vacancy_counts": [
+    1,
+    2
+  ]
+}

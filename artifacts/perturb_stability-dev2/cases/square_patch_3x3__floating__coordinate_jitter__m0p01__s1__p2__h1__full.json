@@ -1,0 +1,2451 @@
+{
+  "benchmark": {
+    "benchmark_id": "square_patch_3x3__floating__coordinate_jitter__m0p01__s1",
+    "coeffs": [
+      2,
+      3
+    ],
+    "distance_matrix_shape": [
+      9,
+      9
+    ],
+    "family": "B",
+    "full_filtration_feasible": true,
+    "full_threshold": 2.8357728565750437,
+    "has_point_cloud": true,
+    "label": "Square lattice patch 3x3",
+    "maxdims": [
+      1,
+      2
+    ],
+    "metadata": {
+      "ambient_dimension": 2,
+      "benchmark_id": "square_patch_3x3",
+      "distance_matrix_hash": "0ef55be0f9da34bbade520b7796bc8d24c55f82362e90edb486b4d736beb07f3",
+      "family": "crystalline_point_cloud",
+      "generator": "square_patch_3x3",
+      "has_point_cloud": true,
+      "mode": "floating",
+      "nearest_neighbor_distance": 1.0,
+      "num_points": 9,
+      "perturbation_family": "coordinate_jitter",
+      "perturbation_magnitude": 0.01,
+      "perturbation_seed": 1,
+      "point_cloud_hash": "c2efb774a1e3564caf3d5c1f46af4d60572443a998398b67b08567b6b523ccf7",
+      "quantization_step": null,
+      "source_benchmark_id": "square_patch_3x3__floating",
+      "source_distance_matrix_hash": "0a4a6107ee5a261ba16f1934982550fb46ebde089e6c395f973974574418c15b",
+      "source_point_cloud_hash": "bf551e661b73a098ad05d7fee24dc23a6a17258fd40b3d2da7cfa08ed6c1ce87",
+      "threshold_parameter": 1.0,
+      "threshold_strategy": "nearest_neighbor"
+    },
+    "mode": "floating",
+    "notes": [
+      "Regular square patch with unit nearest-neighbor spacing.",
+      "Perturbation family: coordinate_jitter.",
+      "Thresholds are recomputed from the perturbed input using the original benchmark threshold rule."
+    ],
+    "perturbation": {
+      "family": "coordinate_jitter",
+      "magnitude": 0.01,
+      "magnitude_unit": "relative_sigma",
+      "reference_length_scale": 1.0,
+      "seed": 1,
+      "sigma_absolute": 0.01
+    },
+    "point_cloud_shape": [
+      9,
+      2
+    ],
+    "selected_threshold": 1.0,
+    "source_benchmark_id": "square_patch_3x3__floating"
+  },
+  "case_parameters": {
+    "baseline_case_id": "square_patch_3x3__floating__p2__h1__full",
+    "case_id": "square_patch_3x3__floating__coordinate_jitter__m0p01__s1__p2__h1__full",
+    "coeff": 2,
+    "maxdim": 1,
+    "threshold_label": "full",
+    "threshold_value": 2.8357728565750437
+  },
+  "inputs": {
+    "distance_matrix_hash": "0ef55be0f9da34bbade520b7796bc8d24c55f82362e90edb486b4d736beb07f3",
+    "distance_matrix_shape": [
+      9,
+      9
+    ],
+    "point_cloud_hash": "c2efb774a1e3564caf3d5c1f46af4d60572443a998398b67b08567b6b523ccf7",
+    "point_cloud_shape": [
+      9,
+      2
+    ],
+    "source_distance_matrix_hash": "0a4a6107ee5a261ba16f1934982550fb46ebde089e6c395f973974574418c15b",
+    "source_point_cloud_hash": "bf551e661b73a098ad05d7fee24dc23a6a17258fd40b3d2da7cfa08ed6c1ce87"
+  },
+  "results": {
+    "agreement": {
+      "by_dimension": {
+        "0": {
+          "exact_all_libraries": false,
+          "pairwise": {
+            "gudhi__dionysus": {
+              "exact_match": false,
+              "left_count": 9,
+              "right_count": 9
+            },
+            "gudhi__ripser": {
+              "exact_match": false,
+              "left_count": 9,
+              "right_count": 9
+            },
+            "ripser__dionysus": {
+              "exact_match": true,
+              "left_count": 9,
+              "right_count": 9
+            }
+          },
+          "signatures": {
+            "dionysus": [
+              "0x0.0p+0|0x1.0004de0000000p+0",
+              "0x0.0p+0|0x1.0044460000000p+0",
+              "0x0.0p+0|0x1.00a8940000000p+0",
+              "0x0.0p+0|0x1.00ca0a0000000p+0",
+              "0x0.0p+0|0x1.fbb4160000000p-1",
+              "0x0.0p+0|0x1.fc310c0000000p-1",
+              "0x0.0p+0|0x1.fe47d20000000p-1",
+              "0x0.0p+0|0x1.fec9e40000000p-1",
+              "0x0.0p+0|inf"
+            ],
+            "gudhi": [
+              "0x0.0p+0|0x1.0004de0fd61b4p+0",
+              "0x0.0p+0|0x1.0044466d91deep+0",
+              "0x0.0p+0|0x1.00a893d204102p+0",
+              "0x0.0p+0|0x1.00ca0a024f5c8p+0",
+              "0x0.0p+0|0x1.fbb41593bb41fp-1",
+              "0x0.0p+0|0x1.fc310ce350d64p-1",
+              "0x0.0p+0|0x1.fe47d21e8038ep-1",
+              "0x0.0p+0|0x1.fec9e36ef280fp-1",
+              "0x0.0p+0|inf"
+            ],
+            "ripser": [
+              "0x0.0p+0|0x1.0004de0000000p+0",
+              "0x0.0p+0|0x1.0044460000000p+0",
+              "0x0.0p+0|0x1.00a8940000000p+0",
+              "0x0.0p+0|0x1.00ca0a0000000p+0",
+              "0x0.0p+0|0x1.fbb4160000000p-1",
+              "0x0.0p+0|0x1.fc310c0000000p-1",
+              "0x0.0p+0|0x1.fe47d20000000p-1",
+              "0x0.0p+0|0x1.fec9e40000000p-1",
+              "0x0.0p+0|inf"
+            ]
+          }
+        },
+        "1": {
+          "exact_all_libraries": false,
+          "pairwise": {
+            "gudhi__dionysus": {
+              "exact_match": false,
+              "left_count": 28,
+              "right_count": 4
+            },
+            "gudhi__ripser": {
+              "exact_match": false,
+              "left_count": 28,
+              "right_count": 4
+            },
+            "ripser__dionysus": {
+              "exact_match": true,
+              "left_count": 4,
+              "right_count": 4
+            }
+          },
+          "signatures": {
+            "dionysus": [
+              "0x1.0158960000000p+0|0x1.68639c0000000p+0",
+              "0x1.0182c00000000p+0|0x1.6abe820000000p+0",
+              "0x1.024f180000000p+0|0x1.6a2b880000000p+0",
+              "0x1.0416ce0000000p+0|0x1.691e9a0000000p+0"
+            ],
+            "gudhi": [
+              "0x1.00b78a7fa16a5p+1|0x1.00b78a7fa16a5p+1",
+              "0x1.00b9436148476p+1|0x1.00b9436148476p+1",
+              "0x1.00fe59e25eac1p+1|0x1.00fe59e25eac1p+1",
+              "0x1.01589565f5923p+0|0x1.68639c29e7429p+0",
+              "0x1.0182c0222e232p+0|0x1.6abe8256d7216p+0",
+              "0x1.024f175fcfd50p+0|0x1.6a2b870db2e19p+0",
+              "0x1.026fc8c5abf66p+1|0x1.026fc8c5abf66p+1",
+              "0x1.0416cdb5bf05dp+0|0x1.691e9ab59763ap+0",
+              "0x1.1d7d310c9beb0p+1|0x1.1d7d310c9beb0p+1",
+              "0x1.1db23e08e9e2fp+1|0x1.1db23e08e9e2fp+1",
+              "0x1.1e6143fc7e94ep+1|0x1.1e6143fc7e94ep+1",
+              "0x1.1eb05b8dfc0eep+1|0x1.1eb05b8dfc0eep+1",
+              "0x1.1f307dedc151cp+1|0x1.1f307dedc151cp+1",
+              "0x1.1f35772b613e0p+1|0x1.1f35772b613e0p+1",
+              "0x1.1ff2245bdf6bbp+1|0x1.1ff2245bdf6bbp+1",
+              "0x1.202227ab94807p+1|0x1.202227ab94807p+1",
+              "0x1.68639c29e7429p+0|0x1.68639c29e7429p+0",
+              "0x1.68c115703d06fp+1|0x1.68c115703d06fp+1",
+              "0x1.691e9ab59763ap+0|0x1.691e9ab59763ap+0",
+              "0x1.6a2b870db2e19p+0|0x1.6a2b870db2e19p+0",
+              "0x1.6abe8256d7216p+0|0x1.6abe8256d7216p+0",
+              "0x1.6afa9adeefe97p+1|0x1.6afa9adeefe97p+1",
+              "0x1.6b0ee441cc4dfp+0|0x1.6b0ee441cc4dfp+0",
+              "0x1.6b3721b607e67p+0|0x1.6b3721b607e67p+0",
+              "0x1.6cdc83a4bce00p+0|0x1.6cdc83a4bce00p+0",
+              "0x1.6f063ad011411p+0|0x1.6f063ad011411p+0",
+              "0x1.fd7cb517da1e9p+0|0x1.fd7cb517da1e9p+0",
+              "0x1.fe1d08200d295p+0|0x1.fe1d08200d295p+0"
+            ],
+            "ripser": [
+              "0x1.0158960000000p+0|0x1.68639c0000000p+0",
+              "0x1.0182c00000000p+0|0x1.6abe820000000p+0",
+              "0x1.024f180000000p+0|0x1.6a2b880000000p+0",
+              "0x1.0416ce0000000p+0|0x1.691e9a0000000p+0"
+            ]
+          }
+        }
+      },
+      "exact_all_libraries": false
+    },
+    "canonicalized": {
+      "dionysus": {
+        "0": {
+          "count": 9,
+          "exact_signature": [
+            "0x0.0p+0|0x1.0004de0000000p+0",
+            "0x0.0p+0|0x1.0044460000000p+0",
+            "0x0.0p+0|0x1.00a8940000000p+0",
+            "0x0.0p+0|0x1.00ca0a0000000p+0",
+            "0x0.0p+0|0x1.fbb4160000000p-1",
+            "0x0.0p+0|0x1.fc310c0000000p-1",
+            "0x0.0p+0|0x1.fe47d20000000p-1",
+            "0x0.0p+0|0x1.fec9e40000000p-1",
+            "0x0.0p+0|inf"
+          ],
+          "intervals": [
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0000742673873901,
+              "death_hex": "0x1.0004de0000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0010417699813843,
+              "death_hex": "0x1.0044460000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0025722980499268,
+              "death_hex": "0x1.00a8940000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0030828714370728,
+              "death_hex": "0x1.00ca0a0000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9916083216667175,
+              "death_hex": "0x1.fbb4160000000p-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9925616979598999,
+              "death_hex": "0x1.fc310c0000000p-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9966416954994202,
+              "death_hex": "0x1.fe47d20000000p-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9976340532302856,
+              "death_hex": "0x1.fec9e40000000p-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": "inf",
+              "death_hex": "inf"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              0.0,
+              1.0000742673873901
+            ],
+            [
+              0.0,
+              1.0010417699813843
+            ],
+            [
+              0.0,
+              1.0025722980499268
+            ],
+            [
+              0.0,
+              1.0030828714370728
+            ],
+            [
+              0.0,
+              0.9916083216667175
+            ],
+            [
+              0.0,
+              0.9925616979598999
+            ],
+            [
+              0.0,
+              0.9966416954994202
+            ],
+            [
+              0.0,
+              0.9976340532302856
+            ],
+            [
+              0.0,
+              "inf"
+            ]
+          ]
+        },
+        "1": {
+          "count": 4,
+          "exact_signature": [
+            "0x1.0158960000000p+0|0x1.68639c0000000p+0",
+            "0x1.0182c00000000p+0|0x1.6abe820000000p+0",
+            "0x1.024f180000000p+0|0x1.6a2b880000000p+0",
+            "0x1.0416ce0000000p+0|0x1.691e9a0000000p+0"
+          ],
+          "intervals": [
+            {
+              "birth": 1.0052579641342163,
+              "birth_hex": "0x1.0158960000000p+0",
+              "death": 1.4077699184417725,
+              "death_hex": "0x1.68639c0000000p+0"
+            },
+            {
+              "birth": 1.0059013366699219,
+              "birth_hex": "0x1.0182c00000000p+0",
+              "death": 1.4169694185256958,
+              "death_hex": "0x1.6abe820000000p+0"
+            },
+            {
+              "birth": 1.009019374847412,
+              "birth_hex": "0x1.024f180000000p+0",
+              "death": 1.414726734161377,
+              "death_hex": "0x1.6a2b880000000p+0"
+            },
+            {
+              "birth": 1.0159729719161987,
+              "birth_hex": "0x1.0416ce0000000p+0",
+              "death": 1.4106231927871704,
+              "death_hex": "0x1.691e9a0000000p+0"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              1.0052579641342163,
+              1.4077699184417725
+            ],
+            [
+              1.0059013366699219,
+              1.4169694185256958
+            ],
+            [
+              1.009019374847412,
+              1.414726734161377
+            ],
+            [
+              1.0159729719161987,
+              1.4106231927871704
+            ]
+          ]
+        }
+      },
+      "gudhi": {
+        "0": {
+          "count": 9,
+          "exact_signature": [
+            "0x0.0p+0|0x1.0004de0fd61b4p+0",
+            "0x0.0p+0|0x1.0044466d91deep+0",
+            "0x0.0p+0|0x1.00a893d204102p+0",
+            "0x0.0p+0|0x1.00ca0a024f5c8p+0",
+            "0x0.0p+0|0x1.fbb41593bb41fp-1",
+            "0x0.0p+0|0x1.fc310ce350d64p-1",
+            "0x0.0p+0|0x1.fe47d21e8038ep-1",
+            "0x0.0p+0|0x1.fec9e36ef280fp-1",
+            "0x0.0p+0|inf"
+          ],
+          "intervals": [
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0000742710745785,
+              "death_hex": "0x1.0004de0fd61b4p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.001041795492593,
+              "death_hex": "0x1.0044466d91deep+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0025722873434124,
+              "death_hex": "0x1.00a893d204102p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0030828719749127,
+              "death_hex": "0x1.00ca0a024f5c8p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9916083090626023,
+              "death_hex": "0x1.fbb41593bb41fp-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9925617244229383,
+              "death_hex": "0x1.fc310ce350d64p-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9966416990501885,
+              "death_hex": "0x1.fe47d21e8038ep-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9976340363439266,
+              "death_hex": "0x1.fec9e36ef280fp-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": "inf",
+              "death_hex": "inf"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              0.0,
+              1.0000742710745785
+            ],
+            [
+              0.0,
+              1.001041795492593
+            ],
+            [
+              0.0,
+              1.0025722873434124
+            ],
+            [
+              0.0,
+              1.0030828719749127
+            ],
+            [
+              0.0,
+              0.9916083090626023
+            ],
+            [
+              0.0,
+              0.9925617244229383
+            ],
+            [
+              0.0,
+              0.9966416990501885
+            ],
+            [
+              0.0,
+              0.9976340363439266
+            ],
+            [
+              0.0,
+              "inf"
+            ]
+          ]
+        },
+        "1": {
+          "count": 28,
+          "exact_signature": [
+            "0x1.00b78a7fa16a5p+1|0x1.00b78a7fa16a5p+1",
+            "0x1.00b9436148476p+1|0x1.00b9436148476p+1",
+            "0x1.00fe59e25eac1p+1|0x1.00fe59e25eac1p+1",
+            "0x1.01589565f5923p+0|0x1.68639c29e7429p+0",
+            "0x1.0182c0222e232p+0|0x1.6abe8256d7216p+0",
+            "0x1.024f175fcfd50p+0|0x1.6a2b870db2e19p+0",
+            "0x1.026fc8c5abf66p+1|0x1.026fc8c5abf66p+1",
+            "0x1.0416cdb5bf05dp+0|0x1.691e9ab59763ap+0",
+            "0x1.1d7d310c9beb0p+1|0x1.1d7d310c9beb0p+1",
+            "0x1.1db23e08e9e2fp+1|0x1.1db23e08e9e2fp+1",
+            "0x1.1e6143fc7e94ep+1|0x1.1e6143fc7e94ep+1",
+            "0x1.1eb05b8dfc0eep+1|0x1.1eb05b8dfc0eep+1",
+            "0x1.1f307dedc151cp+1|0x1.1f307dedc151cp+1",
+            "0x1.1f35772b613e0p+1|0x1.1f35772b613e0p+1",
+            "0x1.1ff2245bdf6bbp+1|0x1.1ff2245bdf6bbp+1",
+            "0x1.202227ab94807p+1|0x1.202227ab94807p+1",
+            "0x1.68639c29e7429p+0|0x1.68639c29e7429p+0",
+            "0x1.68c115703d06fp+1|0x1.68c115703d06fp+1",
+            "0x1.691e9ab59763ap+0|0x1.691e9ab59763ap+0",
+            "0x1.6a2b870db2e19p+0|0x1.6a2b870db2e19p+0",
+            "0x1.6abe8256d7216p+0|0x1.6abe8256d7216p+0",
+            "0x1.6afa9adeefe97p+1|0x1.6afa9adeefe97p+1",
+            "0x1.6b0ee441cc4dfp+0|0x1.6b0ee441cc4dfp+0",
+            "0x1.6b3721b607e67p+0|0x1.6b3721b607e67p+0",
+            "0x1.6cdc83a4bce00p+0|0x1.6cdc83a4bce00p+0",
+            "0x1.6f063ad011411p+0|0x1.6f063ad011411p+0",
+            "0x1.fd7cb517da1e9p+0|0x1.fd7cb517da1e9p+0",
+            "0x1.fe1d08200d295p+0|0x1.fe1d08200d295p+0"
+          ],
+          "intervals": [
+            {
+              "birth": 2.005601227111429,
+              "birth_hex": "0x1.00b78a7fa16a5p+1",
+              "death": 2.005601227111429,
+              "death_hex": "0x1.00b78a7fa16a5p+1"
+            },
+            {
+              "birth": 2.005653784276144,
+              "birth_hex": "0x1.00b9436148476p+1",
+              "death": 2.005653784276144,
+              "death_hex": "0x1.00b9436148476p+1"
+            },
+            {
+              "birth": 2.0077621798821785,
+              "birth_hex": "0x1.00fe59e25eac1p+1",
+              "death": 2.0077621798821785,
+              "death_hex": "0x1.00fe59e25eac1p+1"
+            },
+            {
+              "birth": 1.005257928268812,
+              "birth_hex": "0x1.01589565f5923p+0",
+              "death": 1.4077699281981586,
+              "death_hex": "0x1.68639c29e7429p+0"
+            },
+            {
+              "birth": 1.0059013446281253,
+              "birth_hex": "0x1.0182c0222e232p+0",
+              "death": 1.416969438744791,
+              "death_hex": "0x1.6abe8256d7216p+0"
+            },
+            {
+              "birth": 1.0090193375507006,
+              "birth_hex": "0x1.024f175fcfd50p+0",
+              "death": 1.414726677746222,
+              "death_hex": "0x1.6a2b870db2e19p+0"
+            },
+            {
+              "birth": 2.0190363850778565,
+              "birth_hex": "0x1.026fc8c5abf66p+1",
+              "death": 2.0190363850778565,
+              "death_hex": "0x1.026fc8c5abf66p+1"
+            },
+            {
+              "birth": 1.0159729546276346,
+              "birth_hex": "0x1.0416cdb5bf05dp+0",
+              "death": 1.4106232350672046,
+              "death_hex": "0x1.691e9ab59763ap+0"
+            },
+            {
+              "birth": 2.2303830443923616,
+              "birth_hex": "0x1.1d7d310c9beb0p+1",
+              "death": 2.2303830443923616,
+              "death_hex": "0x1.1d7d310c9beb0p+1"
+            },
+            {
+              "birth": 2.2320020240329295,
+              "birth_hex": "0x1.1db23e08e9e2fp+1",
+              "death": 2.2320020240329295,
+              "death_hex": "0x1.1db23e08e9e2fp+1"
+            },
+            {
+              "birth": 2.23734330967742,
+              "birth_hex": "0x1.1e6143fc7e94ep+1",
+              "death": 2.23734330967742,
+              "death_hex": "0x1.1e6143fc7e94ep+1"
+            },
+            {
+              "birth": 2.2397570079120817,
+              "birth_hex": "0x1.1eb05b8dfc0eep+1",
+              "death": 2.2397570079120817,
+              "death_hex": "0x1.1eb05b8dfc0eep+1"
+            },
+            {
+              "birth": 2.2436673556245648,
+              "birth_hex": "0x1.1f307dedc151cp+1",
+              "death": 2.2436673556245648,
+              "death_hex": "0x1.1f307dedc151cp+1"
+            },
+            {
+              "birth": 2.2438191377463994,
+              "birth_hex": "0x1.1f35772b613e0p+1",
+              "death": 2.2438191377463994,
+              "death_hex": "0x1.1f35772b613e0p+1"
+            },
+            {
+              "birth": 2.2495770882222508,
+              "birth_hex": "0x1.1ff2245bdf6bbp+1",
+              "death": 2.2495770882222508,
+              "death_hex": "0x1.1ff2245bdf6bbp+1"
+            },
+            {
+              "birth": 2.2510423267167456,
+              "birth_hex": "0x1.202227ab94807p+1",
+              "death": 2.2510423267167456,
+              "death_hex": "0x1.202227ab94807p+1"
+            },
+            {
+              "birth": 1.4077699281981586,
+              "birth_hex": "0x1.68639c29e7429p+0",
+              "death": 1.4077699281981586,
+              "death_hex": "0x1.68639c29e7429p+0"
+            },
+            {
+              "birth": 2.8183924482382774,
+              "birth_hex": "0x1.68c115703d06fp+1",
+              "death": 2.8183924482382774,
+              "death_hex": "0x1.68c115703d06fp+1"
+            },
+            {
+              "birth": 1.4106232350672046,
+              "birth_hex": "0x1.691e9ab59763ap+0",
+              "death": 1.4106232350672046,
+              "death_hex": "0x1.691e9ab59763ap+0"
+            },
+            {
+              "birth": 1.414726677746222,
+              "birth_hex": "0x1.6a2b870db2e19p+0",
+              "death": 1.414726677746222,
+              "death_hex": "0x1.6a2b870db2e19p+0"
+            },
+            {
+              "birth": 1.416969438744791,
+              "birth_hex": "0x1.6abe8256d7216p+0",
+              "death": 1.416969438744791,
+              "death_hex": "0x1.6abe8256d7216p+0"
+            },
+            {
+              "birth": 2.8357728565750437,
+              "birth_hex": "0x1.6afa9adeefe97p+1",
+              "death": 2.8357728565750437,
+              "death_hex": "0x1.6afa9adeefe97p+1"
+            },
+            {
+              "birth": 1.4181959782256894,
+              "birth_hex": "0x1.6b0ee441cc4dfp+0",
+              "death": 1.4181959782256894,
+              "death_hex": "0x1.6b0ee441cc4dfp+0"
+            },
+            {
+              "birth": 1.4188099927340774,
+              "birth_hex": "0x1.6b3721b607e67p+0",
+              "death": 1.4188099927340774,
+              "death_hex": "0x1.6b3721b607e67p+0"
+            },
+            {
+              "birth": 1.425239780158222,
+              "birth_hex": "0x1.6cdc83a4bce00p+0",
+              "death": 1.425239780158222,
+              "death_hex": "0x1.6cdc83a4bce00p+0"
+            },
+            {
+              "birth": 1.4336888082482384,
+              "birth_hex": "0x1.6f063ad011411p+0",
+              "death": 1.4336888082482384,
+              "death_hex": "0x1.6f063ad011411p+0"
+            },
+            {
+              "birth": 1.9901841338379376,
+              "birth_hex": "0x1.fd7cb517da1e9p+0",
+              "death": 1.9901841338379376,
+              "death_hex": "0x1.fd7cb517da1e9p+0"
+            },
+            {
+              "birth": 1.9926304891825215,
+              "birth_hex": "0x1.fe1d08200d295p+0",
+              "death": 1.9926304891825215,
+              "death_hex": "0x1.fe1d08200d295p+0"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              2.005601227111429,
+              2.005601227111429
+            ],
+            [
+              2.005653784276144,
+              2.005653784276144
+            ],
+            [
+              2.0077621798821785,
+              2.0077621798821785
+            ],
+            [
+              1.005257928268812,
+              1.4077699281981586
+            ],
+            [
+              1.0059013446281253,
+              1.416969438744791
+            ],
+            [
+              1.0090193375507006,
+              1.414726677746222
+            ],
+            [
+              2.0190363850778565,
+              2.0190363850778565
+            ],
+            [
+              1.0159729546276346,
+              1.4106232350672046
+            ],
+            [
+              2.2303830443923616,
+              2.2303830443923616
+            ],
+            [
+              2.2320020240329295,
+              2.2320020240329295
+            ],
+            [
+              2.23734330967742,
+              2.23734330967742
+            ],
+            [
+              2.2397570079120817,
+              2.2397570079120817
+            ],
+            [
+              2.2436673556245648,
+              2.2436673556245648
+            ],
+            [
+              2.2438191377463994,
+              2.2438191377463994
+            ],
+            [
+              2.2495770882222508,
+              2.2495770882222508
+            ],
+            [
+              2.2510423267167456,
+              2.2510423267167456
+            ],
+            [
+              1.4077699281981586,
+              1.4077699281981586
+            ],
+            [
+              2.8183924482382774,
+              2.8183924482382774
+            ],
+            [
+              1.4106232350672046,
+              1.4106232350672046
+            ],
+            [
+              1.414726677746222,
+              1.414726677746222
+            ],
+            [
+              1.416969438744791,
+              1.416969438744791
+            ],
+            [
+              2.8357728565750437,
+              2.8357728565750437
+            ],
+            [
+              1.4181959782256894,
+              1.4181959782256894
+            ],
+            [
+              1.4188099927340774,
+              1.4188099927340774
+            ],
+            [
+              1.425239780158222,
+              1.425239780158222
+            ],
+            [
+              1.4336888082482384,
+              1.4336888082482384
+            ],
+            [
+              1.9901841338379376,
+              1.9901841338379376
+            ],
+            [
+              1.9926304891825215,
+              1.9926304891825215
+            ]
+          ]
+        }
+      },
+      "ripser": {
+        "0": {
+          "count": 9,
+          "exact_signature": [
+            "0x0.0p+0|0x1.0004de0000000p+0",
+            "0x0.0p+0|0x1.0044460000000p+0",
+            "0x0.0p+0|0x1.00a8940000000p+0",
+            "0x0.0p+0|0x1.00ca0a0000000p+0",
+            "0x0.0p+0|0x1.fbb4160000000p-1",
+            "0x0.0p+0|0x1.fc310c0000000p-1",
+            "0x0.0p+0|0x1.fe47d20000000p-1",
+            "0x0.0p+0|0x1.fec9e40000000p-1",
+            "0x0.0p+0|inf"
+          ],
+          "intervals": [
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0000742673873901,
+              "death_hex": "0x1.0004de0000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0010417699813843,
+              "death_hex": "0x1.0044460000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0025722980499268,
+              "death_hex": "0x1.00a8940000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0030828714370728,
+              "death_hex": "0x1.00ca0a0000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9916083216667175,
+              "death_hex": "0x1.fbb4160000000p-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9925616979598999,
+              "death_hex": "0x1.fc310c0000000p-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9966416954994202,
+              "death_hex": "0x1.fe47d20000000p-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9976340532302856,
+              "death_hex": "0x1.fec9e40000000p-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": "inf",
+              "death_hex": "inf"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              0.0,
+              1.0000742673873901
+            ],
+            [
+              0.0,
+              1.0010417699813843
+            ],
+            [
+              0.0,
+              1.0025722980499268
+            ],
+            [
+              0.0,
+              1.0030828714370728
+            ],
+            [
+              0.0,
+              0.9916083216667175
+            ],
+            [
+              0.0,
+              0.9925616979598999
+            ],
+            [
+              0.0,
+              0.9966416954994202
+            ],
+            [
+              0.0,
+              0.9976340532302856
+            ],
+            [
+              0.0,
+              "inf"
+            ]
+          ]
+        },
+        "1": {
+          "count": 4,
+          "exact_signature": [
+            "0x1.0158960000000p+0|0x1.68639c0000000p+0",
+            "0x1.0182c00000000p+0|0x1.6abe820000000p+0",
+            "0x1.024f180000000p+0|0x1.6a2b880000000p+0",
+            "0x1.0416ce0000000p+0|0x1.691e9a0000000p+0"
+          ],
+          "intervals": [
+            {
+              "birth": 1.0052579641342163,
+              "birth_hex": "0x1.0158960000000p+0",
+              "death": 1.4077699184417725,
+              "death_hex": "0x1.68639c0000000p+0"
+            },
+            {
+              "birth": 1.0059013366699219,
+              "birth_hex": "0x1.0182c00000000p+0",
+              "death": 1.4169694185256958,
+              "death_hex": "0x1.6abe820000000p+0"
+            },
+            {
+              "birth": 1.009019374847412,
+              "birth_hex": "0x1.024f180000000p+0",
+              "death": 1.414726734161377,
+              "death_hex": "0x1.6a2b880000000p+0"
+            },
+            {
+              "birth": 1.0159729719161987,
+              "birth_hex": "0x1.0416ce0000000p+0",
+              "death": 1.4106231927871704,
+              "death_hex": "0x1.691e9a0000000p+0"
+            }
+          ],
+          "numeric_pairs": [
+            [
+              1.0052579641342163,
+              1.4077699184417725
+            ],
+            [
+              1.0059013366699219,
+              1.4169694185256958
+            ],
+            [
+              1.009019374847412,
+              1.414726734161377
+            ],
+            [
+              1.0159729719161987,
+              1.4106231927871704
+            ]
+          ]
+        }
+      }
+    },
+    "case_id": "square_patch_3x3__floating__coordinate_jitter__m0p01__s1__p2__h1__full",
+    "coeff": 2,
+    "discrepancy": {
+      "by_dimension": {
+        "0": {
+          "pairwise": {
+            "gudhi__dionysus": {
+              "bottleneck_distance": 0.0,
+              "bottleneck_distance_hex": "0x0.0p+0",
+              "exact_match": false,
+              "left_signature": [
+                "0x0.0p+0|0x1.0004de0fd61b4p+0",
+                "0x0.0p+0|0x1.0044466d91deep+0",
+                "0x0.0p+0|0x1.00a893d204102p+0",
+                "0x0.0p+0|0x1.00ca0a024f5c8p+0",
+                "0x0.0p+0|0x1.fbb41593bb41fp-1",
+                "0x0.0p+0|0x1.fc310ce350d64p-1",
+                "0x0.0p+0|0x1.fe47d21e8038ep-1",
+                "0x0.0p+0|0x1.fec9e36ef280fp-1",
+                "0x0.0p+0|inf"
+              ],
+              "right_signature": [
+                "0x0.0p+0|0x1.0004de0000000p+0",
+                "0x0.0p+0|0x1.0044460000000p+0",
+                "0x0.0p+0|0x1.00a8940000000p+0",
+                "0x0.0p+0|0x1.00ca0a0000000p+0",
+                "0x0.0p+0|0x1.fbb4160000000p-1",
+                "0x0.0p+0|0x1.fc310c0000000p-1",
+                "0x0.0p+0|0x1.fe47d20000000p-1",
+                "0x0.0p+0|0x1.fec9e40000000p-1",
+                "0x0.0p+0|inf"
+              ],
+              "wasserstein_distance_q2": 0.0,
+              "wasserstein_distance_q2_hex": "0x0.0p+0"
+            },
+            "gudhi__ripser": {
+              "bottleneck_distance": 0.0,
+              "bottleneck_distance_hex": "0x0.0p+0",
+              "exact_match": false,
+              "left_signature": [
+                "0x0.0p+0|0x1.0004de0fd61b4p+0",
+                "0x0.0p+0|0x1.0044466d91deep+0",
+                "0x0.0p+0|0x1.00a893d204102p+0",
+                "0x0.0p+0|0x1.00ca0a024f5c8p+0",
+                "0x0.0p+0|0x1.fbb41593bb41fp-1",
+                "0x0.0p+0|0x1.fc310ce350d64p-1",
+                "0x0.0p+0|0x1.fe47d21e8038ep-1",
+                "0x0.0p+0|0x1.fec9e36ef280fp-1",
+                "0x0.0p+0|inf"
+              ],
+              "right_signature": [
+                "0x0.0p+0|0x1.0004de0000000p+0",
+                "0x0.0p+0|0x1.0044460000000p+0",
+                "0x0.0p+0|0x1.00a8940000000p+0",
+                "0x0.0p+0|0x1.00ca0a0000000p+0",
+                "0x0.0p+0|0x1.fbb4160000000p-1",
+                "0x0.0p+0|0x1.fc310c0000000p-1",
+                "0x0.0p+0|0x1.fe47d20000000p-1",
+                "0x0.0p+0|0x1.fec9e40000000p-1",
+                "0x0.0p+0|inf"
+              ],
+              "wasserstein_distance_q2": 0.0,
+              "wasserstein_distance_q2_hex": "0x0.0p+0"
+            },
+            "ripser__dionysus": {
+              "exact_match": true,
+              "left_signature": [
+                "0x0.0p+0|0x1.0004de0000000p+0",
+                "0x0.0p+0|0x1.0044460000000p+0",
+                "0x0.0p+0|0x1.00a8940000000p+0",
+                "0x0.0p+0|0x1.00ca0a0000000p+0",
+                "0x0.0p+0|0x1.fbb4160000000p-1",
+                "0x0.0p+0|0x1.fc310c0000000p-1",
+                "0x0.0p+0|0x1.fe47d20000000p-1",
+                "0x0.0p+0|0x1.fec9e40000000p-1",
+                "0x0.0p+0|inf"
+              ],
+              "right_signature": [
+                "0x0.0p+0|0x1.0004de0000000p+0",
+                "0x0.0p+0|0x1.0044460000000p+0",
+                "0x0.0p+0|0x1.00a8940000000p+0",
+                "0x0.0p+0|0x1.00ca0a0000000p+0",
+                "0x0.0p+0|0x1.fbb4160000000p-1",
+                "0x0.0p+0|0x1.fc310c0000000p-1",
+                "0x0.0p+0|0x1.fe47d20000000p-1",
+                "0x0.0p+0|0x1.fec9e40000000p-1",
+                "0x0.0p+0|inf"
+              ]
+            }
+          },
+          "signatures": {
+            "dionysus": [
+              "0x0.0p+0|0x1.0004de0000000p+0",
+              "0x0.0p+0|0x1.0044460000000p+0",
+              "0x0.0p+0|0x1.00a8940000000p+0",
+              "0x0.0p+0|0x1.00ca0a0000000p+0",
+              "0x0.0p+0|0x1.fbb4160000000p-1",
+              "0x0.0p+0|0x1.fc310c0000000p-1",
+              "0x0.0p+0|0x1.fe47d20000000p-1",
+              "0x0.0p+0|0x1.fec9e40000000p-1",
+              "0x0.0p+0|inf"
+            ],
+            "gudhi": [
+              "0x0.0p+0|0x1.0004de0fd61b4p+0",
+              "0x0.0p+0|0x1.0044466d91deep+0",
+              "0x0.0p+0|0x1.00a893d204102p+0",
+              "0x0.0p+0|0x1.00ca0a024f5c8p+0",
+              "0x0.0p+0|0x1.fbb41593bb41fp-1",
+              "0x0.0p+0|0x1.fc310ce350d64p-1",
+              "0x0.0p+0|0x1.fe47d21e8038ep-1",
+              "0x0.0p+0|0x1.fec9e36ef280fp-1",
+              "0x0.0p+0|inf"
+            ],
+            "ripser": [
+              "0x0.0p+0|0x1.0004de0000000p+0",
+              "0x0.0p+0|0x1.0044460000000p+0",
+              "0x0.0p+0|0x1.00a8940000000p+0",
+              "0x0.0p+0|0x1.00ca0a0000000p+0",
+              "0x0.0p+0|0x1.fbb4160000000p-1",
+              "0x0.0p+0|0x1.fc310c0000000p-1",
+              "0x0.0p+0|0x1.fe47d20000000p-1",
+              "0x0.0p+0|0x1.fec9e40000000p-1",
+              "0x0.0p+0|inf"
+            ]
+          }
+        },
+        "1": {
+          "pairwise": {
+            "gudhi__dionysus": {
+              "bottleneck_distance": 0.0,
+              "bottleneck_distance_hex": "0x0.0p+0",
+              "exact_match": false,
+              "left_signature": [
+                "0x1.00b78a7fa16a5p+1|0x1.00b78a7fa16a5p+1",
+                "0x1.00b9436148476p+1|0x1.00b9436148476p+1",
+                "0x1.00fe59e25eac1p+1|0x1.00fe59e25eac1p+1",
+                "0x1.01589565f5923p+0|0x1.68639c29e7429p+0",
+                "0x1.0182c0222e232p+0|0x1.6abe8256d7216p+0",
+                "0x1.024f175fcfd50p+0|0x1.6a2b870db2e19p+0",
+                "0x1.026fc8c5abf66p+1|0x1.026fc8c5abf66p+1",
+                "0x1.0416cdb5bf05dp+0|0x1.691e9ab59763ap+0",
+                "0x1.1d7d310c9beb0p+1|0x1.1d7d310c9beb0p+1",
+                "0x1.1db23e08e9e2fp+1|0x1.1db23e08e9e2fp+1",
+                "0x1.1e6143fc7e94ep+1|0x1.1e6143fc7e94ep+1",
+                "0x1.1eb05b8dfc0eep+1|0x1.1eb05b8dfc0eep+1",
+                "0x1.1f307dedc151cp+1|0x1.1f307dedc151cp+1",
+                "0x1.1f35772b613e0p+1|0x1.1f35772b613e0p+1",
+                "0x1.1ff2245bdf6bbp+1|0x1.1ff2245bdf6bbp+1",
+                "0x1.202227ab94807p+1|0x1.202227ab94807p+1",
+                "0x1.68639c29e7429p+0|0x1.68639c29e7429p+0",
+                "0x1.68c115703d06fp+1|0x1.68c115703d06fp+1",
+                "0x1.691e9ab59763ap+0|0x1.691e9ab59763ap+0",
+                "0x1.6a2b870db2e19p+0|0x1.6a2b870db2e19p+0",
+                "0x1.6abe8256d7216p+0|0x1.6abe8256d7216p+0",
+                "0x1.6afa9adeefe97p+1|0x1.6afa9adeefe97p+1",
+                "0x1.6b0ee441cc4dfp+0|0x1.6b0ee441cc4dfp+0",
+                "0x1.6b3721b607e67p+0|0x1.6b3721b607e67p+0",
+                "0x1.6cdc83a4bce00p+0|0x1.6cdc83a4bce00p+0",
+                "0x1.6f063ad011411p+0|0x1.6f063ad011411p+0",
+                "0x1.fd7cb517da1e9p+0|0x1.fd7cb517da1e9p+0",
+                "0x1.fe1d08200d295p+0|0x1.fe1d08200d295p+0"
+              ],
+              "right_signature": [
+                "0x1.0158960000000p+0|0x1.68639c0000000p+0",
+                "0x1.0182c00000000p+0|0x1.6abe820000000p+0",
+                "0x1.024f180000000p+0|0x1.6a2b880000000p+0",
+                "0x1.0416ce0000000p+0|0x1.691e9a0000000p+0"
+              ],
+              "wasserstein_distance_q2": 0.0,
+              "wasserstein_distance_q2_hex": "0x0.0p+0"
+            },
+            "gudhi__ripser": {
+              "bottleneck_distance": 0.0,
+              "bottleneck_distance_hex": "0x0.0p+0",
+              "exact_match": false,
+              "left_signature": [
+                "0x1.00b78a7fa16a5p+1|0x1.00b78a7fa16a5p+1",
+                "0x1.00b9436148476p+1|0x1.00b9436148476p+1",
+                "0x1.00fe59e25eac1p+1|0x1.00fe59e25eac1p+1",
+                "0x1.01589565f5923p+0|0x1.68639c29e7429p+0",
+                "0x1.0182c0222e232p+0|0x1.6abe8256d7216p+0",
+                "0x1.024f175fcfd50p+0|0x1.6a2b870db2e19p+0",
+                "0x1.026fc8c5abf66p+1|0x1.026fc8c5abf66p+1",
+                "0x1.0416cdb5bf05dp+0|0x1.691e9ab59763ap+0",
+                "0x1.1d7d310c9beb0p+1|0x1.1d7d310c9beb0p+1",
+                "0x1.1db23e08e9e2fp+1|0x1.1db23e08e9e2fp+1",
+                "0x1.1e6143fc7e94ep+1|0x1.1e6143fc7e94ep+1",
+                "0x1.1eb05b8dfc0eep+1|0x1.1eb05b8dfc0eep+1",
+                "0x1.1f307dedc151cp+1|0x1.1f307dedc151cp+1",
+                "0x1.1f35772b613e0p+1|0x1.1f35772b613e0p+1",
+                "0x1.1ff2245bdf6bbp+1|0x1.1ff2245bdf6bbp+1",
+                "0x1.202227ab94807p+1|0x1.202227ab94807p+1",
+                "0x1.68639c29e7429p+0|0x1.68639c29e7429p+0",
+                "0x1.68c115703d06fp+1|0x1.68c115703d06fp+1",
+                "0x1.691e9ab59763ap+0|0x1.691e9ab59763ap+0",
+                "0x1.6a2b870db2e19p+0|0x1.6a2b870db2e19p+0",
+                "0x1.6abe8256d7216p+0|0x1.6abe8256d7216p+0",
+                "0x1.6afa9adeefe97p+1|0x1.6afa9adeefe97p+1",
+                "0x1.6b0ee441cc4dfp+0|0x1.6b0ee441cc4dfp+0",
+                "0x1.6b3721b607e67p+0|0x1.6b3721b607e67p+0",
+                "0x1.6cdc83a4bce00p+0|0x1.6cdc83a4bce00p+0",
+                "0x1.6f063ad011411p+0|0x1.6f063ad011411p+0",
+                "0x1.fd7cb517da1e9p+0|0x1.fd7cb517da1e9p+0",
+                "0x1.fe1d08200d295p+0|0x1.fe1d08200d295p+0"
+              ],
+              "right_signature": [
+                "0x1.0158960000000p+0|0x1.68639c0000000p+0",
+                "0x1.0182c00000000p+0|0x1.6abe820000000p+0",
+                "0x1.024f180000000p+0|0x1.6a2b880000000p+0",
+                "0x1.0416ce0000000p+0|0x1.691e9a0000000p+0"
+              ],
+              "wasserstein_distance_q2": 0.0,
+              "wasserstein_distance_q2_hex": "0x0.0p+0"
+            },
+            "ripser__dionysus": {
+              "exact_match": true,
+              "left_signature": [
+                "0x1.0158960000000p+0|0x1.68639c0000000p+0",
+                "0x1.0182c00000000p+0|0x1.6abe820000000p+0",
+                "0x1.024f180000000p+0|0x1.6a2b880000000p+0",
+                "0x1.0416ce0000000p+0|0x1.691e9a0000000p+0"
+              ],
+              "right_signature": [
+                "0x1.0158960000000p+0|0x1.68639c0000000p+0",
+                "0x1.0182c00000000p+0|0x1.6abe820000000p+0",
+                "0x1.024f180000000p+0|0x1.6a2b880000000p+0",
+                "0x1.0416ce0000000p+0|0x1.691e9a0000000p+0"
+              ]
+            }
+          },
+          "signatures": {
+            "dionysus": [
+              "0x1.0158960000000p+0|0x1.68639c0000000p+0",
+              "0x1.0182c00000000p+0|0x1.6abe820000000p+0",
+              "0x1.024f180000000p+0|0x1.6a2b880000000p+0",
+              "0x1.0416ce0000000p+0|0x1.691e9a0000000p+0"
+            ],
+            "gudhi": [
+              "0x1.00b78a7fa16a5p+1|0x1.00b78a7fa16a5p+1",
+              "0x1.00b9436148476p+1|0x1.00b9436148476p+1",
+              "0x1.00fe59e25eac1p+1|0x1.00fe59e25eac1p+1",
+              "0x1.01589565f5923p+0|0x1.68639c29e7429p+0",
+              "0x1.0182c0222e232p+0|0x1.6abe8256d7216p+0",
+              "0x1.024f175fcfd50p+0|0x1.6a2b870db2e19p+0",
+              "0x1.026fc8c5abf66p+1|0x1.026fc8c5abf66p+1",
+              "0x1.0416cdb5bf05dp+0|0x1.691e9ab59763ap+0",
+              "0x1.1d7d310c9beb0p+1|0x1.1d7d310c9beb0p+1",
+              "0x1.1db23e08e9e2fp+1|0x1.1db23e08e9e2fp+1",
+              "0x1.1e6143fc7e94ep+1|0x1.1e6143fc7e94ep+1",
+              "0x1.1eb05b8dfc0eep+1|0x1.1eb05b8dfc0eep+1",
+              "0x1.1f307dedc151cp+1|0x1.1f307dedc151cp+1",
+              "0x1.1f35772b613e0p+1|0x1.1f35772b613e0p+1",
+              "0x1.1ff2245bdf6bbp+1|0x1.1ff2245bdf6bbp+1",
+              "0x1.202227ab94807p+1|0x1.202227ab94807p+1",
+              "0x1.68639c29e7429p+0|0x1.68639c29e7429p+0",
+              "0x1.68c115703d06fp+1|0x1.68c115703d06fp+1",
+              "0x1.691e9ab59763ap+0|0x1.691e9ab59763ap+0",
+              "0x1.6a2b870db2e19p+0|0x1.6a2b870db2e19p+0",
+              "0x1.6abe8256d7216p+0|0x1.6abe8256d7216p+0",
+              "0x1.6afa9adeefe97p+1|0x1.6afa9adeefe97p+1",
+              "0x1.6b0ee441cc4dfp+0|0x1.6b0ee441cc4dfp+0",
+              "0x1.6b3721b607e67p+0|0x1.6b3721b607e67p+0",
+              "0x1.6cdc83a4bce00p+0|0x1.6cdc83a4bce00p+0",
+              "0x1.6f063ad011411p+0|0x1.6f063ad011411p+0",
+              "0x1.fd7cb517da1e9p+0|0x1.fd7cb517da1e9p+0",
+              "0x1.fe1d08200d295p+0|0x1.fe1d08200d295p+0"
+            ],
+            "ripser": [
+              "0x1.0158960000000p+0|0x1.68639c0000000p+0",
+              "0x1.0182c00000000p+0|0x1.6abe820000000p+0",
+              "0x1.024f180000000p+0|0x1.6a2b880000000p+0",
+              "0x1.0416ce0000000p+0|0x1.691e9a0000000p+0"
+            ]
+          }
+        }
+      },
+      "has_discrepancy": true
+    },
+    "matrix_size": 9,
+    "maxdim": 1,
+    "raw_outputs": {
+      "dionysus": {
+        "diagram_count": 3,
+        "filtration_size": 129,
+        "intervals_by_dimension": {
+          "0": [
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": "inf",
+              "death_hex": "inf"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0000742673873901,
+              "death_hex": "0x1.0004de0000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0030828714370728,
+              "death_hex": "0x1.00ca0a0000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9976340532302856,
+              "death_hex": "0x1.fec9e40000000p-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0010417699813843,
+              "death_hex": "0x1.0044460000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9966416954994202,
+              "death_hex": "0x1.fe47d20000000p-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9925616979598999,
+              "death_hex": "0x1.fc310c0000000p-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0025722980499268,
+              "death_hex": "0x1.00a8940000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9916083216667175,
+              "death_hex": "0x1.fbb4160000000p-1"
+            }
+          ],
+          "1": [
+            {
+              "birth": 1.0052579641342163,
+              "birth_hex": "0x1.0158960000000p+0",
+              "death": 1.4077699184417725,
+              "death_hex": "0x1.68639c0000000p+0"
+            },
+            {
+              "birth": 1.0059013366699219,
+              "birth_hex": "0x1.0182c00000000p+0",
+              "death": 1.4169694185256958,
+              "death_hex": "0x1.6abe820000000p+0"
+            },
+            {
+              "birth": 1.009019374847412,
+              "birth_hex": "0x1.024f180000000p+0",
+              "death": 1.414726734161377,
+              "death_hex": "0x1.6a2b880000000p+0"
+            },
+            {
+              "birth": 1.0159729719161987,
+              "birth_hex": "0x1.0416ce0000000p+0",
+              "death": 1.4106231927871704,
+              "death_hex": "0x1.691e9a0000000p+0"
+            }
+          ]
+        },
+        "library": "dionysus",
+        "parameters": {
+          "input_format": "condensed_distance_matrix",
+          "prime": 2,
+          "skeleton_dimension": 2,
+          "threshold": 2.8357728565750437
+        }
+      },
+      "gudhi": {
+        "intervals_by_dimension": {
+          "0": [
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9916083090626023,
+              "death_hex": "0x1.fbb41593bb41fp-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9925617244229383,
+              "death_hex": "0x1.fc310ce350d64p-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9966416990501885,
+              "death_hex": "0x1.fe47d21e8038ep-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9976340363439266,
+              "death_hex": "0x1.fec9e36ef280fp-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0000742710745785,
+              "death_hex": "0x1.0004de0fd61b4p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.001041795492593,
+              "death_hex": "0x1.0044466d91deep+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0025722873434124,
+              "death_hex": "0x1.00a893d204102p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0030828719749127,
+              "death_hex": "0x1.00ca0a024f5c8p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": "inf",
+              "death_hex": "inf"
+            }
+          ],
+          "1": [
+            {
+              "birth": 1.4077699281981586,
+              "birth_hex": "0x1.68639c29e7429p+0",
+              "death": 1.4077699281981586,
+              "death_hex": "0x1.68639c29e7429p+0"
+            },
+            {
+              "birth": 1.005257928268812,
+              "birth_hex": "0x1.01589565f5923p+0",
+              "death": 1.4077699281981586,
+              "death_hex": "0x1.68639c29e7429p+0"
+            },
+            {
+              "birth": 1.4106232350672046,
+              "birth_hex": "0x1.691e9ab59763ap+0",
+              "death": 1.4106232350672046,
+              "death_hex": "0x1.691e9ab59763ap+0"
+            },
+            {
+              "birth": 1.0159729546276346,
+              "birth_hex": "0x1.0416cdb5bf05dp+0",
+              "death": 1.4106232350672046,
+              "death_hex": "0x1.691e9ab59763ap+0"
+            },
+            {
+              "birth": 1.414726677746222,
+              "birth_hex": "0x1.6a2b870db2e19p+0",
+              "death": 1.414726677746222,
+              "death_hex": "0x1.6a2b870db2e19p+0"
+            },
+            {
+              "birth": 1.0090193375507006,
+              "birth_hex": "0x1.024f175fcfd50p+0",
+              "death": 1.414726677746222,
+              "death_hex": "0x1.6a2b870db2e19p+0"
+            },
+            {
+              "birth": 1.416969438744791,
+              "birth_hex": "0x1.6abe8256d7216p+0",
+              "death": 1.416969438744791,
+              "death_hex": "0x1.6abe8256d7216p+0"
+            },
+            {
+              "birth": 1.0059013446281253,
+              "birth_hex": "0x1.0182c0222e232p+0",
+              "death": 1.416969438744791,
+              "death_hex": "0x1.6abe8256d7216p+0"
+            },
+            {
+              "birth": 1.4181959782256894,
+              "birth_hex": "0x1.6b0ee441cc4dfp+0",
+              "death": 1.4181959782256894,
+              "death_hex": "0x1.6b0ee441cc4dfp+0"
+            },
+            {
+              "birth": 1.4188099927340774,
+              "birth_hex": "0x1.6b3721b607e67p+0",
+              "death": 1.4188099927340774,
+              "death_hex": "0x1.6b3721b607e67p+0"
+            },
+            {
+              "birth": 1.425239780158222,
+              "birth_hex": "0x1.6cdc83a4bce00p+0",
+              "death": 1.425239780158222,
+              "death_hex": "0x1.6cdc83a4bce00p+0"
+            },
+            {
+              "birth": 1.4336888082482384,
+              "birth_hex": "0x1.6f063ad011411p+0",
+              "death": 1.4336888082482384,
+              "death_hex": "0x1.6f063ad011411p+0"
+            },
+            {
+              "birth": 1.9901841338379376,
+              "birth_hex": "0x1.fd7cb517da1e9p+0",
+              "death": 1.9901841338379376,
+              "death_hex": "0x1.fd7cb517da1e9p+0"
+            },
+            {
+              "birth": 1.9926304891825215,
+              "birth_hex": "0x1.fe1d08200d295p+0",
+              "death": 1.9926304891825215,
+              "death_hex": "0x1.fe1d08200d295p+0"
+            },
+            {
+              "birth": 2.005601227111429,
+              "birth_hex": "0x1.00b78a7fa16a5p+1",
+              "death": 2.005601227111429,
+              "death_hex": "0x1.00b78a7fa16a5p+1"
+            },
+            {
+              "birth": 2.005653784276144,
+              "birth_hex": "0x1.00b9436148476p+1",
+              "death": 2.005653784276144,
+              "death_hex": "0x1.00b9436148476p+1"
+            },
+            {
+              "birth": 2.0077621798821785,
+              "birth_hex": "0x1.00fe59e25eac1p+1",
+              "death": 2.0077621798821785,
+              "death_hex": "0x1.00fe59e25eac1p+1"
+            },
+            {
+              "birth": 2.0190363850778565,
+              "birth_hex": "0x1.026fc8c5abf66p+1",
+              "death": 2.0190363850778565,
+              "death_hex": "0x1.026fc8c5abf66p+1"
+            },
+            {
+              "birth": 2.2303830443923616,
+              "birth_hex": "0x1.1d7d310c9beb0p+1",
+              "death": 2.2303830443923616,
+              "death_hex": "0x1.1d7d310c9beb0p+1"
+            },
+            {
+              "birth": 2.2320020240329295,
+              "birth_hex": "0x1.1db23e08e9e2fp+1",
+              "death": 2.2320020240329295,
+              "death_hex": "0x1.1db23e08e9e2fp+1"
+            },
+            {
+              "birth": 2.23734330967742,
+              "birth_hex": "0x1.1e6143fc7e94ep+1",
+              "death": 2.23734330967742,
+              "death_hex": "0x1.1e6143fc7e94ep+1"
+            },
+            {
+              "birth": 2.2397570079120817,
+              "birth_hex": "0x1.1eb05b8dfc0eep+1",
+              "death": 2.2397570079120817,
+              "death_hex": "0x1.1eb05b8dfc0eep+1"
+            },
+            {
+              "birth": 2.2436673556245648,
+              "birth_hex": "0x1.1f307dedc151cp+1",
+              "death": 2.2436673556245648,
+              "death_hex": "0x1.1f307dedc151cp+1"
+            },
+            {
+              "birth": 2.2438191377463994,
+              "birth_hex": "0x1.1f35772b613e0p+1",
+              "death": 2.2438191377463994,
+              "death_hex": "0x1.1f35772b613e0p+1"
+            },
+            {
+              "birth": 2.2495770882222508,
+              "birth_hex": "0x1.1ff2245bdf6bbp+1",
+              "death": 2.2495770882222508,
+              "death_hex": "0x1.1ff2245bdf6bbp+1"
+            },
+            {
+              "birth": 2.2510423267167456,
+              "birth_hex": "0x1.202227ab94807p+1",
+              "death": 2.2510423267167456,
+              "death_hex": "0x1.202227ab94807p+1"
+            },
+            {
+              "birth": 2.8183924482382774,
+              "birth_hex": "0x1.68c115703d06fp+1",
+              "death": 2.8183924482382774,
+              "death_hex": "0x1.68c115703d06fp+1"
+            },
+            {
+              "birth": 2.8357728565750437,
+              "birth_hex": "0x1.6afa9adeefe97p+1",
+              "death": 2.8357728565750437,
+              "death_hex": "0x1.6afa9adeefe97p+1"
+            }
+          ]
+        },
+        "library": "gudhi",
+        "parameters": {
+          "homology_coeff_field": 2,
+          "max_dimension": 2,
+          "max_edge_length": 2.8357728565750437,
+          "sparse": null
+        },
+        "raw_persistence_pairs": [
+          {
+            "birth": 2.23734330967742,
+            "birth_hex": "0x1.1e6143fc7e94ep+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2438191377463994,
+            "birth_hex": "0x1.1f35772b613e0p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2438191377463994,
+            "birth_hex": "0x1.1f35772b613e0p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2438191377463994,
+            "birth_hex": "0x1.1f35772b613e0p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2436673556245648,
+            "birth_hex": "0x1.1f307dedc151cp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2436673556245648,
+            "birth_hex": "0x1.1f307dedc151cp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2436673556245648,
+            "birth_hex": "0x1.1f307dedc151cp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2436673556245648,
+            "birth_hex": "0x1.1f307dedc151cp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2397570079120817,
+            "birth_hex": "0x1.1eb05b8dfc0eep+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2397570079120817,
+            "birth_hex": "0x1.1eb05b8dfc0eep+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2397570079120817,
+            "birth_hex": "0x1.1eb05b8dfc0eep+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2397570079120817,
+            "birth_hex": "0x1.1eb05b8dfc0eep+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2438191377463994,
+            "birth_hex": "0x1.1f35772b613e0p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.23734330967742,
+            "birth_hex": "0x1.1e6143fc7e94ep+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.23734330967742,
+            "birth_hex": "0x1.1e6143fc7e94ep+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2320020240329295,
+            "birth_hex": "0x1.1db23e08e9e2fp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2320020240329295,
+            "birth_hex": "0x1.1db23e08e9e2fp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2320020240329295,
+            "birth_hex": "0x1.1db23e08e9e2fp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2320020240329295,
+            "birth_hex": "0x1.1db23e08e9e2fp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2303830443923616,
+            "birth_hex": "0x1.1d7d310c9beb0p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2303830443923616,
+            "birth_hex": "0x1.1d7d310c9beb0p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2303830443923616,
+            "birth_hex": "0x1.1d7d310c9beb0p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.0190363850778565,
+            "birth_hex": "0x1.026fc8c5abf66p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.0190363850778565,
+            "birth_hex": "0x1.026fc8c5abf66p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.8183924482382774,
+            "birth_hex": "0x1.68c115703d06fp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.8357728565750437,
+            "birth_hex": "0x1.6afa9adeefe97p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.8357728565750437,
+            "birth_hex": "0x1.6afa9adeefe97p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.8357728565750437,
+            "birth_hex": "0x1.6afa9adeefe97p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.8357728565750437,
+            "birth_hex": "0x1.6afa9adeefe97p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.8357728565750437,
+            "birth_hex": "0x1.6afa9adeefe97p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.8357728565750437,
+            "birth_hex": "0x1.6afa9adeefe97p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.8183924482382774,
+            "birth_hex": "0x1.68c115703d06fp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.8183924482382774,
+            "birth_hex": "0x1.68c115703d06fp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.8183924482382774,
+            "birth_hex": "0x1.68c115703d06fp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.8183924482382774,
+            "birth_hex": "0x1.68c115703d06fp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.8183924482382774,
+            "birth_hex": "0x1.68c115703d06fp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.0077621798821785,
+            "birth_hex": "0x1.00fe59e25eac1p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2510423267167456,
+            "birth_hex": "0x1.202227ab94807p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2510423267167456,
+            "birth_hex": "0x1.202227ab94807p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2510423267167456,
+            "birth_hex": "0x1.202227ab94807p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2510423267167456,
+            "birth_hex": "0x1.202227ab94807p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2510423267167456,
+            "birth_hex": "0x1.202227ab94807p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2495770882222508,
+            "birth_hex": "0x1.1ff2245bdf6bbp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2495770882222508,
+            "birth_hex": "0x1.1ff2245bdf6bbp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2495770882222508,
+            "birth_hex": "0x1.1ff2245bdf6bbp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2495770882222508,
+            "birth_hex": "0x1.1ff2245bdf6bbp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.2495770882222508,
+            "birth_hex": "0x1.1ff2245bdf6bbp+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.005653784276144,
+            "birth_hex": "0x1.00b9436148476p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 1.4181959782256894,
+            "birth_hex": "0x1.6b0ee441cc4dfp+0",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 1.4188099927340774,
+            "birth_hex": "0x1.6b3721b607e67p+0",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 1.425239780158222,
+            "birth_hex": "0x1.6cdc83a4bce00p+0",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 1.4336888082482384,
+            "birth_hex": "0x1.6f063ad011411p+0",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 1.9901841338379376,
+            "birth_hex": "0x1.fd7cb517da1e9p+0",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 1.9926304891825215,
+            "birth_hex": "0x1.fe1d08200d295p+0",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.005601227111429,
+            "birth_hex": "0x1.00b78a7fa16a5p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 2.005653784276144,
+            "birth_hex": "0x1.00b9436148476p+1",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 2
+          },
+          {
+            "birth": 1.0059013446281253,
+            "birth_hex": "0x1.0182c0222e232p+0",
+            "death": 1.416969438744791,
+            "death_hex": "0x1.6abe8256d7216p+0",
+            "dimension": 1
+          },
+          {
+            "birth": 1.0090193375507006,
+            "birth_hex": "0x1.024f175fcfd50p+0",
+            "death": 1.414726677746222,
+            "death_hex": "0x1.6a2b870db2e19p+0",
+            "dimension": 1
+          },
+          {
+            "birth": 1.005257928268812,
+            "birth_hex": "0x1.01589565f5923p+0",
+            "death": 1.4077699281981586,
+            "death_hex": "0x1.68639c29e7429p+0",
+            "dimension": 1
+          },
+          {
+            "birth": 1.0159729546276346,
+            "birth_hex": "0x1.0416cdb5bf05dp+0",
+            "death": 1.4106232350672046,
+            "death_hex": "0x1.691e9ab59763ap+0",
+            "dimension": 1
+          },
+          {
+            "birth": 1.9926304891825215,
+            "birth_hex": "0x1.fe1d08200d295p+0",
+            "death": 1.9926304891825215,
+            "death_hex": "0x1.fe1d08200d295p+0",
+            "dimension": 1
+          },
+          {
+            "birth": 2.005653784276144,
+            "birth_hex": "0x1.00b9436148476p+1",
+            "death": 2.005653784276144,
+            "death_hex": "0x1.00b9436148476p+1",
+            "dimension": 1
+          },
+          {
+            "birth": 1.9901841338379376,
+            "birth_hex": "0x1.fd7cb517da1e9p+0",
+            "death": 1.9901841338379376,
+            "death_hex": "0x1.fd7cb517da1e9p+0",
+            "dimension": 1
+          },
+          {
+            "birth": 1.4336888082482384,
+            "birth_hex": "0x1.6f063ad011411p+0",
+            "death": 1.4336888082482384,
+            "death_hex": "0x1.6f063ad011411p+0",
+            "dimension": 1
+          },
+          {
+            "birth": 1.425239780158222,
+            "birth_hex": "0x1.6cdc83a4bce00p+0",
+            "death": 1.425239780158222,
+            "death_hex": "0x1.6cdc83a4bce00p+0",
+            "dimension": 1
+          },
+          {
+            "birth": 1.4188099927340774,
+            "birth_hex": "0x1.6b3721b607e67p+0",
+            "death": 1.4188099927340774,
+            "death_hex": "0x1.6b3721b607e67p+0",
+            "dimension": 1
+          },
+          {
+            "birth": 1.4181959782256894,
+            "birth_hex": "0x1.6b0ee441cc4dfp+0",
+            "death": 1.4181959782256894,
+            "death_hex": "0x1.6b0ee441cc4dfp+0",
+            "dimension": 1
+          },
+          {
+            "birth": 1.416969438744791,
+            "birth_hex": "0x1.6abe8256d7216p+0",
+            "death": 1.416969438744791,
+            "death_hex": "0x1.6abe8256d7216p+0",
+            "dimension": 1
+          },
+          {
+            "birth": 1.414726677746222,
+            "birth_hex": "0x1.6a2b870db2e19p+0",
+            "death": 1.414726677746222,
+            "death_hex": "0x1.6a2b870db2e19p+0",
+            "dimension": 1
+          },
+          {
+            "birth": 1.4106232350672046,
+            "birth_hex": "0x1.691e9ab59763ap+0",
+            "death": 1.4106232350672046,
+            "death_hex": "0x1.691e9ab59763ap+0",
+            "dimension": 1
+          },
+          {
+            "birth": 1.4077699281981586,
+            "birth_hex": "0x1.68639c29e7429p+0",
+            "death": 1.4077699281981586,
+            "death_hex": "0x1.68639c29e7429p+0",
+            "dimension": 1
+          },
+          {
+            "birth": 2.005601227111429,
+            "birth_hex": "0x1.00b78a7fa16a5p+1",
+            "death": 2.005601227111429,
+            "death_hex": "0x1.00b78a7fa16a5p+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.8357728565750437,
+            "birth_hex": "0x1.6afa9adeefe97p+1",
+            "death": 2.8357728565750437,
+            "death_hex": "0x1.6afa9adeefe97p+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.8183924482382774,
+            "birth_hex": "0x1.68c115703d06fp+1",
+            "death": 2.8183924482382774,
+            "death_hex": "0x1.68c115703d06fp+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.2510423267167456,
+            "birth_hex": "0x1.202227ab94807p+1",
+            "death": 2.2510423267167456,
+            "death_hex": "0x1.202227ab94807p+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.2495770882222508,
+            "birth_hex": "0x1.1ff2245bdf6bbp+1",
+            "death": 2.2495770882222508,
+            "death_hex": "0x1.1ff2245bdf6bbp+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.2438191377463994,
+            "birth_hex": "0x1.1f35772b613e0p+1",
+            "death": 2.2438191377463994,
+            "death_hex": "0x1.1f35772b613e0p+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.2436673556245648,
+            "birth_hex": "0x1.1f307dedc151cp+1",
+            "death": 2.2436673556245648,
+            "death_hex": "0x1.1f307dedc151cp+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.2397570079120817,
+            "birth_hex": "0x1.1eb05b8dfc0eep+1",
+            "death": 2.2397570079120817,
+            "death_hex": "0x1.1eb05b8dfc0eep+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.23734330967742,
+            "birth_hex": "0x1.1e6143fc7e94ep+1",
+            "death": 2.23734330967742,
+            "death_hex": "0x1.1e6143fc7e94ep+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.2320020240329295,
+            "birth_hex": "0x1.1db23e08e9e2fp+1",
+            "death": 2.2320020240329295,
+            "death_hex": "0x1.1db23e08e9e2fp+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.2303830443923616,
+            "birth_hex": "0x1.1d7d310c9beb0p+1",
+            "death": 2.2303830443923616,
+            "death_hex": "0x1.1d7d310c9beb0p+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.0190363850778565,
+            "birth_hex": "0x1.026fc8c5abf66p+1",
+            "death": 2.0190363850778565,
+            "death_hex": "0x1.026fc8c5abf66p+1",
+            "dimension": 1
+          },
+          {
+            "birth": 2.0077621798821785,
+            "birth_hex": "0x1.00fe59e25eac1p+1",
+            "death": 2.0077621798821785,
+            "death_hex": "0x1.00fe59e25eac1p+1",
+            "dimension": 1
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": "inf",
+            "death_hex": "inf",
+            "dimension": 0
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": 1.0030828719749127,
+            "death_hex": "0x1.00ca0a024f5c8p+0",
+            "dimension": 0
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": 1.0025722873434124,
+            "death_hex": "0x1.00a893d204102p+0",
+            "dimension": 0
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": 1.001041795492593,
+            "death_hex": "0x1.0044466d91deep+0",
+            "dimension": 0
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": 1.0000742710745785,
+            "death_hex": "0x1.0004de0fd61b4p+0",
+            "dimension": 0
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": 0.9976340363439266,
+            "death_hex": "0x1.fec9e36ef280fp-1",
+            "dimension": 0
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": 0.9966416990501885,
+            "death_hex": "0x1.fe47d21e8038ep-1",
+            "dimension": 0
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": 0.9925617244229383,
+            "death_hex": "0x1.fc310ce350d64p-1",
+            "dimension": 0
+          },
+          {
+            "birth": 0.0,
+            "birth_hex": "0x0.0p+0",
+            "death": 0.9916083090626023,
+            "death_hex": "0x1.fbb41593bb41fp-1",
+            "dimension": 0
+          }
+        ]
+      },
+      "ripser": {
+        "intervals_by_dimension": {
+          "0": [
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9916083216667175,
+              "death_hex": "0x1.fbb4160000000p-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9925616979598999,
+              "death_hex": "0x1.fc310c0000000p-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9966416954994202,
+              "death_hex": "0x1.fe47d20000000p-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 0.9976340532302856,
+              "death_hex": "0x1.fec9e40000000p-1"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0000742673873901,
+              "death_hex": "0x1.0004de0000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0010417699813843,
+              "death_hex": "0x1.0044460000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0025722980499268,
+              "death_hex": "0x1.00a8940000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": 1.0030828714370728,
+              "death_hex": "0x1.00ca0a0000000p+0"
+            },
+            {
+              "birth": 0.0,
+              "birth_hex": "0x0.0p+0",
+              "death": "inf",
+              "death_hex": "inf"
+            }
+          ],
+          "1": [
+            {
+              "birth": 1.0159729719161987,
+              "birth_hex": "0x1.0416ce0000000p+0",
+              "death": 1.4106231927871704,
+              "death_hex": "0x1.691e9a0000000p+0"
+            },
+            {
+              "birth": 1.009019374847412,
+              "birth_hex": "0x1.024f180000000p+0",
+              "death": 1.414726734161377,
+              "death_hex": "0x1.6a2b880000000p+0"
+            },
+            {
+              "birth": 1.0059013366699219,
+              "birth_hex": "0x1.0182c00000000p+0",
+              "death": 1.4169694185256958,
+              "death_hex": "0x1.6abe820000000p+0"
+            },
+            {
+              "birth": 1.0052579641342163,
+              "birth_hex": "0x1.0158960000000p+0",
+              "death": 1.4077699184417725,
+              "death_hex": "0x1.68639c0000000p+0"
+            }
+          ]
+        },
+        "library": "ripser",
+        "parameters": {
+          "coeff": 2,
+          "distance_matrix": true,
+          "do_cocycles": false,
+          "maxdim": 1,
+          "n_perm": null,
+          "thresh": 2.8357728565750437
+        },
+        "result_metadata": {
+          "cocycles": [
+            [],
+            []
+          ],
+          "dperm2all": [
+            [
+              0.0,
+              1.0000742710745785,
+              2.005601227111429,
+              0.9976340363439266,
+              1.4106232350672046,
+              2.2320020240329295,
+              1.9901841338379376,
+              2.2303830443923616,
+              2.8183924482382774
+            ],
+            [
+              1.0000742710745785,
+              0.0,
+              1.0059013446281253,
+              1.4336888082482384,
+              1.0159729546276346,
+              1.425239780158222,
+              2.2510423267167456,
+              2.0190363850778565,
+              2.2438191377463994
+            ],
+            [
+              2.005601227111429,
+              1.0059013446281253,
+              0.0,
+              2.2495770882222508,
+              1.416969438744791,
+              1.001041795492593,
+              2.8357728565750437,
+              2.2436673556245648,
+              1.9926304891825215
+            ],
+            [
+              0.9976340363439266,
+              1.4336888082482384,
+              2.2495770882222508,
+              0.0,
+              1.0090193375507006,
+              2.005653784276144,
+              0.9925617244229383,
+              1.414726677746222,
+              2.23734330967742
+            ],
+            [
+              1.4106232350672046,
+              1.0159729546276346,
+              1.416969438744791,
+              1.0090193375507006,
+              0.0,
+              0.9966416990501885,
+              1.4188099927340774,
+              1.0030828719749127,
+              1.4077699281981586
+            ],
+            [
+              2.2320020240329295,
+              1.425239780158222,
+              1.001041795492593,
+              2.005653784276144,
+              0.9966416990501885,
+              0.0,
+              2.2397570079120817,
+              1.4181959782256894,
+              0.9916083090626023
+            ],
+            [
+              1.9901841338379376,
+              2.2510423267167456,
+              2.8357728565750437,
+              0.9925617244229383,
+              1.4188099927340774,
+              2.2397570079120817,
+              0.0,
+              1.0025722873434124,
+              2.0077621798821785
+            ],
+            [
+              2.2303830443923616,
+              2.0190363850778565,
+              2.2436673556245648,
+              1.414726677746222,
+              1.0030828719749127,
+              1.4181959782256894,
+              1.0025722873434124,
+              0.0,
+              1.005257928268812
+            ],
+            [
+              2.8183924482382774,
+              2.2438191377463994,
+              1.9926304891825215,
+              2.23734330967742,
+              1.4077699281981586,
+              0.9916083090626023,
+              2.0077621798821785,
+              1.005257928268812,
+              0.0
+            ]
+          ],
+          "idx_perm": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "num_edges": 36,
+          "r_cover": 0.0
+        }
+      }
+    },
+    "threshold": 2.8357728565750437,
+    "threshold_hex": "0x1.6afa9adeefe97p+1"
+  },
+  "task_id": "PH-PERTURB-STABILITY-001"
+}

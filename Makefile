@@ -2,7 +2,7 @@ VENV ?= .venv-wsl
 PYTHON ?= $(VENV)/bin/python
 PIP ?= $(PYTHON) -m pip
 
-.PHONY: all setup run audit lowerstar-h0 report clean
+.PHONY: all setup run audit lowerstar-h0 perturb-stability report clean
 
 all: setup run audit
 
@@ -19,6 +19,9 @@ audit: run
 
 lowerstar-h0: setup
 	PYTHONPATH=src $(PYTHON) scripts/run_lowerstar_h0.py --output-dir artifacts/lowerstar_h0
+
+perturb-stability: run
+	PYTHONPATH=src $(PYTHON) scripts/run_perturb_stability.py --conformance-dir artifacts --output-dir artifacts/perturb_stability
 
 report: run
 
