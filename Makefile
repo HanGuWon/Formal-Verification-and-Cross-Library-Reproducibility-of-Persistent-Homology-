@@ -2,7 +2,7 @@ VENV ?= .venv-wsl
 PYTHON ?= $(VENV)/bin/python
 PIP ?= $(PYTHON) -m pip
 
-.PHONY: all setup run audit lowerstar-h0 perturb-stability normalized-conformance report clean
+.PHONY: all setup run audit lowerstar-h0 perturb-stability normalized-conformance formalization-path-h0 report clean
 
 all: setup run audit
 
@@ -25,6 +25,10 @@ perturb-stability: run
 
 normalized-conformance: audit
 	PYTHONPATH=src $(PYTHON) scripts/run_normalized_conformance.py --conformance-dir artifacts --audit-dir artifacts/audit --output-dir artifacts/normalized_conformance
+
+formalization-path-h0:
+	PYTHONPATH=src $(PYTHON) scripts/generate_path_h0_formalization.py --lowerstar-dir artifacts/lowerstar_h0 --output-dir formalization
+	PYTHONPATH=src $(PYTHON) formalization/reference_checker.py
 
 report: run
 

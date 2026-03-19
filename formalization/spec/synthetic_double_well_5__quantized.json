@@ -1,0 +1,555 @@
+{
+  "benchmark_id": "synthetic_double_well_5__quantized",
+  "computational_witness": {
+    "betti_summary": {
+      "all_equal": true,
+      "float32_all_equal": true,
+      "float32_rows": [
+        {
+          "all_equal": true,
+          "dionysus": 0,
+          "gudhi": 0,
+          "label": "below_min",
+          "probe_value": 0.12499999999999999,
+          "probe_value_hex": "0x1.fffffffffffffp-4",
+          "ripser": 0
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.125,
+          "critical_value_hex": "0x1.0000000000000p-3",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x1.0000000000000p-3",
+          "probe_value": 0.12500000000000003,
+          "probe_value_hex": "0x1.0000000000001p-3",
+          "ripser": 1
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.25,
+          "critical_value_hex": "0x1.0000000000000p-2",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.0000000000000p-2",
+          "probe_value": 0.25000000000000006,
+          "probe_value_hex": "0x1.0000000000001p-2",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.5,
+          "critical_value_hex": "0x1.0000000000000p-1",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.0000000000000p-1",
+          "probe_value": 0.5000000000000001,
+          "probe_value_hex": "0x1.0000000000001p-1",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.625,
+          "critical_value_hex": "0x1.4000000000000p-1",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.4000000000000p-1",
+          "probe_value": 0.6250000000000001,
+          "probe_value_hex": "0x1.4000000000001p-1",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.75,
+          "critical_value_hex": "0x1.8000000000000p-1",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x1.8000000000000p-1",
+          "probe_value": 0.7500000000000001,
+          "probe_value_hex": "0x1.8000000000001p-1",
+          "ripser": 1
+        }
+      ],
+      "rows": [
+        {
+          "all_equal": true,
+          "dionysus": 0,
+          "gudhi": 0,
+          "label": "below_min",
+          "probe_value": 0.12499999999999999,
+          "probe_value_hex": "0x1.fffffffffffffp-4",
+          "ripser": 0
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.125,
+          "critical_value_hex": "0x1.0000000000000p-3",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x1.0000000000000p-3",
+          "probe_value": 0.12500000000000003,
+          "probe_value_hex": "0x1.0000000000001p-3",
+          "ripser": 1
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.25,
+          "critical_value_hex": "0x1.0000000000000p-2",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.0000000000000p-2",
+          "probe_value": 0.25000000000000006,
+          "probe_value_hex": "0x1.0000000000001p-2",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.5,
+          "critical_value_hex": "0x1.0000000000000p-1",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.0000000000000p-1",
+          "probe_value": 0.5000000000000001,
+          "probe_value_hex": "0x1.0000000000001p-1",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.625,
+          "critical_value_hex": "0x1.4000000000000p-1",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.4000000000000p-1",
+          "probe_value": 0.6250000000000001,
+          "probe_value_hex": "0x1.4000000000001p-1",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.75,
+          "critical_value_hex": "0x1.8000000000000p-1",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x1.8000000000000p-1",
+          "probe_value": 0.7500000000000001,
+          "probe_value_hex": "0x1.8000000000001p-1",
+          "ripser": 1
+        }
+      ]
+    },
+    "library_agreement": {
+      "exact_all_libraries": true,
+      "float32_stable_all_libraries": true,
+      "pairwise": {
+        "gudhi__dionysus": {
+          "exact_match": true,
+          "float32_match": true,
+          "max_abs_finite_endpoint_diff": 0.0
+        },
+        "gudhi__ripser": {
+          "exact_match": true,
+          "float32_match": true,
+          "max_abs_finite_endpoint_diff": 0.0
+        },
+        "ripser__dionysus": {
+          "exact_match": true,
+          "float32_match": true,
+          "max_abs_finite_endpoint_diff": 0.0
+        }
+      }
+    },
+    "reference_consistency": {
+      "common_chain_matches_saved": true,
+      "encoded_reference_matches_saved": true,
+      "theorem_example_matches_saved": true
+    },
+    "theorem_example_summary": {
+      "benchmark_id": "synthetic_double_well_5__quantized",
+      "births_match_local_minima": true,
+      "family": "synthetic",
+      "finite_deaths_match_merge_heights": true,
+      "local_minima_count": 2,
+      "mode": "quantized",
+      "nonzero_interval_count": 2
+    }
+  },
+  "family": "synthetic",
+  "label": "Synthetic double well (n=5)",
+  "mode": "quantized",
+  "nonzero_interval_count": 2,
+  "path_graph": {
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "vertex_count": 5,
+    "vertices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "proof_obligations": [
+    "Define the lower-star filtration on the finite path graph with vertex filtration f(i) and edge filtration max(f(i), f(i+1)).",
+    "Prove that the reference elder-rule merge algorithm computes the H0 persistence multiset for this finite path filtration.",
+    "Prove that nonzero births are exactly the strict local minima of the path signal.",
+    "Prove that finite nonzero deaths are exactly the merge heights of components whose younger birth is strictly below the merge height.",
+    "Prove that removing zero-length intervals preserves the persistence diagram up to zero bottleneck and Wasserstein distance by matching those intervals to the diagonal."
+  ],
+  "reference_encoding": {
+    "critical_values": [
+      {
+        "value": 0.125,
+        "value_hex": "0x1.0000000000000p-3"
+      },
+      {
+        "value": 0.25,
+        "value_hex": "0x1.0000000000000p-2"
+      },
+      {
+        "value": 0.5,
+        "value_hex": "0x1.0000000000000p-1"
+      },
+      {
+        "value": 0.625,
+        "value_hex": "0x1.4000000000000p-1"
+      },
+      {
+        "value": 0.75,
+        "value_hex": "0x1.8000000000000p-1"
+      }
+    ],
+    "edges": [
+      {
+        "filtration": 0.625,
+        "filtration_hex": "0x1.4000000000000p-1",
+        "vertices": [
+          0,
+          1
+        ]
+      },
+      {
+        "filtration": 0.75,
+        "filtration_hex": "0x1.8000000000000p-1",
+        "vertices": [
+          1,
+          2
+        ]
+      },
+      {
+        "filtration": 0.75,
+        "filtration_hex": "0x1.8000000000000p-1",
+        "vertices": [
+          2,
+          3
+        ]
+      },
+      {
+        "filtration": 0.5,
+        "filtration_hex": "0x1.0000000000000p-1",
+        "vertices": [
+          3,
+          4
+        ]
+      }
+    ],
+    "signal": [
+      0.625,
+      0.125,
+      0.75,
+      0.25,
+      0.5
+    ],
+    "vertices": [
+      {
+        "filtration": 0.625,
+        "filtration_hex": "0x1.4000000000000p-1",
+        "index": 0
+      },
+      {
+        "filtration": 0.125,
+        "filtration_hex": "0x1.0000000000000p-3",
+        "index": 1
+      },
+      {
+        "filtration": 0.75,
+        "filtration_hex": "0x1.8000000000000p-1",
+        "index": 2
+      },
+      {
+        "filtration": 0.25,
+        "filtration_hex": "0x1.0000000000000p-2",
+        "index": 3
+      },
+      {
+        "filtration": 0.5,
+        "filtration_hex": "0x1.0000000000000p-1",
+        "index": 4
+      }
+    ]
+  },
+  "reference_semantics": {
+    "all_intervals": [
+      {
+        "birth": 0.5,
+        "birth_hex": "0x1.0000000000000p-1",
+        "birth_index": 4,
+        "death": 0.5,
+        "death_edge": [
+          3,
+          4
+        ],
+        "death_hex": "0x1.0000000000000p-1",
+        "is_zero_length": true
+      },
+      {
+        "birth": 0.625,
+        "birth_hex": "0x1.4000000000000p-1",
+        "birth_index": 0,
+        "death": 0.625,
+        "death_edge": [
+          0,
+          1
+        ],
+        "death_hex": "0x1.4000000000000p-1",
+        "is_zero_length": true
+      },
+      {
+        "birth": 0.75,
+        "birth_hex": "0x1.8000000000000p-1",
+        "birth_index": 2,
+        "death": 0.75,
+        "death_edge": [
+          1,
+          2
+        ],
+        "death_hex": "0x1.8000000000000p-1",
+        "is_zero_length": true
+      },
+      {
+        "birth": 0.25,
+        "birth_hex": "0x1.0000000000000p-2",
+        "birth_index": 3,
+        "death": 0.75,
+        "death_edge": [
+          2,
+          3
+        ],
+        "death_hex": "0x1.8000000000000p-1",
+        "is_zero_length": false
+      },
+      {
+        "birth": 0.125,
+        "birth_hex": "0x1.0000000000000p-3",
+        "birth_index": 1,
+        "death": "inf",
+        "death_edge": null,
+        "death_hex": "inf",
+        "is_zero_length": false
+      }
+    ],
+    "births_match_local_minima": true,
+    "finite_deaths_match_merge_heights": true,
+    "local_minima": [
+      {
+        "index": 1,
+        "value": 0.125,
+        "value_hex": "0x1.0000000000000p-3"
+      },
+      {
+        "index": 3,
+        "value": 0.25,
+        "value_hex": "0x1.0000000000000p-2"
+      }
+    ],
+    "merge_events": [
+      {
+        "edge": [
+          3,
+          4
+        ],
+        "elder_birth": 0.25,
+        "elder_birth_index": 3,
+        "merge_height": 0.5,
+        "merge_height_hex": "0x1.0000000000000p-1",
+        "younger_birth": 0.5,
+        "younger_birth_index": 4
+      },
+      {
+        "edge": [
+          0,
+          1
+        ],
+        "elder_birth": 0.125,
+        "elder_birth_index": 1,
+        "merge_height": 0.625,
+        "merge_height_hex": "0x1.4000000000000p-1",
+        "younger_birth": 0.625,
+        "younger_birth_index": 0
+      },
+      {
+        "edge": [
+          1,
+          2
+        ],
+        "elder_birth": 0.125,
+        "elder_birth_index": 1,
+        "merge_height": 0.75,
+        "merge_height_hex": "0x1.8000000000000p-1",
+        "younger_birth": 0.75,
+        "younger_birth_index": 2
+      },
+      {
+        "edge": [
+          2,
+          3
+        ],
+        "elder_birth": 0.125,
+        "elder_birth_index": 1,
+        "merge_height": 0.75,
+        "merge_height_hex": "0x1.8000000000000p-1",
+        "younger_birth": 0.25,
+        "younger_birth_index": 3
+      }
+    ],
+    "nonzero_intervals": [
+      {
+        "birth": 0.25,
+        "birth_hex": "0x1.0000000000000p-2",
+        "birth_index": 3,
+        "death": 0.75,
+        "death_edge": [
+          2,
+          3
+        ],
+        "death_hex": "0x1.8000000000000p-1",
+        "is_zero_length": false
+      },
+      {
+        "birth": 0.125,
+        "birth_hex": "0x1.0000000000000p-3",
+        "birth_index": 1,
+        "death": "inf",
+        "death_edge": null,
+        "death_hex": "inf",
+        "is_zero_length": false
+      }
+    ]
+  },
+  "restricted_setting": {
+    "edge_filtration_rule": "max(endpoint_heights)",
+    "elder_rule_tie_break": "older=(smaller birth value, then smaller birth index)",
+    "graph_type": "finite_path",
+    "homology_dimension": 0,
+    "lower_star_encodings": {
+      "dionysus": "fill_freudenthal(signal)",
+      "gudhi": "CubicalComplex(vertices=signal)",
+      "ripser": "sparse distance matrix with diagonal births and edge weights=max endpoint heights"
+    },
+    "signal_encoding": "vertex_filtration_on_path_graph"
+  },
+  "signal": {
+    "length": 5,
+    "signal_hash": "6acd80cf66b09bcb871e77b629d4ab745eff7fc84d6d4827e23303b16c87f661",
+    "values": [
+      0.625,
+      0.125,
+      0.75,
+      0.25,
+      0.5
+    ],
+    "values_hex": [
+      "0x1.4000000000000p-1",
+      "0x1.0000000000000p-3",
+      "0x1.8000000000000p-1",
+      "0x1.0000000000000p-2",
+      "0x1.0000000000000p-1"
+    ]
+  },
+  "source_artifacts": {
+    "betti0_summary": {
+      "path": "artifacts/lowerstar_h0/betti_summaries/synthetic_double_well_5__quantized/betti0_summary.json",
+      "sha256": "e5047202a60a2ec86f39c49ee6274aa11646b6028379754ee4cb2d4d60c4294f"
+    },
+    "case_payload": {
+      "path": "artifacts/lowerstar_h0/cases/synthetic_double_well_5__quantized.json",
+      "sha256": "93b0719f8faeaa773cca2302bf3ff3b33886eae710c9449d42c97c87560fa4ed"
+    },
+    "common_chain": {
+      "path": "artifacts/lowerstar_h0/encoded_filtrations/synthetic_double_well_5__quantized/common_chain.json",
+      "sha256": "de1ee692b34d4b1646e353755984199402c338e6d9cf1c3b27b128245477e668"
+    },
+    "dionysus_freudenthal": {
+      "path": "artifacts/lowerstar_h0/encoded_filtrations/synthetic_double_well_5__quantized/dionysus_freudenthal.json",
+      "sha256": "0c398105d873bba0170d607a1aec13a91ae3f03dc8cd78902a3390d1f9b18ba2"
+    },
+    "gudhi_cubical_encoding": {
+      "path": "artifacts/lowerstar_h0/encoded_filtrations/synthetic_double_well_5__quantized/gudhi_cubical_encoding.json",
+      "sha256": "423ad1f1f7e6815fbaea7b4bdda06b4afceac5c7262ee492899726b44f470266"
+    },
+    "reference_theorem_events": {
+      "path": "artifacts/lowerstar_h0/encoded_filtrations/synthetic_double_well_5__quantized/reference_theorem_events.json",
+      "sha256": "42643c09370d22396178d592d4e0e569dafa3926531add8b680ef55d4a7c8fe6"
+    },
+    "ripser_sparse_matrix": {
+      "path": "artifacts/lowerstar_h0/encoded_filtrations/synthetic_double_well_5__quantized/ripser_sparse_matrix.json",
+      "sha256": "1bb4d61cf563fd26416dd90b58f423d994d6c1484d87f0d47cdbee98fe49be3b"
+    },
+    "signal_json": {
+      "path": "artifacts/lowerstar_h0/signals/synthetic_double_well_5__quantized/signal.json",
+      "sha256": "9bb9f4e8793c33cdbc96080bc21d4bbb02fd433ca613f63e17b20ffe4583ed9e"
+    },
+    "signal_manifest": {
+      "benchmark_id": "synthetic_double_well_5__quantized",
+      "path": "artifacts/lowerstar_h0/signals/synthetic_double_well_5__quantized/manifest.json",
+      "sha256": "2ed1161f4a99240c98c53c896600b18a9b3a1c879d1170f4f298816e9b243bd4"
+    },
+    "theorem_example": {
+      "path": "artifacts/lowerstar_h0/theorem_examples/synthetic_double_well_5__quantized.json",
+      "sha256": "42643c09370d22396178d592d4e0e569dafa3926531add8b680ef55d4a7c8fe6"
+    }
+  },
+  "spec_version": 1,
+  "task_id": "PH-FORMALIZATION-PATH-H0-002",
+  "theorem_targets": {
+    "births_at_local_minima": {
+      "expected": true,
+      "statement": "For a finite path lower-star filtration in H0, the births of the nonzero persistence intervals occur exactly at strict local minima.",
+      "verified_by_reference": true
+    },
+    "deaths_at_merge_heights": {
+      "expected": true,
+      "statement": "For a finite path lower-star filtration in H0, the finite deaths of the nonzero persistence intervals occur exactly at the elder-rule merge heights.",
+      "verified_by_reference": true
+    },
+    "drop_zero_length_distance_zero": {
+      "expected_bottleneck_distance": 0.0,
+      "expected_wasserstein_q2_distance": 0.0,
+      "statement": "Removing zero-length intervals from the path-H0 interval multiset leaves bottleneck distance 0 and Wasserstein-q2 distance 0.",
+      "verified_bottleneck_distance": 0.0,
+      "verified_wasserstein_q2_distance": 0.0
+    }
+  },
+  "traceability": {
+    "case_payload_benchmark_id": "synthetic_double_well_5__quantized",
+    "signal_manifest_benchmark_id": "synthetic_double_well_5__quantized",
+    "theorem_example_benchmark_id": "synthetic_double_well_5__quantized"
+  },
+  "zero_length_interval_count": 3
+}

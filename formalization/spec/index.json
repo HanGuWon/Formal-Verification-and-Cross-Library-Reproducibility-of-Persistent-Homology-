@@ -1,0 +1,132 @@
+{
+  "generated_at_utc": "2026-03-19T13:33:50.124312+00:00",
+  "package_scope": {
+    "claim_scope": "restricted_to_saved_path_graph_examples_only",
+    "filtration_rule": "lower_star_on_vertices_with_edge_filtration_max_endpoint",
+    "graph_type": "finite_path",
+    "homology_dimension": 0
+  },
+  "proof_obligations": [
+    "Define the lower-star filtration on the finite path graph with vertex filtration f(i) and edge filtration max(f(i), f(i+1)).",
+    "Prove that the reference elder-rule merge algorithm computes the H0 persistence multiset for this finite path filtration.",
+    "Prove that nonzero births are exactly the strict local minima of the path signal.",
+    "Prove that finite nonzero deaths are exactly the merge heights of components whose younger birth is strictly below the merge height.",
+    "Prove that removing zero-length intervals preserves the persistence diagram up to zero bottleneck and Wasserstein distance by matching those intervals to the diagonal."
+  ],
+  "source_dirs": {
+    "lowerstar_dir": "artifacts/lowerstar_h0",
+    "spec_dir": "formalization/spec",
+    "theorem_example_dir": "artifacts/lowerstar_h0/theorem_examples"
+  },
+  "spec_entries": [
+    {
+      "benchmark_id": "synthetic_single_basin_3__floating",
+      "family": "synthetic",
+      "mode": "floating",
+      "spec_path": "formalization/spec/synthetic_single_basin_3__floating.json",
+      "theorem_example_path": "artifacts/lowerstar_h0/theorem_examples/synthetic_single_basin_3__floating.json"
+    },
+    {
+      "benchmark_id": "synthetic_single_basin_3__quantized",
+      "family": "synthetic",
+      "mode": "quantized",
+      "spec_path": "formalization/spec/synthetic_single_basin_3__quantized.json",
+      "theorem_example_path": "artifacts/lowerstar_h0/theorem_examples/synthetic_single_basin_3__quantized.json"
+    },
+    {
+      "benchmark_id": "synthetic_double_well_5__floating",
+      "family": "synthetic",
+      "mode": "floating",
+      "spec_path": "formalization/spec/synthetic_double_well_5__floating.json",
+      "theorem_example_path": "artifacts/lowerstar_h0/theorem_examples/synthetic_double_well_5__floating.json"
+    },
+    {
+      "benchmark_id": "synthetic_double_well_5__quantized",
+      "family": "synthetic",
+      "mode": "quantized",
+      "spec_path": "formalization/spec/synthetic_double_well_5__quantized.json",
+      "theorem_example_path": "artifacts/lowerstar_h0/theorem_examples/synthetic_double_well_5__quantized.json"
+    },
+    {
+      "benchmark_id": "synthetic_three_minima_7__floating",
+      "family": "synthetic",
+      "mode": "floating",
+      "spec_path": "formalization/spec/synthetic_three_minima_7__floating.json",
+      "theorem_example_path": "artifacts/lowerstar_h0/theorem_examples/synthetic_three_minima_7__floating.json"
+    },
+    {
+      "benchmark_id": "synthetic_three_minima_7__quantized",
+      "family": "synthetic",
+      "mode": "quantized",
+      "spec_path": "formalization/spec/synthetic_three_minima_7__quantized.json",
+      "theorem_example_path": "artifacts/lowerstar_h0/theorem_examples/synthetic_three_minima_7__quantized.json"
+    },
+    {
+      "benchmark_id": "synthetic_staggered_valleys_6__floating",
+      "family": "synthetic",
+      "mode": "floating",
+      "spec_path": "formalization/spec/synthetic_staggered_valleys_6__floating.json",
+      "theorem_example_path": "artifacts/lowerstar_h0/theorem_examples/synthetic_staggered_valleys_6__floating.json"
+    },
+    {
+      "benchmark_id": "synthetic_staggered_valleys_6__quantized",
+      "family": "synthetic",
+      "mode": "quantized",
+      "spec_path": "formalization/spec/synthetic_staggered_valleys_6__quantized.json",
+      "theorem_example_path": "artifacts/lowerstar_h0/theorem_examples/synthetic_staggered_valleys_6__quantized.json"
+    },
+    {
+      "benchmark_id": "aah_n8_l1p50_phi0p10_s0__floating",
+      "family": "aah",
+      "mode": "floating",
+      "spec_path": "formalization/spec/aah_n8_l1p50_phi0p10_s0__floating.json",
+      "theorem_example_path": "artifacts/lowerstar_h0/theorem_examples/aah_n8_l1p50_phi0p10_s0__floating.json"
+    },
+    {
+      "benchmark_id": "aah_n8_l1p50_phi0p10_s0__quantized",
+      "family": "aah",
+      "mode": "quantized",
+      "spec_path": "formalization/spec/aah_n8_l1p50_phi0p10_s0__quantized.json",
+      "theorem_example_path": "artifacts/lowerstar_h0/theorem_examples/aah_n8_l1p50_phi0p10_s0__quantized.json"
+    },
+    {
+      "benchmark_id": "aah_n8_l2p00_phi0p30_s3__floating",
+      "family": "aah",
+      "mode": "floating",
+      "spec_path": "formalization/spec/aah_n8_l2p00_phi0p30_s3__floating.json",
+      "theorem_example_path": "artifacts/lowerstar_h0/theorem_examples/aah_n8_l2p00_phi0p30_s3__floating.json"
+    },
+    {
+      "benchmark_id": "aah_n8_l2p00_phi0p30_s3__quantized",
+      "family": "aah",
+      "mode": "quantized",
+      "spec_path": "formalization/spec/aah_n8_l2p00_phi0p30_s3__quantized.json",
+      "theorem_example_path": "artifacts/lowerstar_h0/theorem_examples/aah_n8_l2p00_phi0p30_s3__quantized.json"
+    },
+    {
+      "benchmark_id": "aah_n13_l1p00_phi0p20_s6__floating",
+      "family": "aah",
+      "mode": "floating",
+      "spec_path": "formalization/spec/aah_n13_l1p00_phi0p20_s6__floating.json",
+      "theorem_example_path": "artifacts/lowerstar_h0/theorem_examples/aah_n13_l1p00_phi0p20_s6__floating.json"
+    },
+    {
+      "benchmark_id": "aah_n13_l1p00_phi0p20_s6__quantized",
+      "family": "aah",
+      "mode": "quantized",
+      "spec_path": "formalization/spec/aah_n13_l1p00_phi0p20_s6__quantized.json",
+      "theorem_example_path": "artifacts/lowerstar_h0/theorem_examples/aah_n13_l1p00_phi0p20_s6__quantized.json"
+    }
+  ],
+  "task_id": "PH-FORMALIZATION-PATH-H0-002",
+  "theorem_targets": {
+    "births_at_local_minima": "For a finite path lower-star filtration in H0, the births of the nonzero persistence intervals occur exactly at strict local minima.",
+    "deaths_at_merge_heights": "For a finite path lower-star filtration in H0, the finite deaths of the nonzero persistence intervals occur exactly at the elder-rule merge heights.",
+    "drop_zero_length_distance_zero": "Removing zero-length intervals from the path-H0 interval multiset leaves bottleneck distance 0 and Wasserstein-q2 distance 0."
+  },
+  "tool_availability": {
+    "coqc": false,
+    "lake": false,
+    "lean": false
+  }
+}

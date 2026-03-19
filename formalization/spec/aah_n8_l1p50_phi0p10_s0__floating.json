@@ -1,0 +1,768 @@
+{
+  "benchmark_id": "aah_n8_l1p50_phi0p10_s0__floating",
+  "computational_witness": {
+    "betti_summary": {
+      "all_equal": false,
+      "float32_all_equal": true,
+      "float32_rows": [
+        {
+          "all_equal": true,
+          "dionysus": 0,
+          "gudhi": 0,
+          "label": "below_min",
+          "probe_value": 0.004451301880180835,
+          "probe_value_hex": "0x1.23b873fffffffp-8",
+          "ripser": 0
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.004451301880180836,
+          "critical_value_hex": "0x1.23b8740000000p-8",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x1.23b8740000000p-8",
+          "probe_value": 0.004451301880180837,
+          "probe_value_hex": "0x1.23b8740000001p-8",
+          "ripser": 1
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.0227537639439106,
+          "critical_value_hex": "0x1.74cc340000000p-6",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.74cc340000000p-6",
+          "probe_value": 0.022753763943910602,
+          "probe_value_hex": "0x1.74cc340000001p-6",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.04761886969208717,
+          "critical_value_hex": "0x1.8618020000000p-5",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.8618020000000p-5",
+          "probe_value": 0.04761886969208718,
+          "probe_value_hex": "0x1.8618020000001p-5",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.06292927265167236,
+          "critical_value_hex": "0x1.01c2200000000p-4",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.01c2200000000p-4",
+          "probe_value": 0.06292927265167238,
+          "probe_value_hex": "0x1.01c2200000001p-4",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.06319598853588104,
+          "critical_value_hex": "0x1.02d9cc0000000p-4",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.02d9cc0000000p-4",
+          "probe_value": 0.06319598853588106,
+          "probe_value_hex": "0x1.02d9cc0000001p-4",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.0846581682562828,
+          "critical_value_hex": "0x1.5ac2860000000p-4",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.5ac2860000000p-4",
+          "probe_value": 0.08465816825628282,
+          "probe_value_hex": "0x1.5ac2860000001p-4",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.09888114780187607,
+          "critical_value_hex": "0x1.9504660000000p-4",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.9504660000000p-4",
+          "probe_value": 0.09888114780187608,
+          "probe_value_hex": "0x1.9504660000001p-4",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.6155114769935608,
+          "critical_value_hex": "0x1.3b24520000000p-1",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x1.3b24520000000p-1",
+          "probe_value": 0.6155114769935609,
+          "probe_value_hex": "0x1.3b24520000001p-1",
+          "ripser": 1
+        }
+      ],
+      "rows": [
+        {
+          "all_equal": false,
+          "dionysus": 1,
+          "gudhi": 0,
+          "label": "below_min",
+          "probe_value": 0.004451302085757265,
+          "probe_value_hex": "0x1.23b874e2089eep-8",
+          "ripser": 1
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.004451302085757266,
+          "critical_value_hex": "0x1.23b874e2089efp-8",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x1.23b874e2089efp-8",
+          "probe_value": 0.004451302085757267,
+          "probe_value_hex": "0x1.23b874e2089f0p-8",
+          "ripser": 1
+        },
+        {
+          "all_equal": false,
+          "critical_value": 0.022753763144808897,
+          "critical_value_hex": "0x1.74cc332458378p-6",
+          "dionysus": 1,
+          "gudhi": 2,
+          "label": "after_0x1.74cc332458378p-6",
+          "probe_value": 0.0227537631448089,
+          "probe_value_hex": "0x1.74cc332458379p-6",
+          "ripser": 1
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.04761887146376113,
+          "critical_value_hex": "0x1.861802f37f3c5p-5",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.861802f37f3c5p-5",
+          "probe_value": 0.047618871463761134,
+          "probe_value_hex": "0x1.861802f37f3c6p-5",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.06292927498995216,
+          "critical_value_hex": "0x1.01c220a0af740p-4",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.01c220a0af740p-4",
+          "probe_value": 0.06292927498995217,
+          "probe_value_hex": "0x1.01c220a0af741p-4",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.0631959887100773,
+          "critical_value_hex": "0x1.02d9cc0bf87e3p-4",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.02d9cc0bf87e3p-4",
+          "probe_value": 0.06319598871007731,
+          "probe_value_hex": "0x1.02d9cc0bf87e4p-4",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.08465816459599482,
+          "critical_value_hex": "0x1.5ac2850477886p-4",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.5ac2850477886p-4",
+          "probe_value": 0.08465816459599483,
+          "probe_value_hex": "0x1.5ac2850477887p-4",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.09888114894054817,
+          "critical_value_hex": "0x1.9504664e3fbb4p-4",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.9504664e3fbb4p-4",
+          "probe_value": 0.09888114894054818,
+          "probe_value_hex": "0x1.9504664e3fbb5p-4",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.6155114860691003,
+          "critical_value_hex": "0x1.3b24524df5529p-1",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x1.3b24524df5529p-1",
+          "probe_value": 0.6155114860691004,
+          "probe_value_hex": "0x1.3b24524df552ap-1",
+          "ripser": 1
+        }
+      ]
+    },
+    "library_agreement": {
+      "exact_all_libraries": false,
+      "float32_stable_all_libraries": true,
+      "pairwise": {
+        "gudhi__dionysus": {
+          "exact_match": false,
+          "float32_match": true,
+          "max_abs_finite_endpoint_diff": 9.075539542102717e-09
+        },
+        "gudhi__ripser": {
+          "exact_match": false,
+          "float32_match": true,
+          "max_abs_finite_endpoint_diff": 9.075539542102717e-09
+        },
+        "ripser__dionysus": {
+          "exact_match": true,
+          "float32_match": true,
+          "max_abs_finite_endpoint_diff": 0.0
+        }
+      }
+    },
+    "reference_consistency": {
+      "common_chain_matches_saved": true,
+      "encoded_reference_matches_saved": true,
+      "theorem_example_matches_saved": true
+    },
+    "theorem_example_summary": {
+      "benchmark_id": "aah_n8_l1p50_phi0p10_s0__floating",
+      "births_match_local_minima": true,
+      "family": "aah",
+      "finite_deaths_match_merge_heights": true,
+      "local_minima_count": 2,
+      "mode": "floating",
+      "nonzero_interval_count": 2
+    }
+  },
+  "family": "aah",
+  "label": "AAH profile n=8, lambda=1.50, phase=0.10, state=0",
+  "mode": "floating",
+  "nonzero_interval_count": 2,
+  "path_graph": {
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "vertex_count": 8,
+    "vertices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "proof_obligations": [
+    "Define the lower-star filtration on the finite path graph with vertex filtration f(i) and edge filtration max(f(i), f(i+1)).",
+    "Prove that the reference elder-rule merge algorithm computes the H0 persistence multiset for this finite path filtration.",
+    "Prove that nonzero births are exactly the strict local minima of the path signal.",
+    "Prove that finite nonzero deaths are exactly the merge heights of components whose younger birth is strictly below the merge height.",
+    "Prove that removing zero-length intervals preserves the persistence diagram up to zero bottleneck and Wasserstein distance by matching those intervals to the diagonal."
+  ],
+  "reference_encoding": {
+    "critical_values": [
+      {
+        "value": 0.004451302085757266,
+        "value_hex": "0x1.23b874e2089efp-8"
+      },
+      {
+        "value": 0.022753763144808897,
+        "value_hex": "0x1.74cc332458378p-6"
+      },
+      {
+        "value": 0.04761887146376113,
+        "value_hex": "0x1.861802f37f3c5p-5"
+      },
+      {
+        "value": 0.06292927498995216,
+        "value_hex": "0x1.01c220a0af740p-4"
+      },
+      {
+        "value": 0.0631959887100773,
+        "value_hex": "0x1.02d9cc0bf87e3p-4"
+      },
+      {
+        "value": 0.08465816459599482,
+        "value_hex": "0x1.5ac2850477886p-4"
+      },
+      {
+        "value": 0.09888114894054817,
+        "value_hex": "0x1.9504664e3fbb4p-4"
+      },
+      {
+        "value": 0.6155114860691003,
+        "value_hex": "0x1.3b24524df5529p-1"
+      }
+    ],
+    "edges": [
+      {
+        "filtration": 0.06292927498995216,
+        "filtration_hex": "0x1.01c220a0af740p-4",
+        "vertices": [
+          0,
+          1
+        ]
+      },
+      {
+        "filtration": 0.0631959887100773,
+        "filtration_hex": "0x1.02d9cc0bf87e3p-4",
+        "vertices": [
+          1,
+          2
+        ]
+      },
+      {
+        "filtration": 0.09888114894054817,
+        "filtration_hex": "0x1.9504664e3fbb4p-4",
+        "vertices": [
+          2,
+          3
+        ]
+      },
+      {
+        "filtration": 0.6155114860691003,
+        "filtration_hex": "0x1.3b24524df5529p-1",
+        "vertices": [
+          3,
+          4
+        ]
+      },
+      {
+        "filtration": 0.6155114860691003,
+        "filtration_hex": "0x1.3b24524df5529p-1",
+        "vertices": [
+          4,
+          5
+        ]
+      },
+      {
+        "filtration": 0.08465816459599482,
+        "filtration_hex": "0x1.5ac2850477886p-4",
+        "vertices": [
+          5,
+          6
+        ]
+      },
+      {
+        "filtration": 0.04761887146376113,
+        "filtration_hex": "0x1.861802f37f3c5p-5",
+        "vertices": [
+          6,
+          7
+        ]
+      }
+    ],
+    "signal": [
+      0.004451302085757266,
+      0.06292927498995216,
+      0.0631959887100773,
+      0.09888114894054817,
+      0.6155114860691003,
+      0.08465816459599482,
+      0.04761887146376113,
+      0.022753763144808897
+    ],
+    "vertices": [
+      {
+        "filtration": 0.004451302085757266,
+        "filtration_hex": "0x1.23b874e2089efp-8",
+        "index": 0
+      },
+      {
+        "filtration": 0.06292927498995216,
+        "filtration_hex": "0x1.01c220a0af740p-4",
+        "index": 1
+      },
+      {
+        "filtration": 0.0631959887100773,
+        "filtration_hex": "0x1.02d9cc0bf87e3p-4",
+        "index": 2
+      },
+      {
+        "filtration": 0.09888114894054817,
+        "filtration_hex": "0x1.9504664e3fbb4p-4",
+        "index": 3
+      },
+      {
+        "filtration": 0.6155114860691003,
+        "filtration_hex": "0x1.3b24524df5529p-1",
+        "index": 4
+      },
+      {
+        "filtration": 0.08465816459599482,
+        "filtration_hex": "0x1.5ac2850477886p-4",
+        "index": 5
+      },
+      {
+        "filtration": 0.04761887146376113,
+        "filtration_hex": "0x1.861802f37f3c5p-5",
+        "index": 6
+      },
+      {
+        "filtration": 0.022753763144808897,
+        "filtration_hex": "0x1.74cc332458378p-6",
+        "index": 7
+      }
+    ]
+  },
+  "reference_semantics": {
+    "all_intervals": [
+      {
+        "birth": 0.04761887146376113,
+        "birth_hex": "0x1.861802f37f3c5p-5",
+        "birth_index": 6,
+        "death": 0.04761887146376113,
+        "death_edge": [
+          6,
+          7
+        ],
+        "death_hex": "0x1.861802f37f3c5p-5",
+        "is_zero_length": true
+      },
+      {
+        "birth": 0.06292927498995216,
+        "birth_hex": "0x1.01c220a0af740p-4",
+        "birth_index": 1,
+        "death": 0.06292927498995216,
+        "death_edge": [
+          0,
+          1
+        ],
+        "death_hex": "0x1.01c220a0af740p-4",
+        "is_zero_length": true
+      },
+      {
+        "birth": 0.0631959887100773,
+        "birth_hex": "0x1.02d9cc0bf87e3p-4",
+        "birth_index": 2,
+        "death": 0.0631959887100773,
+        "death_edge": [
+          1,
+          2
+        ],
+        "death_hex": "0x1.02d9cc0bf87e3p-4",
+        "is_zero_length": true
+      },
+      {
+        "birth": 0.08465816459599482,
+        "birth_hex": "0x1.5ac2850477886p-4",
+        "birth_index": 5,
+        "death": 0.08465816459599482,
+        "death_edge": [
+          5,
+          6
+        ],
+        "death_hex": "0x1.5ac2850477886p-4",
+        "is_zero_length": true
+      },
+      {
+        "birth": 0.09888114894054817,
+        "birth_hex": "0x1.9504664e3fbb4p-4",
+        "birth_index": 3,
+        "death": 0.09888114894054817,
+        "death_edge": [
+          2,
+          3
+        ],
+        "death_hex": "0x1.9504664e3fbb4p-4",
+        "is_zero_length": true
+      },
+      {
+        "birth": 0.6155114860691003,
+        "birth_hex": "0x1.3b24524df5529p-1",
+        "birth_index": 4,
+        "death": 0.6155114860691003,
+        "death_edge": [
+          3,
+          4
+        ],
+        "death_hex": "0x1.3b24524df5529p-1",
+        "is_zero_length": true
+      },
+      {
+        "birth": 0.022753763144808897,
+        "birth_hex": "0x1.74cc332458378p-6",
+        "birth_index": 7,
+        "death": 0.6155114860691003,
+        "death_edge": [
+          4,
+          5
+        ],
+        "death_hex": "0x1.3b24524df5529p-1",
+        "is_zero_length": false
+      },
+      {
+        "birth": 0.004451302085757266,
+        "birth_hex": "0x1.23b874e2089efp-8",
+        "birth_index": 0,
+        "death": "inf",
+        "death_edge": null,
+        "death_hex": "inf",
+        "is_zero_length": false
+      }
+    ],
+    "births_match_local_minima": true,
+    "finite_deaths_match_merge_heights": true,
+    "local_minima": [
+      {
+        "index": 0,
+        "value": 0.004451302085757266,
+        "value_hex": "0x1.23b874e2089efp-8"
+      },
+      {
+        "index": 7,
+        "value": 0.022753763144808897,
+        "value_hex": "0x1.74cc332458378p-6"
+      }
+    ],
+    "merge_events": [
+      {
+        "edge": [
+          6,
+          7
+        ],
+        "elder_birth": 0.022753763144808897,
+        "elder_birth_index": 7,
+        "merge_height": 0.04761887146376113,
+        "merge_height_hex": "0x1.861802f37f3c5p-5",
+        "younger_birth": 0.04761887146376113,
+        "younger_birth_index": 6
+      },
+      {
+        "edge": [
+          0,
+          1
+        ],
+        "elder_birth": 0.004451302085757266,
+        "elder_birth_index": 0,
+        "merge_height": 0.06292927498995216,
+        "merge_height_hex": "0x1.01c220a0af740p-4",
+        "younger_birth": 0.06292927498995216,
+        "younger_birth_index": 1
+      },
+      {
+        "edge": [
+          1,
+          2
+        ],
+        "elder_birth": 0.004451302085757266,
+        "elder_birth_index": 0,
+        "merge_height": 0.0631959887100773,
+        "merge_height_hex": "0x1.02d9cc0bf87e3p-4",
+        "younger_birth": 0.0631959887100773,
+        "younger_birth_index": 2
+      },
+      {
+        "edge": [
+          5,
+          6
+        ],
+        "elder_birth": 0.022753763144808897,
+        "elder_birth_index": 7,
+        "merge_height": 0.08465816459599482,
+        "merge_height_hex": "0x1.5ac2850477886p-4",
+        "younger_birth": 0.08465816459599482,
+        "younger_birth_index": 5
+      },
+      {
+        "edge": [
+          2,
+          3
+        ],
+        "elder_birth": 0.004451302085757266,
+        "elder_birth_index": 0,
+        "merge_height": 0.09888114894054817,
+        "merge_height_hex": "0x1.9504664e3fbb4p-4",
+        "younger_birth": 0.09888114894054817,
+        "younger_birth_index": 3
+      },
+      {
+        "edge": [
+          3,
+          4
+        ],
+        "elder_birth": 0.004451302085757266,
+        "elder_birth_index": 0,
+        "merge_height": 0.6155114860691003,
+        "merge_height_hex": "0x1.3b24524df5529p-1",
+        "younger_birth": 0.6155114860691003,
+        "younger_birth_index": 4
+      },
+      {
+        "edge": [
+          4,
+          5
+        ],
+        "elder_birth": 0.004451302085757266,
+        "elder_birth_index": 0,
+        "merge_height": 0.6155114860691003,
+        "merge_height_hex": "0x1.3b24524df5529p-1",
+        "younger_birth": 0.022753763144808897,
+        "younger_birth_index": 7
+      }
+    ],
+    "nonzero_intervals": [
+      {
+        "birth": 0.022753763144808897,
+        "birth_hex": "0x1.74cc332458378p-6",
+        "birth_index": 7,
+        "death": 0.6155114860691003,
+        "death_edge": [
+          4,
+          5
+        ],
+        "death_hex": "0x1.3b24524df5529p-1",
+        "is_zero_length": false
+      },
+      {
+        "birth": 0.004451302085757266,
+        "birth_hex": "0x1.23b874e2089efp-8",
+        "birth_index": 0,
+        "death": "inf",
+        "death_edge": null,
+        "death_hex": "inf",
+        "is_zero_length": false
+      }
+    ]
+  },
+  "restricted_setting": {
+    "edge_filtration_rule": "max(endpoint_heights)",
+    "elder_rule_tie_break": "older=(smaller birth value, then smaller birth index)",
+    "graph_type": "finite_path",
+    "homology_dimension": 0,
+    "lower_star_encodings": {
+      "dionysus": "fill_freudenthal(signal)",
+      "gudhi": "CubicalComplex(vertices=signal)",
+      "ripser": "sparse distance matrix with diagonal births and edge weights=max endpoint heights"
+    },
+    "signal_encoding": "vertex_filtration_on_path_graph"
+  },
+  "signal": {
+    "length": 8,
+    "signal_hash": "006f84e7ef1dea8e35039751fdac5319340069400ef23e04ab72b20524b7b99f",
+    "values": [
+      0.004451302085757266,
+      0.06292927498995216,
+      0.0631959887100773,
+      0.09888114894054817,
+      0.6155114860691003,
+      0.08465816459599482,
+      0.04761887146376113,
+      0.022753763144808897
+    ],
+    "values_hex": [
+      "0x1.23b874e2089efp-8",
+      "0x1.01c220a0af740p-4",
+      "0x1.02d9cc0bf87e3p-4",
+      "0x1.9504664e3fbb4p-4",
+      "0x1.3b24524df5529p-1",
+      "0x1.5ac2850477886p-4",
+      "0x1.861802f37f3c5p-5",
+      "0x1.74cc332458378p-6"
+    ]
+  },
+  "source_artifacts": {
+    "betti0_summary": {
+      "path": "artifacts/lowerstar_h0/betti_summaries/aah_n8_l1p50_phi0p10_s0__floating/betti0_summary.json",
+      "sha256": "3b0939155536f409acfcaa1e369f31535a3348b9b60d05974bb73f299dc57eb5"
+    },
+    "case_payload": {
+      "path": "artifacts/lowerstar_h0/cases/aah_n8_l1p50_phi0p10_s0__floating.json",
+      "sha256": "0a7cafe408cf9e950b164bfdac2b516bb00f454ff723e39170a3efb9c1c0e7ac"
+    },
+    "common_chain": {
+      "path": "artifacts/lowerstar_h0/encoded_filtrations/aah_n8_l1p50_phi0p10_s0__floating/common_chain.json",
+      "sha256": "fd19a9965c2f752c96ab0f68d20e7c68992a0c1480e8d30cf2bbcc40554006ad"
+    },
+    "dionysus_freudenthal": {
+      "path": "artifacts/lowerstar_h0/encoded_filtrations/aah_n8_l1p50_phi0p10_s0__floating/dionysus_freudenthal.json",
+      "sha256": "023bef9aedbf9b51f26c7b3a0c2bcacc7605797e5f479628fe70670816c45041"
+    },
+    "gudhi_cubical_encoding": {
+      "path": "artifacts/lowerstar_h0/encoded_filtrations/aah_n8_l1p50_phi0p10_s0__floating/gudhi_cubical_encoding.json",
+      "sha256": "3055621a07e4918cb9b484f8948085840ca9d9632b09ed795558dc8d4223ccf6"
+    },
+    "reference_theorem_events": {
+      "path": "artifacts/lowerstar_h0/encoded_filtrations/aah_n8_l1p50_phi0p10_s0__floating/reference_theorem_events.json",
+      "sha256": "86d2fdf082cdacf8ed255ebf8e93e9e31c5eed79f0608cdc83e4a40f3c1dca16"
+    },
+    "ripser_sparse_matrix": {
+      "path": "artifacts/lowerstar_h0/encoded_filtrations/aah_n8_l1p50_phi0p10_s0__floating/ripser_sparse_matrix.json",
+      "sha256": "4aad49733d5873ec103946da4c0e4f520117d01f7dc3fb8cd2b63045d1b140ba"
+    },
+    "signal_json": {
+      "path": "artifacts/lowerstar_h0/signals/aah_n8_l1p50_phi0p10_s0__floating/signal.json",
+      "sha256": "d9984645f5f06d36d94dbffcecf2a9024dae932bdc1387104574a41af2ddd09e"
+    },
+    "signal_manifest": {
+      "benchmark_id": "aah_n8_l1p50_phi0p10_s0__floating",
+      "path": "artifacts/lowerstar_h0/signals/aah_n8_l1p50_phi0p10_s0__floating/manifest.json",
+      "sha256": "71d59cdb7dc9c3646339fd2848f37c0462f54e23391a2de682921d54c50f045f"
+    },
+    "theorem_example": {
+      "path": "artifacts/lowerstar_h0/theorem_examples/aah_n8_l1p50_phi0p10_s0__floating.json",
+      "sha256": "86d2fdf082cdacf8ed255ebf8e93e9e31c5eed79f0608cdc83e4a40f3c1dca16"
+    }
+  },
+  "spec_version": 1,
+  "task_id": "PH-FORMALIZATION-PATH-H0-002",
+  "theorem_targets": {
+    "births_at_local_minima": {
+      "expected": true,
+      "statement": "For a finite path lower-star filtration in H0, the births of the nonzero persistence intervals occur exactly at strict local minima.",
+      "verified_by_reference": true
+    },
+    "deaths_at_merge_heights": {
+      "expected": true,
+      "statement": "For a finite path lower-star filtration in H0, the finite deaths of the nonzero persistence intervals occur exactly at the elder-rule merge heights.",
+      "verified_by_reference": true
+    },
+    "drop_zero_length_distance_zero": {
+      "expected_bottleneck_distance": 0.0,
+      "expected_wasserstein_q2_distance": 0.0,
+      "statement": "Removing zero-length intervals from the path-H0 interval multiset leaves bottleneck distance 0 and Wasserstein-q2 distance 0.",
+      "verified_bottleneck_distance": 0.0,
+      "verified_wasserstein_q2_distance": 0.0
+    }
+  },
+  "traceability": {
+    "case_payload_benchmark_id": "aah_n8_l1p50_phi0p10_s0__floating",
+    "signal_manifest_benchmark_id": "aah_n8_l1p50_phi0p10_s0__floating",
+    "theorem_example_benchmark_id": "aah_n8_l1p50_phi0p10_s0__floating"
+  },
+  "zero_length_interval_count": 6
+}

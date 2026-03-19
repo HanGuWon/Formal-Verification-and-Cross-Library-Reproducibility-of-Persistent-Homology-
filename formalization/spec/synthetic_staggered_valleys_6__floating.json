@@ -1,0 +1,643 @@
+{
+  "benchmark_id": "synthetic_staggered_valleys_6__floating",
+  "computational_witness": {
+    "betti_summary": {
+      "all_equal": true,
+      "float32_all_equal": true,
+      "float32_rows": [
+        {
+          "all_equal": true,
+          "dionysus": 0,
+          "gudhi": 0,
+          "label": "below_min",
+          "probe_value": -5e-324,
+          "probe_value_hex": "-0x0.0000000000001p-1022",
+          "ripser": 0
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.0,
+          "critical_value_hex": "0x0.0p+0",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x0.0p+0",
+          "probe_value": 5e-324,
+          "probe_value_hex": "0x0.0000000000001p-1022",
+          "ripser": 1
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.125,
+          "critical_value_hex": "0x1.0000000000000p-3",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.0000000000000p-3",
+          "probe_value": 0.12500000000000003,
+          "probe_value_hex": "0x1.0000000000001p-3",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.25,
+          "critical_value_hex": "0x1.0000000000000p-2",
+          "dionysus": 3,
+          "gudhi": 3,
+          "label": "after_0x1.0000000000000p-2",
+          "probe_value": 0.25000000000000006,
+          "probe_value_hex": "0x1.0000000000001p-2",
+          "ripser": 3
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.5,
+          "critical_value_hex": "0x1.0000000000000p-1",
+          "dionysus": 3,
+          "gudhi": 3,
+          "label": "after_0x1.0000000000000p-1",
+          "probe_value": 0.5000000000000001,
+          "probe_value_hex": "0x1.0000000000001p-1",
+          "ripser": 3
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.625,
+          "critical_value_hex": "0x1.4000000000000p-1",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.4000000000000p-1",
+          "probe_value": 0.6250000000000001,
+          "probe_value_hex": "0x1.4000000000001p-1",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.75,
+          "critical_value_hex": "0x1.8000000000000p-1",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x1.8000000000000p-1",
+          "probe_value": 0.7500000000000001,
+          "probe_value_hex": "0x1.8000000000001p-1",
+          "ripser": 1
+        }
+      ],
+      "rows": [
+        {
+          "all_equal": true,
+          "dionysus": 0,
+          "gudhi": 0,
+          "label": "below_min",
+          "probe_value": -5e-324,
+          "probe_value_hex": "-0x0.0000000000001p-1022",
+          "ripser": 0
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.0,
+          "critical_value_hex": "0x0.0p+0",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x0.0p+0",
+          "probe_value": 5e-324,
+          "probe_value_hex": "0x0.0000000000001p-1022",
+          "ripser": 1
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.125,
+          "critical_value_hex": "0x1.0000000000000p-3",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.0000000000000p-3",
+          "probe_value": 0.12500000000000003,
+          "probe_value_hex": "0x1.0000000000001p-3",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.25,
+          "critical_value_hex": "0x1.0000000000000p-2",
+          "dionysus": 3,
+          "gudhi": 3,
+          "label": "after_0x1.0000000000000p-2",
+          "probe_value": 0.25000000000000006,
+          "probe_value_hex": "0x1.0000000000001p-2",
+          "ripser": 3
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.5,
+          "critical_value_hex": "0x1.0000000000000p-1",
+          "dionysus": 3,
+          "gudhi": 3,
+          "label": "after_0x1.0000000000000p-1",
+          "probe_value": 0.5000000000000001,
+          "probe_value_hex": "0x1.0000000000001p-1",
+          "ripser": 3
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.625,
+          "critical_value_hex": "0x1.4000000000000p-1",
+          "dionysus": 2,
+          "gudhi": 2,
+          "label": "after_0x1.4000000000000p-1",
+          "probe_value": 0.6250000000000001,
+          "probe_value_hex": "0x1.4000000000001p-1",
+          "ripser": 2
+        },
+        {
+          "all_equal": true,
+          "critical_value": 0.75,
+          "critical_value_hex": "0x1.8000000000000p-1",
+          "dionysus": 1,
+          "gudhi": 1,
+          "label": "after_0x1.8000000000000p-1",
+          "probe_value": 0.7500000000000001,
+          "probe_value_hex": "0x1.8000000000001p-1",
+          "ripser": 1
+        }
+      ]
+    },
+    "library_agreement": {
+      "exact_all_libraries": true,
+      "float32_stable_all_libraries": true,
+      "pairwise": {
+        "gudhi__dionysus": {
+          "exact_match": true,
+          "float32_match": true,
+          "max_abs_finite_endpoint_diff": 0.0
+        },
+        "gudhi__ripser": {
+          "exact_match": true,
+          "float32_match": true,
+          "max_abs_finite_endpoint_diff": 0.0
+        },
+        "ripser__dionysus": {
+          "exact_match": true,
+          "float32_match": true,
+          "max_abs_finite_endpoint_diff": 0.0
+        }
+      }
+    },
+    "reference_consistency": {
+      "common_chain_matches_saved": true,
+      "encoded_reference_matches_saved": true,
+      "theorem_example_matches_saved": true
+    },
+    "theorem_example_summary": {
+      "benchmark_id": "synthetic_staggered_valleys_6__floating",
+      "births_match_local_minima": true,
+      "family": "synthetic",
+      "finite_deaths_match_merge_heights": true,
+      "local_minima_count": 3,
+      "mode": "floating",
+      "nonzero_interval_count": 3
+    }
+  },
+  "family": "synthetic",
+  "label": "Synthetic staggered valleys (n=6)",
+  "mode": "floating",
+  "nonzero_interval_count": 3,
+  "path_graph": {
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "vertex_count": 6,
+    "vertices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "proof_obligations": [
+    "Define the lower-star filtration on the finite path graph with vertex filtration f(i) and edge filtration max(f(i), f(i+1)).",
+    "Prove that the reference elder-rule merge algorithm computes the H0 persistence multiset for this finite path filtration.",
+    "Prove that nonzero births are exactly the strict local minima of the path signal.",
+    "Prove that finite nonzero deaths are exactly the merge heights of components whose younger birth is strictly below the merge height.",
+    "Prove that removing zero-length intervals preserves the persistence diagram up to zero bottleneck and Wasserstein distance by matching those intervals to the diagonal."
+  ],
+  "reference_encoding": {
+    "critical_values": [
+      {
+        "value": 0.0,
+        "value_hex": "0x0.0p+0"
+      },
+      {
+        "value": 0.125,
+        "value_hex": "0x1.0000000000000p-3"
+      },
+      {
+        "value": 0.25,
+        "value_hex": "0x1.0000000000000p-2"
+      },
+      {
+        "value": 0.5,
+        "value_hex": "0x1.0000000000000p-1"
+      },
+      {
+        "value": 0.625,
+        "value_hex": "0x1.4000000000000p-1"
+      },
+      {
+        "value": 0.75,
+        "value_hex": "0x1.8000000000000p-1"
+      }
+    ],
+    "edges": [
+      {
+        "filtration": 0.5,
+        "filtration_hex": "0x1.0000000000000p-1",
+        "vertices": [
+          0,
+          1
+        ]
+      },
+      {
+        "filtration": 0.75,
+        "filtration_hex": "0x1.8000000000000p-1",
+        "vertices": [
+          1,
+          2
+        ]
+      },
+      {
+        "filtration": 0.75,
+        "filtration_hex": "0x1.8000000000000p-1",
+        "vertices": [
+          2,
+          3
+        ]
+      },
+      {
+        "filtration": 0.625,
+        "filtration_hex": "0x1.4000000000000p-1",
+        "vertices": [
+          3,
+          4
+        ]
+      },
+      {
+        "filtration": 0.625,
+        "filtration_hex": "0x1.4000000000000p-1",
+        "vertices": [
+          4,
+          5
+        ]
+      }
+    ],
+    "signal": [
+      0.5,
+      0.0,
+      0.75,
+      0.125,
+      0.625,
+      0.25
+    ],
+    "vertices": [
+      {
+        "filtration": 0.5,
+        "filtration_hex": "0x1.0000000000000p-1",
+        "index": 0
+      },
+      {
+        "filtration": 0.0,
+        "filtration_hex": "0x0.0p+0",
+        "index": 1
+      },
+      {
+        "filtration": 0.75,
+        "filtration_hex": "0x1.8000000000000p-1",
+        "index": 2
+      },
+      {
+        "filtration": 0.125,
+        "filtration_hex": "0x1.0000000000000p-3",
+        "index": 3
+      },
+      {
+        "filtration": 0.625,
+        "filtration_hex": "0x1.4000000000000p-1",
+        "index": 4
+      },
+      {
+        "filtration": 0.25,
+        "filtration_hex": "0x1.0000000000000p-2",
+        "index": 5
+      }
+    ]
+  },
+  "reference_semantics": {
+    "all_intervals": [
+      {
+        "birth": 0.5,
+        "birth_hex": "0x1.0000000000000p-1",
+        "birth_index": 0,
+        "death": 0.5,
+        "death_edge": [
+          0,
+          1
+        ],
+        "death_hex": "0x1.0000000000000p-1",
+        "is_zero_length": true
+      },
+      {
+        "birth": 0.625,
+        "birth_hex": "0x1.4000000000000p-1",
+        "birth_index": 4,
+        "death": 0.625,
+        "death_edge": [
+          3,
+          4
+        ],
+        "death_hex": "0x1.4000000000000p-1",
+        "is_zero_length": true
+      },
+      {
+        "birth": 0.25,
+        "birth_hex": "0x1.0000000000000p-2",
+        "birth_index": 5,
+        "death": 0.625,
+        "death_edge": [
+          4,
+          5
+        ],
+        "death_hex": "0x1.4000000000000p-1",
+        "is_zero_length": false
+      },
+      {
+        "birth": 0.75,
+        "birth_hex": "0x1.8000000000000p-1",
+        "birth_index": 2,
+        "death": 0.75,
+        "death_edge": [
+          1,
+          2
+        ],
+        "death_hex": "0x1.8000000000000p-1",
+        "is_zero_length": true
+      },
+      {
+        "birth": 0.125,
+        "birth_hex": "0x1.0000000000000p-3",
+        "birth_index": 3,
+        "death": 0.75,
+        "death_edge": [
+          2,
+          3
+        ],
+        "death_hex": "0x1.8000000000000p-1",
+        "is_zero_length": false
+      },
+      {
+        "birth": 0.0,
+        "birth_hex": "0x0.0p+0",
+        "birth_index": 1,
+        "death": "inf",
+        "death_edge": null,
+        "death_hex": "inf",
+        "is_zero_length": false
+      }
+    ],
+    "births_match_local_minima": true,
+    "finite_deaths_match_merge_heights": true,
+    "local_minima": [
+      {
+        "index": 1,
+        "value": 0.0,
+        "value_hex": "0x0.0p+0"
+      },
+      {
+        "index": 3,
+        "value": 0.125,
+        "value_hex": "0x1.0000000000000p-3"
+      },
+      {
+        "index": 5,
+        "value": 0.25,
+        "value_hex": "0x1.0000000000000p-2"
+      }
+    ],
+    "merge_events": [
+      {
+        "edge": [
+          0,
+          1
+        ],
+        "elder_birth": 0.0,
+        "elder_birth_index": 1,
+        "merge_height": 0.5,
+        "merge_height_hex": "0x1.0000000000000p-1",
+        "younger_birth": 0.5,
+        "younger_birth_index": 0
+      },
+      {
+        "edge": [
+          3,
+          4
+        ],
+        "elder_birth": 0.125,
+        "elder_birth_index": 3,
+        "merge_height": 0.625,
+        "merge_height_hex": "0x1.4000000000000p-1",
+        "younger_birth": 0.625,
+        "younger_birth_index": 4
+      },
+      {
+        "edge": [
+          4,
+          5
+        ],
+        "elder_birth": 0.125,
+        "elder_birth_index": 3,
+        "merge_height": 0.625,
+        "merge_height_hex": "0x1.4000000000000p-1",
+        "younger_birth": 0.25,
+        "younger_birth_index": 5
+      },
+      {
+        "edge": [
+          1,
+          2
+        ],
+        "elder_birth": 0.0,
+        "elder_birth_index": 1,
+        "merge_height": 0.75,
+        "merge_height_hex": "0x1.8000000000000p-1",
+        "younger_birth": 0.75,
+        "younger_birth_index": 2
+      },
+      {
+        "edge": [
+          2,
+          3
+        ],
+        "elder_birth": 0.0,
+        "elder_birth_index": 1,
+        "merge_height": 0.75,
+        "merge_height_hex": "0x1.8000000000000p-1",
+        "younger_birth": 0.125,
+        "younger_birth_index": 3
+      }
+    ],
+    "nonzero_intervals": [
+      {
+        "birth": 0.25,
+        "birth_hex": "0x1.0000000000000p-2",
+        "birth_index": 5,
+        "death": 0.625,
+        "death_edge": [
+          4,
+          5
+        ],
+        "death_hex": "0x1.4000000000000p-1",
+        "is_zero_length": false
+      },
+      {
+        "birth": 0.125,
+        "birth_hex": "0x1.0000000000000p-3",
+        "birth_index": 3,
+        "death": 0.75,
+        "death_edge": [
+          2,
+          3
+        ],
+        "death_hex": "0x1.8000000000000p-1",
+        "is_zero_length": false
+      },
+      {
+        "birth": 0.0,
+        "birth_hex": "0x0.0p+0",
+        "birth_index": 1,
+        "death": "inf",
+        "death_edge": null,
+        "death_hex": "inf",
+        "is_zero_length": false
+      }
+    ]
+  },
+  "restricted_setting": {
+    "edge_filtration_rule": "max(endpoint_heights)",
+    "elder_rule_tie_break": "older=(smaller birth value, then smaller birth index)",
+    "graph_type": "finite_path",
+    "homology_dimension": 0,
+    "lower_star_encodings": {
+      "dionysus": "fill_freudenthal(signal)",
+      "gudhi": "CubicalComplex(vertices=signal)",
+      "ripser": "sparse distance matrix with diagonal births and edge weights=max endpoint heights"
+    },
+    "signal_encoding": "vertex_filtration_on_path_graph"
+  },
+  "signal": {
+    "length": 6,
+    "signal_hash": "46eedd958b658040f749ac8aedaf90f9510d05e1e92e247f6884ec3e7b54cbfa",
+    "values": [
+      0.5,
+      0.0,
+      0.75,
+      0.125,
+      0.625,
+      0.25
+    ],
+    "values_hex": [
+      "0x1.0000000000000p-1",
+      "0x0.0p+0",
+      "0x1.8000000000000p-1",
+      "0x1.0000000000000p-3",
+      "0x1.4000000000000p-1",
+      "0x1.0000000000000p-2"
+    ]
+  },
+  "source_artifacts": {
+    "betti0_summary": {
+      "path": "artifacts/lowerstar_h0/betti_summaries/synthetic_staggered_valleys_6__floating/betti0_summary.json",
+      "sha256": "0951dfec6fa3453474905ec26b942e1514e8d3c035fe189269a994cec4f61f9b"
+    },
+    "case_payload": {
+      "path": "artifacts/lowerstar_h0/cases/synthetic_staggered_valleys_6__floating.json",
+      "sha256": "be7fff6f147ed11e94a2ca1338ec9aca233b907da6dc9c4cb72c71fbcd9a0c04"
+    },
+    "common_chain": {
+      "path": "artifacts/lowerstar_h0/encoded_filtrations/synthetic_staggered_valleys_6__floating/common_chain.json",
+      "sha256": "b1045208c81e4d26b2add1022fe1e81cc5772c494939230fe0eaf0ca97b80150"
+    },
+    "dionysus_freudenthal": {
+      "path": "artifacts/lowerstar_h0/encoded_filtrations/synthetic_staggered_valleys_6__floating/dionysus_freudenthal.json",
+      "sha256": "337ef1f2b0342f897cfbb45c55a8994508e205370d4dbe01bd24460dedc58373"
+    },
+    "gudhi_cubical_encoding": {
+      "path": "artifacts/lowerstar_h0/encoded_filtrations/synthetic_staggered_valleys_6__floating/gudhi_cubical_encoding.json",
+      "sha256": "2eeb6dc01af7076a0e1901ebee17ca797ea20c654da77cd68f349cc7e8507254"
+    },
+    "reference_theorem_events": {
+      "path": "artifacts/lowerstar_h0/encoded_filtrations/synthetic_staggered_valleys_6__floating/reference_theorem_events.json",
+      "sha256": "b57a16dfd72b1724a4f9144ae0883c561b4bd1631f61acba73b9b146a6cb9947"
+    },
+    "ripser_sparse_matrix": {
+      "path": "artifacts/lowerstar_h0/encoded_filtrations/synthetic_staggered_valleys_6__floating/ripser_sparse_matrix.json",
+      "sha256": "7341317ae8a5847c44d47724e2709a43f2a0811aa480ede608c0d92d037faeb7"
+    },
+    "signal_json": {
+      "path": "artifacts/lowerstar_h0/signals/synthetic_staggered_valleys_6__floating/signal.json",
+      "sha256": "9039d874ceb4d69b2a95ccd37728ebebd4988d554289e6b592599663fa8c3160"
+    },
+    "signal_manifest": {
+      "benchmark_id": "synthetic_staggered_valleys_6__floating",
+      "path": "artifacts/lowerstar_h0/signals/synthetic_staggered_valleys_6__floating/manifest.json",
+      "sha256": "c31d1d94fc7af077a5a75c95b292b0920ae4d42f5647d48f510bd18c9f1189a4"
+    },
+    "theorem_example": {
+      "path": "artifacts/lowerstar_h0/theorem_examples/synthetic_staggered_valleys_6__floating.json",
+      "sha256": "b57a16dfd72b1724a4f9144ae0883c561b4bd1631f61acba73b9b146a6cb9947"
+    }
+  },
+  "spec_version": 1,
+  "task_id": "PH-FORMALIZATION-PATH-H0-002",
+  "theorem_targets": {
+    "births_at_local_minima": {
+      "expected": true,
+      "statement": "For a finite path lower-star filtration in H0, the births of the nonzero persistence intervals occur exactly at strict local minima.",
+      "verified_by_reference": true
+    },
+    "deaths_at_merge_heights": {
+      "expected": true,
+      "statement": "For a finite path lower-star filtration in H0, the finite deaths of the nonzero persistence intervals occur exactly at the elder-rule merge heights.",
+      "verified_by_reference": true
+    },
+    "drop_zero_length_distance_zero": {
+      "expected_bottleneck_distance": 0.0,
+      "expected_wasserstein_q2_distance": 0.0,
+      "statement": "Removing zero-length intervals from the path-H0 interval multiset leaves bottleneck distance 0 and Wasserstein-q2 distance 0.",
+      "verified_bottleneck_distance": 0.0,
+      "verified_wasserstein_q2_distance": 0.0
+    }
+  },
+  "traceability": {
+    "case_payload_benchmark_id": "synthetic_staggered_valleys_6__floating",
+    "signal_manifest_benchmark_id": "synthetic_staggered_valleys_6__floating",
+    "theorem_example_benchmark_id": "synthetic_staggered_valleys_6__floating"
+  },
+  "zero_length_interval_count": 3
+}
