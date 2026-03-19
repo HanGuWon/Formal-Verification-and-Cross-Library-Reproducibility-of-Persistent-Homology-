@@ -1,0 +1,46 @@
+scope,comparison_mode,comparison_mode_label,pair,dimension,total_dimension_records,exact_count,different_count,exact_rate
+all_dimensions,distance_zero_semantic,distance_zero_semantic,gudhi__dionysus,all,4,3,1,0.75
+all_dimensions,distance_zero_semantic,distance_zero_semantic,gudhi__ripser,all,4,3,1,0.75
+all_dimensions,distance_zero_semantic,distance_zero_semantic,ripser__dionysus,all,4,4,0,1.0
+all_dimensions,drop_zero_length_intervals,B. drop_zero_length_intervals,gudhi__dionysus,all,4,0,4,0.0
+all_dimensions,drop_zero_length_intervals,B. drop_zero_length_intervals,gudhi__ripser,all,4,0,4,0.0
+all_dimensions,drop_zero_length_intervals,B. drop_zero_length_intervals,ripser__dionysus,all,4,4,0,1.0
+all_dimensions,drop_zero_length_intervals_plus_float32_roundtrip,C. drop_zero_length_intervals + float32_roundtrip,gudhi__dionysus,all,4,3,1,0.75
+all_dimensions,drop_zero_length_intervals_plus_float32_roundtrip,C. drop_zero_length_intervals + float32_roundtrip,gudhi__ripser,all,4,3,1,0.75
+all_dimensions,drop_zero_length_intervals_plus_float32_roundtrip,C. drop_zero_length_intervals + float32_roundtrip,ripser__dionysus,all,4,4,0,1.0
+all_dimensions,raw_exact,A. raw_exact,gudhi__dionysus,all,4,0,4,0.0
+all_dimensions,raw_exact,A. raw_exact,gudhi__ripser,all,4,0,4,0.0
+all_dimensions,raw_exact,A. raw_exact,ripser__dionysus,all,4,4,0,1.0
+all_dimensions,threshold_truncation_harmonized,D. threshold_truncation_harmonized,gudhi__dionysus,all,4,4,0,1.0
+all_dimensions,threshold_truncation_harmonized,D. threshold_truncation_harmonized,gudhi__ripser,all,4,4,0,1.0
+all_dimensions,threshold_truncation_harmonized,D. threshold_truncation_harmonized,ripser__dionysus,all,4,4,0,1.0
+per_dimension,distance_zero_semantic,distance_zero_semantic,gudhi__dionysus,0,2,2,0,1.0
+per_dimension,distance_zero_semantic,distance_zero_semantic,gudhi__dionysus,1,2,1,1,0.5
+per_dimension,distance_zero_semantic,distance_zero_semantic,gudhi__ripser,0,2,2,0,1.0
+per_dimension,distance_zero_semantic,distance_zero_semantic,gudhi__ripser,1,2,1,1,0.5
+per_dimension,distance_zero_semantic,distance_zero_semantic,ripser__dionysus,0,2,2,0,1.0
+per_dimension,distance_zero_semantic,distance_zero_semantic,ripser__dionysus,1,2,2,0,1.0
+per_dimension,drop_zero_length_intervals,B. drop_zero_length_intervals,gudhi__dionysus,0,2,0,2,0.0
+per_dimension,drop_zero_length_intervals,B. drop_zero_length_intervals,gudhi__dionysus,1,2,0,2,0.0
+per_dimension,drop_zero_length_intervals,B. drop_zero_length_intervals,gudhi__ripser,0,2,0,2,0.0
+per_dimension,drop_zero_length_intervals,B. drop_zero_length_intervals,gudhi__ripser,1,2,0,2,0.0
+per_dimension,drop_zero_length_intervals,B. drop_zero_length_intervals,ripser__dionysus,0,2,2,0,1.0
+per_dimension,drop_zero_length_intervals,B. drop_zero_length_intervals,ripser__dionysus,1,2,2,0,1.0
+per_dimension,drop_zero_length_intervals_plus_float32_roundtrip,C. drop_zero_length_intervals + float32_roundtrip,gudhi__dionysus,0,2,2,0,1.0
+per_dimension,drop_zero_length_intervals_plus_float32_roundtrip,C. drop_zero_length_intervals + float32_roundtrip,gudhi__dionysus,1,2,1,1,0.5
+per_dimension,drop_zero_length_intervals_plus_float32_roundtrip,C. drop_zero_length_intervals + float32_roundtrip,gudhi__ripser,0,2,2,0,1.0
+per_dimension,drop_zero_length_intervals_plus_float32_roundtrip,C. drop_zero_length_intervals + float32_roundtrip,gudhi__ripser,1,2,1,1,0.5
+per_dimension,drop_zero_length_intervals_plus_float32_roundtrip,C. drop_zero_length_intervals + float32_roundtrip,ripser__dionysus,0,2,2,0,1.0
+per_dimension,drop_zero_length_intervals_plus_float32_roundtrip,C. drop_zero_length_intervals + float32_roundtrip,ripser__dionysus,1,2,2,0,1.0
+per_dimension,raw_exact,A. raw_exact,gudhi__dionysus,0,2,0,2,0.0
+per_dimension,raw_exact,A. raw_exact,gudhi__dionysus,1,2,0,2,0.0
+per_dimension,raw_exact,A. raw_exact,gudhi__ripser,0,2,0,2,0.0
+per_dimension,raw_exact,A. raw_exact,gudhi__ripser,1,2,0,2,0.0
+per_dimension,raw_exact,A. raw_exact,ripser__dionysus,0,2,2,0,1.0
+per_dimension,raw_exact,A. raw_exact,ripser__dionysus,1,2,2,0,1.0
+per_dimension,threshold_truncation_harmonized,D. threshold_truncation_harmonized,gudhi__dionysus,0,2,2,0,1.0
+per_dimension,threshold_truncation_harmonized,D. threshold_truncation_harmonized,gudhi__dionysus,1,2,2,0,1.0
+per_dimension,threshold_truncation_harmonized,D. threshold_truncation_harmonized,gudhi__ripser,0,2,2,0,1.0
+per_dimension,threshold_truncation_harmonized,D. threshold_truncation_harmonized,gudhi__ripser,1,2,2,0,1.0
+per_dimension,threshold_truncation_harmonized,D. threshold_truncation_harmonized,ripser__dionysus,0,2,2,0,1.0
+per_dimension,threshold_truncation_harmonized,D. threshold_truncation_harmonized,ripser__dionysus,1,2,2,0,1.0

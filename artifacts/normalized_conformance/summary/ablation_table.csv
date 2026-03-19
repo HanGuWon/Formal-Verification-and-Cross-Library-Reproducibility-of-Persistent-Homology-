@@ -1,0 +1,4 @@
+pair,raw_exact_count,distance_zero_semantic_count,mode_b_count,mode_c_count,mode_d_count,closed_by_mode_b_vs_raw,closed_by_mode_c_vs_mode_b,closed_by_mode_d_vs_mode_c,remaining_after_mode_d
+gudhi__ripser,204,460,342,460,480,138,118,20,0
+gudhi__dionysus,204,460,342,460,480,138,118,20,0
+ripser__dionysus,480,480,480,480,480,0,0,0,0

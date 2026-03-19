@@ -1,0 +1,11 @@
+{
+  "case_id": "tfim_pbc_n6_g0p50__floating__p2__h1__selected",
+  "case_payload_path": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/cases/tfim_pbc_n6_g0p50__floating__p2__h1__selected.json",
+  "dimension": 1,
+  "distance_matrix_path": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/inputs/tfim_pbc_n6_g0p50__floating/distance_matrix.npy",
+  "exact_command": "PYTHONPATH=src python scripts/run_normalized_conformance.py --conformance-dir artifacts --audit-dir artifacts/audit --output-dir normalized_conformance --case-id tfim_pbc_n6_g0p50__floating__p2__h1__selected",
+  "explanation": "The strongest documented normalization still leaves this pairwise interval multiset unequal.",
+  "pair": "gudhi__dionysus",
+  "point_cloud_path": "/mnt/c/Users/\ud55c\uad6c\uc6d0/Desktop/Formal-Verification-and-Cross-Library-Reproducibility-of-Persistent-Homology-/artifacts/inputs/tfim_pbc_n6_g0p50__floating/point_cloud.npy",
+  "task_id": "PH-NORMALIZED-CONFORMANCE-002"
+}
