@@ -1,0 +1,61 @@
+{
+  "benchmark_id": "square_patch_3x3__floating__coordinate_jitter__m0p005__s0",
+  "coeffs": [
+    2,
+    3
+  ],
+  "distance_matrix_shape": [
+    9,
+    9
+  ],
+  "family": "B",
+  "full_filtration_feasible": true,
+  "full_threshold": 2.8327138860511356,
+  "has_point_cloud": true,
+  "label": "Square lattice patch 3x3",
+  "maxdims": [
+    1,
+    2
+  ],
+  "metadata": {
+    "ambient_dimension": 2,
+    "benchmark_id": "square_patch_3x3",
+    "distance_matrix_hash": "03c8cbd1de1321c77ba4e85b9cb2d8c78c5a95eb30f3dd675dff207645cce50a",
+    "family": "crystalline_point_cloud",
+    "generator": "square_patch_3x3",
+    "has_point_cloud": true,
+    "mode": "floating",
+    "nearest_neighbor_distance": 1.0,
+    "num_points": 9,
+    "perturbation_family": "coordinate_jitter",
+    "perturbation_magnitude": 0.005,
+    "perturbation_seed": 0,
+    "point_cloud_hash": "0d1344ce9dd317ea5e516f62666d3baa42abfcf7c55acb9f331422c1546c07d5",
+    "quantization_step": null,
+    "source_benchmark_id": "square_patch_3x3__floating",
+    "source_distance_matrix_hash": "0a4a6107ee5a261ba16f1934982550fb46ebde089e6c395f973974574418c15b",
+    "source_point_cloud_hash": "bf551e661b73a098ad05d7fee24dc23a6a17258fd40b3d2da7cfa08ed6c1ce87",
+    "threshold_parameter": 1.0,
+    "threshold_strategy": "nearest_neighbor"
+  },
+  "mode": "floating",
+  "notes": [
+    "Regular square patch with unit nearest-neighbor spacing.",
+    "Perturbation family: coordinate_jitter.",
+    "Thresholds are recomputed from the perturbed input using the original benchmark threshold rule."
+  ],
+  "perturbation": {
+    "family": "coordinate_jitter",
+    "magnitude": 0.005,
+    "magnitude_unit": "relative_sigma",
+    "reference_length_scale": 1.0,
+    "seed": 0,
+    "sigma_absolute": 0.005
+  },
+  "point_cloud_shape": [
+    9,
+    2
+  ],
+  "selected_threshold": 1.0,
+  "source_benchmark_id": "square_patch_3x3__floating"
+}

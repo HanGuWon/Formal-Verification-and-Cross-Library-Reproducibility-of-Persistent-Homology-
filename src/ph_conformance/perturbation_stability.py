@@ -14,11 +14,11 @@ from scipy.spatial.distance import pdist, squareform
 from .benchmarks import quantize_distance_matrix
 from .tda import LIBRARIES, deserialize_float, prepare_distance_matrix, serialize_float
 
-RANDOM_SEEDS = (0,)
-COORDINATE_JITTER_MAGNITUDES = (0.01, 0.05)
-VACANCY_COUNTS = (1, 2)
-MATRIX_NOISE_MAGNITUDES = (1.0e-4, 1.0e-2)
-QUANTIZATION_MAGNITUDES = (1.0e-3, 2.0e-2)
+RANDOM_SEEDS = (0, 1, 2)
+COORDINATE_JITTER_MAGNITUDES = (0.005, 0.01, 0.02, 0.05)
+VACANCY_COUNTS = (1,)
+MATRIX_NOISE_MAGNITUDES = (1.0e-5, 1.0e-4, 1.0e-3, 1.0e-2)
+QUANTIZATION_MAGNITUDES = (5.0e-4, 1.0e-3, 5.0e-3, 2.0e-2)
 BETTI_GRID_SIZE = 65
 PERSISTENCE_IMAGE_RESOLUTION = 16
 SUMMARY_SCALAR_KEYS = (
@@ -62,9 +62,12 @@ def build_perturbed_benchmarks(
 ) -> list[PerturbedBenchmark]:
     matrix = prepare_distance_matrix(distance_matrix)
     points = None if point_cloud is None else np.asarray(point_cloud, dtype=np.float64)
+    source_family = str(benchmark_manifest["family"])
     benchmarks: list[PerturbedBenchmark] = []
 
-    if points is not None:
+    # Keep geometric perturbations on the crystalline point-cloud family and
+    # matrix-entry perturbations on the entanglement-matrix family.
+    if source_family == "B" and points is not None:
         for magnitude in COORDINATE_JITTER_MAGNITUDES:
             for seed in random_seeds:
                 sigma_scale = reference_length_scale(benchmark_manifest, matrix)
@@ -92,80 +95,81 @@ def build_perturbed_benchmarks(
                     )
                 )
 
-    for delete_count in VACANCY_COUNTS:
-        if delete_count >= matrix.shape[0]:
-            continue
-        for seed in random_seeds:
-            keep_indices, removed_indices = vacancy_indices(matrix.shape[0], delete_count, seed)
-            vacancy_matrix = matrix[np.ix_(keep_indices, keep_indices)]
-            vacancy_points = None if points is None else points[keep_indices]
-            perturbation = {
-                "family": "vacancy",
-                "magnitude": delete_count,
-                "magnitude_unit": "deleted_vertices",
-                "relative_magnitude": delete_count / float(matrix.shape[0]),
-                "seed": seed,
-                "deleted_count": delete_count,
-                "kept_indices": keep_indices.tolist(),
-                "removed_indices": removed_indices.tolist(),
-            }
-            benchmarks.append(
-                build_perturbed_benchmark(
-                    benchmark_manifest=benchmark_manifest,
-                    distance_matrix=vacancy_matrix,
-                    point_cloud=vacancy_points,
-                    perturbation=perturbation,
-                    magnitude_label=f"k{delete_count}",
-                    seed=seed,
+        for delete_count in VACANCY_COUNTS:
+            if delete_count >= matrix.shape[0]:
+                continue
+            for seed in random_seeds:
+                keep_indices, removed_indices = vacancy_indices(matrix.shape[0], delete_count, seed)
+                vacancy_matrix = matrix[np.ix_(keep_indices, keep_indices)]
+                vacancy_points = points[keep_indices]
+                perturbation = {
+                    "family": "vacancy",
+                    "magnitude": delete_count,
+                    "magnitude_unit": "deleted_vertices",
+                    "relative_magnitude": delete_count / float(matrix.shape[0]),
+                    "seed": seed,
+                    "deleted_count": delete_count,
+                    "kept_indices": keep_indices.tolist(),
+                    "removed_indices": removed_indices.tolist(),
+                }
+                benchmarks.append(
+                    build_perturbed_benchmark(
+                        benchmark_manifest=benchmark_manifest,
+                        distance_matrix=vacancy_matrix,
+                        point_cloud=vacancy_points,
+                        perturbation=perturbation,
+                        magnitude_label=f"k{delete_count}",
+                        seed=seed,
+                    )
                 )
-            )
 
-    for magnitude in MATRIX_NOISE_MAGNITUDES:
-        for seed in random_seeds:
+    if source_family == "A":
+        for magnitude in MATRIX_NOISE_MAGNITUDES:
+            for seed in random_seeds:
+                scale = max_off_diagonal(matrix)
+                sigma = magnitude * scale
+                noisy_matrix = matrix_entry_noise(matrix, sigma=sigma, seed=seed)
+                perturbation = {
+                    "family": "matrix_entry_noise",
+                    "magnitude": magnitude,
+                    "magnitude_unit": "relative_sigma",
+                    "sigma_absolute": sigma,
+                    "reference_distance_scale": scale,
+                    "seed": seed,
+                }
+                benchmarks.append(
+                    build_perturbed_benchmark(
+                        benchmark_manifest=benchmark_manifest,
+                        distance_matrix=noisy_matrix,
+                        point_cloud=None,
+                        perturbation=perturbation,
+                        magnitude_label=f"m{slug_float(magnitude)}",
+                        seed=seed,
+                    )
+                )
+
+        for magnitude in QUANTIZATION_MAGNITUDES:
             scale = max_off_diagonal(matrix)
-            sigma = magnitude * scale
-            noisy_matrix = matrix_entry_noise(matrix, sigma=sigma, seed=seed)
+            step = magnitude * scale
+            quantized_matrix = quantize_distance_matrix(matrix, step=step)
             perturbation = {
-                "family": "matrix_entry_noise",
+                "family": "quantization",
                 "magnitude": magnitude,
-                "magnitude_unit": "relative_sigma",
-                "sigma_absolute": sigma,
+                "magnitude_unit": "relative_step",
+                "step_absolute": step,
                 "reference_distance_scale": scale,
-                "seed": seed,
+                "seed": None,
             }
             benchmarks.append(
                 build_perturbed_benchmark(
                     benchmark_manifest=benchmark_manifest,
-                    distance_matrix=noisy_matrix,
+                    distance_matrix=quantized_matrix,
                     point_cloud=None,
                     perturbation=perturbation,
                     magnitude_label=f"m{slug_float(magnitude)}",
-                    seed=seed,
+                    seed=None,
                 )
             )
-
-    for magnitude in QUANTIZATION_MAGNITUDES:
-        scale = max_off_diagonal(matrix)
-        step = magnitude * scale
-        quantized_matrix = quantize_distance_matrix(matrix, step=step)
-        perturbation = {
-            "family": "quantization",
-            "magnitude": magnitude,
-            "magnitude_unit": "relative_step",
-            "step_absolute": step,
-            "reference_distance_scale": scale,
-            "seed": None,
-        }
-        benchmarks.append(
-            build_perturbed_benchmark(
-                benchmark_manifest=benchmark_manifest,
-                distance_matrix=quantized_matrix,
-                point_cloud=None,
-                perturbation=perturbation,
-                magnitude_label=f"m{slug_float(magnitude)}",
-                seed=None,
-            )
-        )
 
     return benchmarks
 

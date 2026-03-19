@@ -1,0 +1,15 @@
+{
+  "distributions": {
+    "dionysus": "2.1.8",
+    "gudhi": "3.11.0",
+    "matplotlib": "3.10.8",
+    "numpy": "2.4.3",
+    "persim": "0.3.8",
+    "ripser": "0.6.12",
+    "scipy": "1.17.1"
+  },
+  "generated_at_utc": "2026-03-19T13:49:02.621466+00:00",
+  "platform": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python_version": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "task_id": "PH-PERTURB-STABILITY-FULL-002"
+}

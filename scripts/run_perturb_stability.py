@@ -54,7 +54,7 @@ from ph_conformance.perturbation_stability import (  # noqa: E402
 )
 
 
-TASK_ID = "PH-PERTURB-STABILITY-001"
+TASK_ID = "PH-PERTURB-STABILITY-FULL-002"
 DEFAULT_CONFORMANCE_DIR = REPO_ROOT / "artifacts"
 DEFAULT_OUTPUT_DIR = DEFAULT_CONFORMANCE_DIR / "perturb_stability"
 DIRECT_DISTRIBUTIONS = ("numpy", "scipy", "matplotlib", "persim", "gudhi", "ripser", "dionysus")
@@ -283,6 +283,12 @@ def main() -> int:
     dump_json(output_dir / "summary" / "cross_library_summary_agreement.json", cross_library_rows)
     write_csv(output_dir / "summary" / "exact_disagreement_summary_agreement.csv", highlight_rows)
     dump_json(output_dir / "summary" / "exact_disagreement_summary_agreement.json", highlight_rows)
+    write_csv(output_dir / "diagram_summary_statistics.csv", summary_rows)
+    dump_json(output_dir / "diagram_summary_statistics.json", summary_rows)
+    write_csv(output_dir / "cross_library_summary_agreement.csv", cross_library_rows)
+    dump_json(output_dir / "cross_library_summary_agreement.json", cross_library_rows)
+    write_csv(output_dir / "exact_disagreement_summary_agreement.csv", highlight_rows)
+    dump_json(output_dir / "exact_disagreement_summary_agreement.json", highlight_rows)
 
     aggregate_rows = build_aggregate_rows(
         baseline_case_payloads=baseline_case_payloads,
@@ -295,6 +301,8 @@ def main() -> int:
     )
     write_csv(output_dir / "summary" / "aggregate_curves.csv", aggregate_rows)
     dump_json(output_dir / "summary" / "aggregate_curves.json", aggregate_rows)
+    write_csv(output_dir / "aggregate_curves.csv", aggregate_rows)
+    dump_json(output_dir / "aggregate_curves.json", aggregate_rows)
 
     plot_rows = [row for row in aggregate_rows if include_images or row["statistic"] != "persistence_image_l2_to_baseline"]
     plot_paths = write_plots(
@@ -304,6 +312,7 @@ def main() -> int:
         include_images=include_images,
     )
     dump_json(output_dir / "summary" / "plot_index.json", plot_paths)
+    dump_json(output_dir / "plot_index.json", plot_paths)
 
     overall_summary = build_overall_summary(
         baseline_catalog=baseline_catalog,
@@ -312,6 +321,7 @@ def main() -> int:
         highlight_rows=highlight_rows,
     )
     dump_json(output_dir / "summary" / "overall_summary.json", overall_summary)
+    dump_json(output_dir / "overall_summary.json", overall_summary)
 
     report_text = render_report(
         environment_snapshot=environment_snapshot["versions"],
@@ -959,6 +969,7 @@ def render_report(
         f"- Matrix-noise grid: `{sweep_manifest['matrix_entry_noise_magnitudes']}`",
         f"- Quantization grid: `{sweep_manifest['quantization_magnitudes']}`",
         f"- Persistence images included: `{sweep_manifest['include_persistence_images']}`",
+        "- Approximation modes: `none`",
         "- Key distributions:",
     ]
     for distribution, version in environment_snapshot["distributions"].items():
